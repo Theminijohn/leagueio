@@ -1,0 +1,115 @@
+// Place all the styles related to the Help controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.help-hero-unit {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  background-color: #ECF0F1;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: url('http://i.imgur.com/LxKHr1X.png');
+}
+
+.help-hero-unit h1 {
+  font-size: 30px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  padding-top: 15px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.help-hero-unit .desc {
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+/* Small Pictures */
+
+.h_w {
+  overflow: auto;
+  text-align: center;
+}
+
+.hd_b {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+._hd {
+  margin-right: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+._hd:last-child {
+  margin-right: 0;
+}
+
+._hd img {
+  opacity: .85;
+  width: 200px;
+  height: 130px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid #c4c4c4;
+}
+
+._hd img:before, ._hd img:after {
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: inherit;
+  border-bottom: 1px solid #d2d2d2;
+  border-radius: 4px;
+}
+._hd img:after {
+  bottom: 3px;
+  border-color: #dcdcdc;
+}
+
+._hd a:hover img {
+  opacity: 1;
+}
+
+.hd_intr h4 {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  padding: 20px 0;
+  background: url("http://i.imgur.com/3NCTAP0.png") center center repeat-x;
+  text-align: center;
+}
+
+.hd_intr h4 span {
+  background: #FAFAFA url("http://i.imgur.com/FhxqaOA.jpg") repeat top left;
+  padding: 0 15px;
+}

@@ -1,0 +1,70 @@
+<%#=link_to 'Edit', edit_answer_path(answer) %>
+<%#= link_to 'Destroy', answer, method: :delete, data: { confirm: 'Are you sure?' } %>
+<div class="row-fluid">
+
+  <div class="span1">
+    <div style="text-align: center;">
+      <div class="votebar-question">
+        <ul>
+          <li>
+            <%= link_to "", root_path,
+                        class: "fui-triangle-up" %>
+          </li>
+          <li style="color: #bcbcbc; font-weight: bold">
+            0
+          </li>
+          <li>
+            <%= link_to "", root_path,
+                        class: "fui-triangle-down" %>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="span8">
+    <div class="answr_inner_body">
+      <%= sanitize(raw(answer.body)) %>
+    </div>
+
+    <div class="quest_uc">
+      <div class="pull-left" data-no-turbolink="">
+
+          <small><%= link_to 'Edit', root_path %></small> |
+          <small><%= link_to 'Delete', root_path %></small>
+
+      </div>
+
+      <!-- Question Owner(User) -->
+      <div class="pull-right">
+        <td class="post-signature owner">
+
+
+          <div class="user-info ">
+            <div class="user-action-time">
+              Needs Fixing 5 mins ago
+            </div>
+            <div class="user-avtr32">
+              <%= link_to (image_tag("https://www.gravatar.com/avatar/56d512dd848b063128b73faf58ec568a?s=32&amp;d=identicon&amp;r=PG")), @question.user %>
+            </div>
+            <div class="user-details">
+              <%= link_to @question.user.user_name, @question.user %><br>
+              <span class="reputation-score" title="reputation score">
+                <%= @question.user.points %>
+              </span>
+            </div>
+          </div>
+
+        </td>
+      </div>
+    </div>
+
+    <br style="clear:both" /> <!-- So dirty! -->
+    <div class="clear_it_nicely"></div>
+
+
+  </div>
+
+
+</div>
+

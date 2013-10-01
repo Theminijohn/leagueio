@@ -1,0 +1,29 @@
+.hero-content {
+  top: 50%;
+}
+
+.hero-content hgroup {
+  margin: 80px 0 20px 0;
+  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.4);
+}
+
+.hero-content hgroup h1 {
+  color: #270836;
+  margin-bottom: 80px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.hero-content hgroup h2 {
+  color: #34495e;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 100px;
+}
+
+.home-hero {
+  padding: 60px 0;
+  background: url(http://i.imgur.com/YUWpAbu.png) no-repeat center -80px;
+  text-align: center;
+  /*border-bottom: 1px solid #C6E0F0;*/
+}

@@ -1,0 +1,21 @@
+<div class="site-footer">
+  <ul class="site-footer-links right">
+    <li><%= link_to "Help", help_path %></li>
+    <li><a href="#">About</a></li>
+
+  </ul>
+
+  <%= link_to root_path do %>
+    <span class="mega-octicon octicon-mark-github">
+      <i class="fui-bubble"></i>
+    </span>
+  <% end %>
+
+  <ul class="site-footer-links">
+    <li>© <%= Time.now.year %> League I/O</li>
+    <li><%= link_to "Facebook", "#" %></li>
+    <li><%= link_to "Twitter", "#" %></li>
+    <li><a href="#">Security</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>

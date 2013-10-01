@@ -1,0 +1,149 @@
+/* Questions Index Style */
+
+.question-summary {
+  border-top: 1px solid #EAEAEA;
+  overflow: hidden;
+  padding: 11px 0px;
+  width: 100%;
+  float: left;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.narrow .votes {
+  background: rgba(0, 0, 0, 0);
+  float: left;
+  margin: 0 3px 0 0;
+  padding: 5px;
+  width: 38px;
+  height: 38px;
+}
+
+.votes {
+  color: #555;
+  padding: 0 0 7px 0;
+  text-align: center;
+}
+
+.mini-counts {
+  height: 25px;
+  font-size: 160%;
+  font-weight: normal;
+}
+
+.narrow .status {
+  float: left;
+  margin: 0 3px 0 0;
+  padding: 5px;
+  width: 48px;
+  height: 38px;
+}
+.unanswered {
+  background: rgba(0, 0, 0, 0);
+  color: #9A4444;
+  color: #9A4444;
+}
+.status {
+  margin-top: -3px;
+  padding: 4px 0 4px;
+  text-align: center;
+}
+
+.narrow .views {
+  float: left;
+  margin: 0 7px 0 0;
+  padding: 5px 0px 5px 4px;
+  width: 40px;
+  height: 38px;
+}
+.views {
+  padding-top: 4px;
+  color: #999;
+  text-align: center;
+}
+
+.narrow .summary {
+  width: 690px;
+}
+
+.summary {
+  float: left;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.question-hyperlink a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tags {
+  line-height: 18px;
+  float: left;
+}
+
+.question-tags .label a {
+  text-decoration: none;
+  color: #7B8996;
+}
+
+.post-tag {
+  color: #3E6D8E;
+  background-color: #E0EAF1;
+  border-bottom: 1px solid #B3CEE1;
+  border-right: 1px solid #B3CEE1;
+  padding: 3px 4px 3px 4px;
+  margin: 2px 2px 2px 0;
+  text-decoration: none;
+  font-size: 90%;
+  line-height: 2.4;
+  white-space: nowrap;
+}
+
+
+.narrow .started {
+
+  line-height: inherit;
+  padding-top: 4px;
+  white-space: nowrap;
+}
+
+.started {
+  color: #999;
+  float: right;
+  line-height: 18px;
+}
+
+
+.started .reputation-score {
+  margin-left: 1px;
+  font-size: 100%!important;
+  font-weight: normal!important;
+}
+.reputation-score {
+  font-weight: bold;
+  color: #444;
+  font-size: 100%;
+  margin-right: 2px;
+}
+
+
+/* The Actual Question Text */
+
+.qest_inner_boddy {
+  background-color: #f7f7f7;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.qest_inner_boddy p {
+  font-size: 14px;
+  margin: 0!important;
+}
+
+
+

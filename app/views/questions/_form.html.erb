@@ -1,0 +1,35 @@
+<div class="row-fluid">
+
+  <div class="span9">
+    <%= simple_form_for(@question) do |f| %>
+      <%= f.error_notification %>
+
+      <%= f.input :title %>
+      <%= f.input :body, :as => :ckeditor %>
+      <%#= f.input :tag_list, input_html: { class: "tagsinput "} %>
+      <%= f.collection_select :tag_list, Tag.order(:name), :name, :name, {}, {multiple: true} %>
+
+      <div class="form-actions">
+        <%= f.button :submit %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="span3">
+    <div class="nw_quest_how">
+      How to Ask
+      Is your question about Ubuntu?
+
+      We prefer questions that can be answered, not just discussed.
+
+      Provide details. Share your research.
+
+      If your question is about this website, ask it on meta instead.
+
+      visit the help center »
+      asking help »
+    </div>
+  </div>
+
+</div>
+

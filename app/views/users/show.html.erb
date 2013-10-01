@@ -1,0 +1,10 @@
+
+<%= image_tag @user.avatar(:profile) %>
+
+<h2><%= @user.first_name %></h2>
+<br>
+<h2><%= @user.user_name %></h2>
+<br>
+<% start_time =  @user.created_at %>
+<% end_time   =  Date.today %>
+<h3>Member for <%= distance_of_time_in_words(start_time, end_time)  %></h3>

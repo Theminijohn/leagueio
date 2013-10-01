@@ -1,0 +1,38 @@
+<% if user_signed_in? %>
+  <div class="row-fluid">
+
+    <div class="span9">
+      <%= render @questions %>
+    </div>
+
+    <div class="span3">
+      Whats up im the boss of this platform how are you
+    </div>
+
+  </div>
+<% else %>
+  <section class="home-hero">
+    <div class="hero-content">
+      <div class="row">
+        <div class="span8 offset2">
+          <hgroup>
+            <h1><br><br></h1>
+            <br>
+            <h2>
+              League I/O is a question and answer site
+              for professional and enthusiast League of Legends
+              Players.
+            </h2>
+          </hgroup>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <%= link_to "Sign Up", new_user_registration_path,
+                    class: "btn btn-huge btn-info" %>
+
+      </div>
+    </div>
+  </section>
+<% end %>
