@@ -12,6 +12,7 @@
 
 
 
+
  */
 
 /*!
@@ -28,13 +29,16 @@
  */
 /* Component containers
 ----------------------------------*/
+/* line 20, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-widget {
   font-family: Verdana, Arial, sans-serif;
   font-size: 1.1em; }
 
+/* line 24, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-widget .ui-widget {
   font-size: 1em; }
 
+/* line 30, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-widget input,
 .ui-widget select,
 .ui-widget textarea,
@@ -42,25 +46,30 @@
   font-family: Verdana, Arial, sans-serif;
   font-size: 1em; }
 
+/* line 34, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-widget-content {
   border: 1px solid #aaaaaa;
   background: white url("/assets/jquery-ui/ui-bg_flat_75_ffffff_40x100.png") 50% 50% repeat-x;
   color: #222222; }
 
+/* line 39, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-widget-content a {
   color: #222222; }
 
+/* line 42, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-widget-header {
   border: 1px solid #aaaaaa;
   background: #cccccc url("/assets/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100.png") 50% 50% repeat-x;
   color: #222222;
   font-weight: bold; }
 
+/* line 48, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-widget-header a {
   color: #222222; }
 
 /* Interaction states
 ----------------------------------*/
+/* line 56, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
@@ -69,12 +78,14 @@
   font-weight: normal;
   color: #555555; }
 
+/* line 64, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-default a,
 .ui-state-default a:link,
 .ui-state-default a:visited {
   color: #555555;
   text-decoration: none; }
 
+/* line 73, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-hover,
 .ui-widget-content .ui-state-hover,
 .ui-widget-header .ui-state-hover,
@@ -86,6 +97,7 @@
   font-weight: normal;
   color: #212121; }
 
+/* line 82, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-hover a,
 .ui-state-hover a:hover,
 .ui-state-hover a:link,
@@ -93,6 +105,7 @@
   color: #212121;
   text-decoration: none; }
 
+/* line 88, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
@@ -101,6 +114,7 @@
   font-weight: normal;
   color: #212121; }
 
+/* line 96, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
@@ -109,6 +123,7 @@
 
 /* Interaction Cues
 ----------------------------------*/
+/* line 105, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-highlight,
 .ui-widget-content .ui-state-highlight,
 .ui-widget-header .ui-state-highlight {
@@ -116,11 +131,13 @@
   background: #fbf9ee url("/assets/jquery-ui/ui-bg_glass_55_fbf9ee_1x400.png") 50% 50% repeat-x;
   color: #363636; }
 
+/* line 112, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-highlight a,
 .ui-widget-content .ui-state-highlight a,
 .ui-widget-header .ui-state-highlight a {
   color: #363636; }
 
+/* line 117, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-error,
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
@@ -128,21 +145,25 @@
   background: #fef1ec url("/assets/jquery-ui/ui-bg_glass_95_fef1ec_1x400.png") 50% 50% repeat-x;
   color: #cd0a0a; }
 
+/* line 124, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-error a,
 .ui-widget-content .ui-state-error a,
 .ui-widget-header .ui-state-error a {
   color: #cd0a0a; }
 
+/* line 129, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-error-text,
 .ui-widget-content .ui-state-error-text,
 .ui-widget-header .ui-state-error-text {
   color: #cd0a0a; }
 
+/* line 134, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-priority-primary,
 .ui-widget-content .ui-priority-primary,
 .ui-widget-header .ui-priority-primary {
   font-weight: bold; }
 
+/* line 139, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-priority-secondary,
 .ui-widget-content .ui-priority-secondary,
 .ui-widget-header .ui-priority-secondary {
@@ -150,6 +171,7 @@
   filter: Alpha(Opacity=70);
   font-weight: normal; }
 
+/* line 146, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-disabled,
 .ui-widget-content .ui-state-disabled,
 .ui-widget-header .ui-state-disabled {
@@ -157,6 +179,7 @@
   filter: Alpha(Opacity=35);
   background-image: none; }
 
+/* line 151, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-disabled .ui-icon {
   filter: Alpha(Opacity=35);
   /* For IE8 - See #6059 */ }
@@ -164,582 +187,769 @@
 /* Icons
 ----------------------------------*/
 /* states and images */
+/* line 159, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon {
   width: 16px;
   height: 16px; }
 
+/* line 164, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon,
 .ui-widget-content .ui-icon {
   background-image: url("/assets/jquery-ui/ui-icons_222222_256x240.png"); }
 
+/* line 167, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-widget-header .ui-icon {
   background-image: url("/assets/jquery-ui/ui-icons_222222_256x240.png"); }
 
+/* line 170, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-default .ui-icon {
   background-image: url("/assets/jquery-ui/ui-icons_888888_256x240.png"); }
 
+/* line 174, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
   background-image: url("/assets/jquery-ui/ui-icons_454545_256x240.png"); }
 
+/* line 177, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-active .ui-icon {
   background-image: url("/assets/jquery-ui/ui-icons_454545_256x240.png"); }
 
+/* line 180, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-highlight .ui-icon {
   background-image: url("/assets/jquery-ui/ui-icons_2e83ff_256x240.png"); }
 
+/* line 184, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
   background-image: url("/assets/jquery-ui/ui-icons_cd0a0a_256x240.png"); }
 
 /* positioning */
+/* line 189, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-blank {
   background-position: 16px 16px; }
 
+/* line 190, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-carat-1-n {
   background-position: 0 0; }
 
+/* line 191, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-carat-1-ne {
   background-position: -16px 0; }
 
+/* line 192, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-carat-1-e {
   background-position: -32px 0; }
 
+/* line 193, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-carat-1-se {
   background-position: -48px 0; }
 
+/* line 194, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-carat-1-s {
   background-position: -64px 0; }
 
+/* line 195, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-carat-1-sw {
   background-position: -80px 0; }
 
+/* line 196, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-carat-1-w {
   background-position: -96px 0; }
 
+/* line 197, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-carat-1-nw {
   background-position: -112px 0; }
 
+/* line 198, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-carat-2-n-s {
   background-position: -128px 0; }
 
+/* line 199, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-carat-2-e-w {
   background-position: -144px 0; }
 
+/* line 200, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-triangle-1-n {
   background-position: 0 -16px; }
 
+/* line 201, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-triangle-1-ne {
   background-position: -16px -16px; }
 
+/* line 202, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-triangle-1-e {
   background-position: -32px -16px; }
 
+/* line 203, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-triangle-1-se {
   background-position: -48px -16px; }
 
+/* line 204, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-triangle-1-s {
   background-position: -64px -16px; }
 
+/* line 205, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-triangle-1-sw {
   background-position: -80px -16px; }
 
+/* line 206, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-triangle-1-w {
   background-position: -96px -16px; }
 
+/* line 207, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-triangle-1-nw {
   background-position: -112px -16px; }
 
+/* line 208, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-triangle-2-n-s {
   background-position: -128px -16px; }
 
+/* line 209, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-triangle-2-e-w {
   background-position: -144px -16px; }
 
+/* line 210, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-1-n {
   background-position: 0 -32px; }
 
+/* line 211, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-1-ne {
   background-position: -16px -32px; }
 
+/* line 212, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-1-e {
   background-position: -32px -32px; }
 
+/* line 213, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-1-se {
   background-position: -48px -32px; }
 
+/* line 214, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-1-s {
   background-position: -64px -32px; }
 
+/* line 215, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-1-sw {
   background-position: -80px -32px; }
 
+/* line 216, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-1-w {
   background-position: -96px -32px; }
 
+/* line 217, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-1-nw {
   background-position: -112px -32px; }
 
+/* line 218, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-2-n-s {
   background-position: -128px -32px; }
 
+/* line 219, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-2-ne-sw {
   background-position: -144px -32px; }
 
+/* line 220, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-2-e-w {
   background-position: -160px -32px; }
 
+/* line 221, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-2-se-nw {
   background-position: -176px -32px; }
 
+/* line 222, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowstop-1-n {
   background-position: -192px -32px; }
 
+/* line 223, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowstop-1-e {
   background-position: -208px -32px; }
 
+/* line 224, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowstop-1-s {
   background-position: -224px -32px; }
 
+/* line 225, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowstop-1-w {
   background-position: -240px -32px; }
 
+/* line 226, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-1-n {
   background-position: 0 -48px; }
 
+/* line 227, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-1-ne {
   background-position: -16px -48px; }
 
+/* line 228, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-1-e {
   background-position: -32px -48px; }
 
+/* line 229, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-1-se {
   background-position: -48px -48px; }
 
+/* line 230, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-1-s {
   background-position: -64px -48px; }
 
+/* line 231, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-1-sw {
   background-position: -80px -48px; }
 
+/* line 232, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-1-w {
   background-position: -96px -48px; }
 
+/* line 233, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-1-nw {
   background-position: -112px -48px; }
 
+/* line 234, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-2-n-s {
   background-position: -128px -48px; }
 
+/* line 235, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-2-ne-sw {
   background-position: -144px -48px; }
 
+/* line 236, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-2-e-w {
   background-position: -160px -48px; }
 
+/* line 237, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthick-2-se-nw {
   background-position: -176px -48px; }
 
+/* line 238, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthickstop-1-n {
   background-position: -192px -48px; }
 
+/* line 239, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthickstop-1-e {
   background-position: -208px -48px; }
 
+/* line 240, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthickstop-1-s {
   background-position: -224px -48px; }
 
+/* line 241, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowthickstop-1-w {
   background-position: -240px -48px; }
 
+/* line 242, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowreturnthick-1-w {
   background-position: 0 -64px; }
 
+/* line 243, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowreturnthick-1-n {
   background-position: -16px -64px; }
 
+/* line 244, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowreturnthick-1-e {
   background-position: -32px -64px; }
 
+/* line 245, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowreturnthick-1-s {
   background-position: -48px -64px; }
 
+/* line 246, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowreturn-1-w {
   background-position: -64px -64px; }
 
+/* line 247, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowreturn-1-n {
   background-position: -80px -64px; }
 
+/* line 248, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowreturn-1-e {
   background-position: -96px -64px; }
 
+/* line 249, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowreturn-1-s {
   background-position: -112px -64px; }
 
+/* line 250, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowrefresh-1-w {
   background-position: -128px -64px; }
 
+/* line 251, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowrefresh-1-n {
   background-position: -144px -64px; }
 
+/* line 252, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowrefresh-1-e {
   background-position: -160px -64px; }
 
+/* line 253, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrowrefresh-1-s {
   background-position: -176px -64px; }
 
+/* line 254, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-4 {
   background-position: 0 -80px; }
 
+/* line 255, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-arrow-4-diag {
   background-position: -16px -80px; }
 
+/* line 256, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-extlink {
   background-position: -32px -80px; }
 
+/* line 257, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-newwin {
   background-position: -48px -80px; }
 
+/* line 258, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-refresh {
   background-position: -64px -80px; }
 
+/* line 259, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-shuffle {
   background-position: -80px -80px; }
 
+/* line 260, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-transfer-e-w {
   background-position: -96px -80px; }
 
+/* line 261, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-transferthick-e-w {
   background-position: -112px -80px; }
 
+/* line 262, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-folder-collapsed {
   background-position: 0 -96px; }
 
+/* line 263, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-folder-open {
   background-position: -16px -96px; }
 
+/* line 264, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-document {
   background-position: -32px -96px; }
 
+/* line 265, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-document-b {
   background-position: -48px -96px; }
 
+/* line 266, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-note {
   background-position: -64px -96px; }
 
+/* line 267, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-mail-closed {
   background-position: -80px -96px; }
 
+/* line 268, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-mail-open {
   background-position: -96px -96px; }
 
+/* line 269, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-suitcase {
   background-position: -112px -96px; }
 
+/* line 270, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-comment {
   background-position: -128px -96px; }
 
+/* line 271, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-person {
   background-position: -144px -96px; }
 
+/* line 272, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-print {
   background-position: -160px -96px; }
 
+/* line 273, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-trash {
   background-position: -176px -96px; }
 
+/* line 274, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-locked {
   background-position: -192px -96px; }
 
+/* line 275, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-unlocked {
   background-position: -208px -96px; }
 
+/* line 276, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-bookmark {
   background-position: -224px -96px; }
 
+/* line 277, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-tag {
   background-position: -240px -96px; }
 
+/* line 278, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-home {
   background-position: 0 -112px; }
 
+/* line 279, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-flag {
   background-position: -16px -112px; }
 
+/* line 280, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-calendar {
   background-position: -32px -112px; }
 
+/* line 281, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-cart {
   background-position: -48px -112px; }
 
+/* line 282, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-pencil {
   background-position: -64px -112px; }
 
+/* line 283, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-clock {
   background-position: -80px -112px; }
 
+/* line 284, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-disk {
   background-position: -96px -112px; }
 
+/* line 285, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-calculator {
   background-position: -112px -112px; }
 
+/* line 286, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-zoomin {
   background-position: -128px -112px; }
 
+/* line 287, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-zoomout {
   background-position: -144px -112px; }
 
+/* line 288, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-search {
   background-position: -160px -112px; }
 
+/* line 289, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-wrench {
   background-position: -176px -112px; }
 
+/* line 290, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-gear {
   background-position: -192px -112px; }
 
+/* line 291, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-heart {
   background-position: -208px -112px; }
 
+/* line 292, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-star {
   background-position: -224px -112px; }
 
+/* line 293, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-link {
   background-position: -240px -112px; }
 
+/* line 294, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-cancel {
   background-position: 0 -128px; }
 
+/* line 295, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-plus {
   background-position: -16px -128px; }
 
+/* line 296, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-plusthick {
   background-position: -32px -128px; }
 
+/* line 297, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-minus {
   background-position: -48px -128px; }
 
+/* line 298, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-minusthick {
   background-position: -64px -128px; }
 
+/* line 299, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-close {
   background-position: -80px -128px; }
 
+/* line 300, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-closethick {
   background-position: -96px -128px; }
 
+/* line 301, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-key {
   background-position: -112px -128px; }
 
+/* line 302, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-lightbulb {
   background-position: -128px -128px; }
 
+/* line 303, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-scissors {
   background-position: -144px -128px; }
 
+/* line 304, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-clipboard {
   background-position: -160px -128px; }
 
+/* line 305, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-copy {
   background-position: -176px -128px; }
 
+/* line 306, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-contact {
   background-position: -192px -128px; }
 
+/* line 307, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-image {
   background-position: -208px -128px; }
 
+/* line 308, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-video {
   background-position: -224px -128px; }
 
+/* line 309, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-script {
   background-position: -240px -128px; }
 
+/* line 310, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-alert {
   background-position: 0 -144px; }
 
+/* line 311, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-info {
   background-position: -16px -144px; }
 
+/* line 312, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-notice {
   background-position: -32px -144px; }
 
+/* line 313, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-help {
   background-position: -48px -144px; }
 
+/* line 314, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-check {
   background-position: -64px -144px; }
 
+/* line 315, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-bullet {
   background-position: -80px -144px; }
 
+/* line 316, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-radio-on {
   background-position: -96px -144px; }
 
+/* line 317, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-radio-off {
   background-position: -112px -144px; }
 
+/* line 318, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-pin-w {
   background-position: -128px -144px; }
 
+/* line 319, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-pin-s {
   background-position: -144px -144px; }
 
+/* line 320, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-play {
   background-position: 0 -160px; }
 
+/* line 321, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-pause {
   background-position: -16px -160px; }
 
+/* line 322, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-seek-next {
   background-position: -32px -160px; }
 
+/* line 323, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-seek-prev {
   background-position: -48px -160px; }
 
+/* line 324, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-seek-end {
   background-position: -64px -160px; }
 
+/* line 325, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-seek-start {
   background-position: -80px -160px; }
 
 /* ui-icon-seek-first is deprecated, use ui-icon-seek-start instead */
+/* line 327, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-seek-first {
   background-position: -80px -160px; }
 
+/* line 328, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-stop {
   background-position: -96px -160px; }
 
+/* line 329, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-eject {
   background-position: -112px -160px; }
 
+/* line 330, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-volume-off {
   background-position: -128px -160px; }
 
+/* line 331, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-volume-on {
   background-position: -144px -160px; }
 
+/* line 332, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-power {
   background-position: 0 -176px; }
 
+/* line 333, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-signal-diag {
   background-position: -16px -176px; }
 
+/* line 334, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-signal {
   background-position: -32px -176px; }
 
+/* line 335, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-battery-0 {
   background-position: -48px -176px; }
 
+/* line 336, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-battery-1 {
   background-position: -64px -176px; }
 
+/* line 337, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-battery-2 {
   background-position: -80px -176px; }
 
+/* line 338, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-battery-3 {
   background-position: -96px -176px; }
 
+/* line 339, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-plus {
   background-position: 0 -192px; }
 
+/* line 340, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-minus {
   background-position: -16px -192px; }
 
+/* line 341, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-close {
   background-position: -32px -192px; }
 
+/* line 342, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-triangle-e {
   background-position: -48px -192px; }
 
+/* line 343, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-triangle-s {
   background-position: -64px -192px; }
 
+/* line 344, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-triangle-w {
   background-position: -80px -192px; }
 
+/* line 345, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-triangle-n {
   background-position: -96px -192px; }
 
+/* line 346, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-arrow-e {
   background-position: -112px -192px; }
 
+/* line 347, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-arrow-s {
   background-position: -128px -192px; }
 
+/* line 348, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-arrow-w {
   background-position: -144px -192px; }
 
+/* line 349, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-arrow-n {
   background-position: -160px -192px; }
 
+/* line 350, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-zoomin {
   background-position: -176px -192px; }
 
+/* line 351, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-zoomout {
   background-position: -192px -192px; }
 
+/* line 352, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circle-check {
   background-position: -208px -192px; }
 
+/* line 353, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circlesmall-plus {
   background-position: 0 -208px; }
 
+/* line 354, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circlesmall-minus {
   background-position: -16px -208px; }
 
+/* line 355, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-circlesmall-close {
   background-position: -32px -208px; }
 
+/* line 356, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-squaresmall-plus {
   background-position: -48px -208px; }
 
+/* line 357, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-squaresmall-minus {
   background-position: -64px -208px; }
 
+/* line 358, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-squaresmall-close {
   background-position: -80px -208px; }
 
+/* line 359, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-grip-dotted-vertical {
   background-position: 0 -224px; }
 
+/* line 360, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-grip-dotted-horizontal {
   background-position: -16px -224px; }
 
+/* line 361, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-grip-solid-vertical {
   background-position: -32px -224px; }
 
+/* line 362, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-grip-solid-horizontal {
   background-position: -48px -224px; }
 
+/* line 363, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-gripsmall-diagonal-se {
   background-position: -64px -224px; }
 
+/* line 364, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-icon-grip-diagonal-se {
   background-position: -80px -224px; }
 
 /* Misc visuals
 ----------------------------------*/
 /* Corner radius */
+/* line 374, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-corner-all,
 .ui-corner-top,
 .ui-corner-left,
 .ui-corner-tl {
   border-top-left-radius: 4px; }
 
+/* line 380, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-corner-all,
 .ui-corner-top,
 .ui-corner-right,
 .ui-corner-tr {
   border-top-right-radius: 4px; }
 
+/* line 386, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-left,
 .ui-corner-bl {
   border-bottom-left-radius: 4px; }
 
+/* line 392, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-right,
@@ -747,11 +957,13 @@
   border-bottom-right-radius: 4px; }
 
 /* Overlays */
+/* line 397, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-widget-overlay {
   background: #aaaaaa url("/assets/jquery-ui/ui-bg_flat_0_aaaaaa_40x100.png") 50% 50% repeat-x;
   opacity: 0.3;
   filter: Alpha(Opacity=30); }
 
+/* line 402, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.theme.css.scss */
 .ui-widget-shadow {
   margin: -8px 0 0 -8px;
   padding: 8px;
@@ -771,9 +983,11 @@
  */
 /* Layout helpers
 ----------------------------------*/
+/* line 15, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-helper-hidden {
   display: none; }
 
+/* line 18, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-helper-hidden-accessible {
   border: 0;
   clip: rect(0 0 0 0);
@@ -784,6 +998,7 @@
   position: absolute;
   width: 1px; }
 
+/* line 28, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-helper-reset {
   margin: 0;
   padding: 0;
@@ -794,18 +1009,22 @@
   font-size: 100%;
   list-style: none; }
 
+/* line 39, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-helper-clearfix:before,
 .ui-helper-clearfix:after {
   content: "";
   display: table; }
 
+/* line 43, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-helper-clearfix:after {
   clear: both; }
 
+/* line 46, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-helper-clearfix {
   min-height: 0;
   /* support: IE7 */ }
 
+/* line 49, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-helper-zfix {
   width: 100%;
   height: 100%;
@@ -815,17 +1034,20 @@
   opacity: 0;
   filter: Alpha(Opacity=0); }
 
+/* line 59, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-front {
   z-index: 100; }
 
 /* Interaction Cues
 ----------------------------------*/
+/* line 66, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-state-disabled {
   cursor: default !important; }
 
 /* Icons
 ----------------------------------*/
 /* states and images */
+/* line 75, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-icon {
   display: block;
   text-indent: -99999px;
@@ -835,12 +1057,461 @@
 /* Misc visuals
 ----------------------------------*/
 /* Overlays */
+/* line 87, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/jquery-ui-sass-rails-4.0.3.0/app/assets/stylesheets/jquery.ui.core.css.scss */
 .ui-widget-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%; }
+/* @group Base */
+/* line 9, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  zoom: 1;
+  *display: inline;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+  /* line 17, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container .chosen-drop {
+    position: absolute;
+    top: 100%;
+    left: -9999px;
+    z-index: 1010;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #aaa;
+    border-top: 0;
+    background: #fff;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15); }
+  /* line 29, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container.chosen-with-drop .chosen-drop {
+    left: 0; }
+  /* line 32, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container a {
+    cursor: pointer; }
+
+/* @end */
+/* @group Single Chosen */
+/* line 40, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-single {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0 0 0 8px;
+  height: 23px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: #fff;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #ffffff), color-stop(50%, #f6f6f6), color-stop(52%, #eeeeee), color-stop(100%, #f4f4f4));
+  background: -webkit-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+  background: -moz-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+  background: -o-linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+  background: linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
+  background-clip: padding-box;
+  box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #444;
+  text-decoration: none;
+  white-space: nowrap;
+  line-height: 24px; }
+/* line 57, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-default {
+  color: #999; }
+/* line 60, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-single span {
+  display: block;
+  overflow: hidden;
+  margin-right: 26px;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+/* line 67, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-single-with-deselect span {
+  margin-right: 38px; }
+/* line 70, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-single abbr {
+  position: absolute;
+  top: 6px;
+  right: 26px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url(/assets/chosen-sprite.png) -42px 1px no-repeat;
+  font-size: 1px; }
+  /* line 79, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container-single .chosen-single abbr:hover {
+    background-position: -42px -10px; }
+/* line 83, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single.chosen-disabled .chosen-single abbr:hover {
+  background-position: -42px -10px; }
+/* line 86, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-single div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 18px;
+  height: 100%; }
+  /* line 93, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container-single .chosen-single div b {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(/assets/chosen-sprite.png) no-repeat 0px 2px; }
+/* line 100, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-search {
+  position: relative;
+  z-index: 1010;
+  margin: 0;
+  padding: 3px 4px;
+  white-space: nowrap; }
+  /* line 106, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container-single .chosen-search input[type="text"] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 1px 0;
+    padding: 4px 20px 4px 5px;
+    width: 100%;
+    height: auto;
+    outline: 0;
+    border: 1px solid #aaa;
+    background: white url(/assets/chosen-sprite.png) no-repeat 100% -20px;
+    background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+    background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
+    background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
+    background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -o-linear-gradient(#eeeeee 1%, #ffffff 15%);
+    background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
+    font-size: 1em;
+    font-family: sans-serif;
+    line-height: normal;
+    border-radius: 0; }
+/* line 122, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-drop {
+  margin-top: -1px;
+  border-radius: 0 0 4px 4px;
+  background-clip: padding-box; }
+/* line 127, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single.chosen-container-single-nosearch .chosen-search {
+  position: absolute;
+  left: -9999px; }
+
+/* @end */
+/* @group Results */
+/* line 135, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container .chosen-results {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 0 4px 4px 0;
+  padding: 0 0 0 4px;
+  max-height: 240px;
+  -webkit-overflow-scrolling: touch; }
+  /* line 143, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container .chosen-results li {
+    display: none;
+    margin: 0;
+    padding: 5px 6px;
+    list-style: none;
+    line-height: 15px;
+    -webkit-touch-callout: none; }
+    /* line 150, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container .chosen-results li.active-result {
+      display: list-item;
+      cursor: pointer; }
+    /* line 154, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container .chosen-results li.disabled-result {
+      display: list-item;
+      color: #ccc;
+      cursor: default; }
+    /* line 159, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container .chosen-results li.highlighted {
+      background-color: #3875d7;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #3875d7), color-stop(90%, #2a62bc));
+      background-image: -webkit-linear-gradient(#3875d7 20%, #2a62bc 90%);
+      background-image: -moz-linear-gradient(#3875d7 20%, #2a62bc 90%);
+      background-image: -o-linear-gradient(#3875d7 20%, #2a62bc 90%);
+      background-image: linear-gradient(#3875d7 20%, #2a62bc 90%);
+      color: #fff; }
+    /* line 164, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container .chosen-results li.no-results {
+      display: list-item;
+      background: #f4f4f4; }
+    /* line 168, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container .chosen-results li.group-result {
+      display: list-item;
+      font-weight: bold;
+      cursor: default; }
+    /* line 173, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container .chosen-results li.group-option {
+      padding-left: 15px; }
+    /* line 176, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container .chosen-results li em {
+      font-style: normal;
+      text-decoration: underline; }
+
+/* @end */
+/* @group Multi Chosen */
+/* line 186, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices {
+  position: relative;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto !important;
+  height: 1%;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+  background-image: -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background-image: -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background-image: -o-linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background-image: linear-gradient(#eeeeee 1%, #ffffff 15%);
+  cursor: text; }
+/* line 200, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices li {
+  float: left;
+  list-style: none; }
+  /* line 203, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container-multi .chosen-choices li.search-field {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap; }
+    /* line 207, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+      margin: 1px 0;
+      padding: 5px;
+      height: 15px;
+      outline: 0;
+      border: 0 !important;
+      background: transparent !important;
+      box-shadow: none;
+      color: #666;
+      font-size: 100%;
+      font-family: sans-serif;
+      line-height: normal;
+      border-radius: 0; }
+    /* line 221, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container-multi .chosen-choices li.search-field .default {
+      color: #999; }
+  /* line 225, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container-multi .chosen-choices li.search-choice {
+    position: relative;
+    margin: 3px 0 3px 5px;
+    padding: 3px 20px 3px 5px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background-color: #e4e4e4;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
+    background-image: -webkit-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-image: -o-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-clip: padding-box;
+    box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+    color: #333;
+    line-height: 13px;
+    cursor: default; }
+    /* line 238, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+      position: absolute;
+      top: 4px;
+      right: 3px;
+      display: block;
+      width: 12px;
+      height: 12px;
+      background: url(/assets/chosen-sprite.png) -42px 1px no-repeat;
+      font-size: 1px; }
+      /* line 247, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+      .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
+        background-position: -42px -10px; }
+  /* line 252, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container-multi .chosen-choices li.search-choice-disabled {
+    padding-right: 5px;
+    border: 1px solid #ccc;
+    background-color: #e4e4e4;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
+    background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-image: -o-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    background-image: linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+    color: #666; }
+  /* line 259, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container-multi .chosen-choices li.search-choice-focus {
+    background: #d4d4d4; }
+    /* line 261, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-container-multi .chosen-choices li.search-choice-focus .search-choice-close {
+      background-position: -42px -10px; }
+/* line 266, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-results {
+  margin: 0;
+  padding: 0; }
+/* line 270, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-drop .result-selected {
+  display: list-item;
+  color: #ccc;
+  cursor: default; }
+
+/* @end */
+/* @group Active  */
+/* line 280, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-active .chosen-single {
+  border: 1px solid #5897fb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+/* line 285, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-active.chosen-with-drop .chosen-single {
+  border: 1px solid #aaa;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  border-bottom-left-radius: 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #eeeeee), color-stop(80%, #ffffff));
+  background-image: -webkit-linear-gradient(#eeeeee 20%, #ffffff 80%);
+  background-image: -moz-linear-gradient(#eeeeee 20%, #ffffff 80%);
+  background-image: -o-linear-gradient(#eeeeee 20%, #ffffff 80%);
+  background-image: linear-gradient(#eeeeee 20%, #ffffff 80%);
+  box-shadow: 0 1px 0 #fff inset; }
+/* line 294, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-active.chosen-with-drop .chosen-single div {
+  border-left: none;
+  background: transparent; }
+  /* line 297, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container-active.chosen-with-drop .chosen-single div b {
+    background-position: -18px 2px; }
+/* line 302, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-active .chosen-choices {
+  border: 1px solid #5897fb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+  /* line 305, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-container-active .chosen-choices li.search-field input[type="text"] {
+    color: #111 !important; }
+
+/* @end */
+/* @group Disabled Support */
+/* line 313, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-disabled {
+  opacity: 0.5 !important;
+  cursor: default; }
+  /* line 316, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-disabled .chosen-single {
+    cursor: default; }
+  /* line 319, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-disabled .chosen-choices .search-choice .search-choice-close {
+    cursor: default; }
+
+/* @end */
+/* @group Right to Left */
+/* line 326, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl {
+  text-align: right; }
+  /* line 328, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl .chosen-single {
+    overflow: visible;
+    padding: 0 8px 0 0; }
+  /* line 332, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl .chosen-single span {
+    margin-right: 0;
+    margin-left: 26px;
+    direction: rtl; }
+  /* line 337, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl .chosen-single-with-deselect span {
+    margin-left: 38px; }
+  /* line 340, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl .chosen-single div {
+    right: auto;
+    left: 3px; }
+  /* line 344, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl .chosen-single abbr {
+    right: auto;
+    left: 26px; }
+  /* line 348, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl .chosen-choices li {
+    float: right; }
+    /* line 350, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-rtl .chosen-choices li.search-field input[type="text"] {
+      direction: rtl; }
+    /* line 353, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+    .chosen-rtl .chosen-choices li.search-choice {
+      margin: 3px 5px 3px 0;
+      padding: 3px 5px 3px 19px; }
+      /* line 356, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+      .chosen-rtl .chosen-choices li.search-choice .search-choice-close {
+        right: auto;
+        left: 4px; }
+  /* line 363, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl.chosen-container-single-nosearch .chosen-search,
+  .chosen-rtl .chosen-drop {
+    left: 9999px; }
+  /* line 366, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl.chosen-container-single .chosen-results {
+    margin: 0 0 4px 4px;
+    padding: 0 4px 0 0; }
+  /* line 370, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl .chosen-results li.group-option {
+    padding-right: 15px;
+    padding-left: 0; }
+  /* line 374, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div {
+    border-right: none; }
+  /* line 377, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl .chosen-search input[type="text"] {
+    padding: 4px 5px 4px 20px;
+    background: white url(/assets/chosen-sprite.png) no-repeat -30px -20px;
+    background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+    background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
+    background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
+    background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -o-linear-gradient(#eeeeee 1%, #ffffff 15%);
+    background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
+    direction: rtl; }
+  /* line 384, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl.chosen-container-single .chosen-single div b {
+    background-position: 6px 2px; }
+  /* line 388, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl.chosen-container-single.chosen-with-drop .chosen-single div b {
+    background-position: -12px 2px; }
+
+/* @end */
+/* @group Retina compatibility */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi) {
+  /* line 405, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  .chosen-rtl .chosen-search input[type="text"],
+  .chosen-container-single .chosen-single abbr,
+  .chosen-container-single .chosen-single div b,
+  .chosen-container-single .chosen-search input[type="text"],
+  .chosen-container-multi .chosen-choices .search-choice .search-choice-close,
+  .chosen-container .chosen-results-scroll-down span,
+  .chosen-container .chosen-results-scroll-up span {
+    background-image: url(/assets/chosen-sprite@2x.png) !important;
+    background-size: 52px 37px !important;
+    background-repeat: no-repeat !important; } }
+/* @end */
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/answers.css.scss */
+.answr_inner_body {
+  background-color: #F7F7F7;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px; }
+
+/* line 9, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/answers.css.scss */
+.answr_inner_body p {
+  font-size: 14px;
+  margin: 0 !important; }
+
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/answers.css.scss */
+.clear_it_nicely {
+  border-bottom: 1px solid #AAA;
+  padding-top: 20px;
+  margin-bottom: 20px; }
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
 .clearfix:after{clear:both;}
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
@@ -8864,41 +9535,611 @@ input.search-query {
 .mal {
   margin-left: 20px;
 }
-.hero-content {
-  top: 50%; }
 
-.hero-content hgroup {
-  margin: 80px 0 20px 0;
-  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.4); }
+/* Scrollbar */
 
-.hero-content hgroup h1 {
-  color: #270836;
-  margin-bottom: 80px;
-  font-size: 60px;
-  line-height: 60px; }
+.scrollbar
+{
+    margin-left: 30px;
+    float: left;
+  height: 300px;
+  width: 65px;
+  background: #F5F5F5;
+  overflow-y: scroll;
+  margin-bottom: 25px;
+}
 
-.hero-content hgroup h2 {
-  font-weight: 100;
-  color: #3498DB;
+.force-overflow {
+  min-height: 450px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #AAA;
+  border-radius: 10px;
+}
+
+
+
+
+
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer {
+  position: relative;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #777;
+  border-top: 1px solid #EEE; }
+
+/* line 12, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer:before, .site-footer:after {
+  content: " ";
+  display: table; }
+
+/* line 17, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer-links.right {
+  float: right; }
+
+/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer-links {
+  float: left;
+  margin: 0;
+  list-style: none; }
+
+/* line 28, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.right {
+  float: right; }
+
+/* line 32, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+ul, ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
+
+/* line 38, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px; }
+
+/* line 48, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #777; }
+
+/* line 54, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer-links li {
+  display: inline-block;
+  line-height: 16px; }
+
+/* line 59, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer-links li + li {
+  padding-left: 10px; }
+
+/* line 64, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+li {
+  display: list-item;
+  text-align: -webkit-match-parent; }
+
+/* line 69, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer-links {
+  list-style: none; }
+
+/* line 73, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer .octicon-mark-github {
+  position: absolute;
+  top: 38px;
+  left: 50%;
+  height: 24px;
+  width: 24px;
+  margin-left: -12px;
+  font-size: 24px;
+  color: #CCC; }
+
+/* line 84, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.mega-octicon {
+  font: normal normal 32px octicons;
+  line-height: 1;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 92, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.mega-octicon .fui-bubble:hover {
+  color: #34495e; }
+
+/* line 96, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer a {
+  color: #2C3E50; }
+
+/* line 100, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
+.site-footer a:hover {
+  color: #BDC3C7; }
+/* line 5, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+.help-hero-unit {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  background-color: #ECF0F1;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: url("http://i.imgur.com/LxKHr1X.png"); }
+
+/* line 19, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+.help-hero-unit h1 {
   font-size: 30px;
-  line-height: 40px; }
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  padding-top: 15px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default; }
 
-.home-hero {
-  padding: 60px 0;
-  background: url(http://www.vagrantup.com/images/vagrant_header_background-482a12a7.png) no-repeat center -80px;
+/* line 33, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+.help-hero-unit .desc {
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default; }
+
+/* Small Pictures */
+/* line 47, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+.h_w {
+  overflow: auto;
+  text-align: center; }
+
+/* line 52, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+.hd_b {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  text-decoration: none; }
+
+/* line 60, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+._hd {
+  margin-right: 20px;
+  display: inline-block;
+  text-align: center; }
+
+/* line 66, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+._hd:last-child {
+  margin-right: 0; }
+
+/* line 70, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+._hd img {
+  opacity: .85;
+  width: 200px;
+  height: 130px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid #c4c4c4; }
+
+/* line 83, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+._hd img:before, ._hd img:after {
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: inherit;
+  border-bottom: 1px solid #d2d2d2;
+  border-radius: 4px; }
+
+/* line 94, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+._hd img:after {
+  bottom: 3px;
+  border-color: #dcdcdc; }
+
+/* line 99, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+._hd a:hover img {
+  opacity: 1; }
+
+/* line 103, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+.hd_intr h4 {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  padding: 20px 0;
+  background: url("http://i.imgur.com/3NCTAP0.png") center center repeat-x;
+  text-align: center; }
+
+/* line 112, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+.hd_intr h4 span {
+  background: #fafafa url("http://i.imgur.com/FhxqaOA.jpg") repeat top left;
+  padding: 0 15px; }
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+.scnd_ndr_mn_cnt {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+/* line 6, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+.scnd_ndr_mn {
+  font-size: 14.994px;
+  font-weight: 700;
+  padding: 6px 20px; }
+
+/* line 12, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+.scnd_ndr_mn {
+  margin: 0 0 20px;
+  list-style: none;
+  background-color: #F5F5F5;
+  -moz-border-radius-bottomright: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  border-bottom-left-radius: 6px; }
+
+/* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+.scnd_ndr_mn > ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px; }
+
+/* line 35, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+.scnd_ndr_mn > li {
+  position: relative;
+  text-shadow: none; }
+
+/* line 39, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+.scnd_ndr_mn > li:after {
+  color: #bdc3c7;
+  content: "\e002";
+  display: inline-block;
+  font-family: 'Flat-UI-Icons';
+  font-size: 9.799999999999999px;
+  margin: -4px 9px 0 13px;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 49, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+.scnd_ndr_mn .active {
+  color: #bdc3c7;
+  cursor: default; }
+
+/* line 53, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+.scnd_ndr_mn .active:after {
+  display: none; }
+
+/* line 56, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+.scnd_ndr_mn .active > a {
+  color: inherit;
+  cursor: inherit; }
+/* Span 9*/
+/* Span 3 */
+/* line 7, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+.nw_quest_how {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px;
+  background-image: url("http://i.imgur.com/nvuDNKX.png"); }
+
+/* line 16, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+.nw_quest_how p {
+  margin: 0 !important;
+  font-size: 14px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822; }
+
+/* line 23, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+.nw_quest_how .big {
+  font-size: 18px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822; }
+
+/* line 29, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+.nw_quest_how .first {
+  font-size: 20px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822; }
+
+/* line 35, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+.nw_quest_links {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px;
+  background-image: url("http://i.imgur.com/QvtGSdG.png"); }
+
+/* line 44, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+.nw_quest_links .nw_quest_links_hpdesk {
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822; }
+
+/* line 49, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+.nw_quest_links .nw_quest_links_qhp {
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822; }
+
+/* line 54, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+.nw_quest_links a {
+  color: #ECF0F1; }
+
+/* line 58, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+.nw_quest_links a:hover {
+  color: #37b3ff; }
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.fill {
+  background-color: darkgray; }
+
+/* Span 1*/
+/* line 7, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar {
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  -webkit-backface-visibility: hidden;
+  margin-left: 25px; }
+
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar:before,
+.votebar:after {
+  display: table;
+  content: ""; }
+
+/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar:after {
+  clear: both; }
+
+/* line 21, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar > ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 27, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar > ul > li {
+  margin: 0;
+  padding: 0; }
+
+/* line 31, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar > ul > li.active > a {
+  color: #1abc9c; }
+
+/* line 34, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar > ul > li:first-child > a {
+  padding-top: 10px; }
+
+/* line 37, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar > ul > li > a {
+  color: #cfcfcf;
+  display: block;
+  font-size: 23.996px;
+  padding: 8px 5px 5px;
+  position: relative;
+  text-decoration: none; }
+
+/* line 46, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar > ul > li > a:hover,
+.votebar > ul > li > a:focus {
+  color: #a8a8a8; }
+
+/* Vote Bar on Answer*/
+/* line 52, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar-question {
+  border-radius: 6px;
+  -webkit-backface-visibility: hidden;
+  margin-left: 25px; }
+
+/* line 58, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar-question:before,
+.votebar-question:after {
+  display: table;
+  content: ""; }
+
+/* line 62, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar-question:after {
+  clear: both; }
+
+/* line 65, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar-question > ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 71, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar-question > ul > li {
+  margin: 0;
+  padding: 0; }
+
+/* line 75, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar-question > ul > li.active > a {
+  color: #1abc9c; }
+
+/* line 78, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar-question > ul > li:first-child > a {
+  padding-top: 10px; }
+
+/* line 81, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar-question > ul > li > a {
+  color: #cfcfcf;
+  display: block;
+  font-size: 23.996px;
+  padding: 8px 5px 5px;
+  position: relative;
+  text-decoration: none; }
+
+/* line 90, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.votebar-question > ul > li > a:hover,
+.votebar-question > ul > li > a:focus {
+  color: #a8a8a8; }
+
+/* Span 8 */
+/* line 97, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.question_title {
+  clear: both;
+  width: 100%;
+  border-bottom: 1px dotted #E1DFDC;
+  margin-bottom: 1em; }
+
+/* line 104, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.question_title h1 {
+  font-size: 24px;
+  padding: 10px;
+  line-height: 28px;
+  color: #444;
+  margin-bottom: 0 !important;
+  font-weight: bold;
+  font-size: 170%;
+  margin-bottom: 7px; }
+
+/* line 115, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.quest_shw {
+  padding-top: 10px; }
+
+/* line 119, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.quest_uc {
+  padding-top: 10px; }
+
+/* line 123, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.quest_answrs {
+  padding-top: 20px; }
+
+/* line 127, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.owner {
+  background-color: #f7f7f7;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 5px 2px 7px 7px; }
+
+/* line 134, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.post-signature {
+  text-align: left;
+  vertical-align: top;
+  width: 175px;
+  height: 58px; }
+
+/* line 141, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.user-info {
+  height: 35px;
+  width: 185px; }
+
+/* line 146, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.user-info .user-action-time {
+  margin-top: 2px;
+  margin-bottom: 4px; }
+
+/* line 151, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.user-info .user-avtr32 {
+  float: left;
+  width: 32px;
+  height: 32px; }
+
+/* line 157, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.user-info .user-details {
+  float: left;
+  margin-left: 5px;
+  width: 145px;
+  overflow: hidden;
+  white-space: nowrap; }
+
+/* line 165, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.user-details {
+  color: #888;
+  line-height: 17px; }
+
+/* Span 3 */
+/* line 173, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.quest_wdgt {
+  background-color: #f7f7f7;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px; }
+
+/* line 182, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.quest_wdgt p {
+  margin: 0 !important; }
+
+/* line 186, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.quest_mr_inf {
   text-align: center;
-  border-bottom: 1px solid #C6E0F0; }
+  background-color: #f7f7f7;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px; }
+
+/* line 196, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+.answers_counter {
+  background-color: #d8dce0;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 12.992px;
+  font-weight: 500;
+  float: left;
+  margin: 1px -4px -1px 0;
+  padding: 0px 8px; }
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/question_answer.css.scss */
+.bottom-notice {
+  padding-top: 10px;
+  font-weight: normal;
+  padding: 0 10px 0 0;
+  line-height: 20px;
+  color: #444;
+  font-size: 18px;
+  padding-left: 10px !important; }
 /* Questions Index Style */
+/* line 4, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .question-summary {
-  border-bottom: 1px solid #EAEAEA;
+  border-top: 1px solid #EAEAEA;
   overflow: hidden;
   padding: 11px 0px;
   width: 100%;
   float: left; }
 
+/* line 12, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .cp {
   cursor: pointer; }
 
+/* line 16, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .narrow .votes {
   background: rgba(0, 0, 0, 0);
   float: left;
@@ -8907,16 +10148,19 @@ input.search-query {
   width: 38px;
   height: 38px; }
 
+/* line 25, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .votes {
   color: #555;
   padding: 0 0 7px 0;
   text-align: center; }
 
+/* line 31, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .mini-counts {
   height: 25px;
   font-size: 160%;
   font-weight: normal; }
 
+/* line 37, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .narrow .status {
   float: left;
   margin: 0 3px 0 0;
@@ -8924,16 +10168,19 @@ input.search-query {
   width: 48px;
   height: 38px; }
 
+/* line 44, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .unanswered {
   background: rgba(0, 0, 0, 0);
   color: #9A4444;
   color: #9A4444; }
 
+/* line 49, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .status {
   margin-top: -3px;
   padding: 4px 0 4px;
   text-align: center; }
 
+/* line 55, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .narrow .views {
   float: left;
   margin: 0 7px 0 0;
@@ -8941,31 +10188,38 @@ input.search-query {
   width: 40px;
   height: 38px; }
 
+/* line 62, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .views {
   padding-top: 4px;
   color: #999;
   text-align: center; }
 
+/* line 68, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .narrow .summary {
   width: 690px; }
 
+/* line 72, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .summary {
   float: left;
   width: 100%;
   margin-left: 10px; }
 
+/* line 78, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .question-hyperlink a {
   text-decoration: none;
   cursor: pointer; }
 
+/* line 83, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .tags {
   line-height: 18px;
   float: left; }
 
+/* line 88, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .question-tags .label a {
   text-decoration: none;
   color: #7B8996; }
 
+/* line 93, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .post-tag {
   color: #3E6D8E;
   background-color: #E0EAF1;
@@ -8978,23 +10232,232 @@ input.search-query {
   line-height: 2.4;
   white-space: nowrap; }
 
+/* line 107, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .narrow .started {
   line-height: inherit;
   padding-top: 4px;
   white-space: nowrap; }
 
+/* line 114, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .started {
   color: #999;
   float: right;
   line-height: 18px; }
 
+/* line 121, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .started .reputation-score {
   margin-left: 1px;
   font-size: 100% !important;
   font-weight: normal !important; }
 
+/* line 126, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
 .reputation-score {
   font-weight: bold;
   color: #444;
   font-size: 100%;
   margin-right: 2px; }
+
+/* The Actual Question Text */
+/* line 136, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+.qest_inner_boddy {
+  background-color: #f7f7f7;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px; }
+
+/* line 144, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+.qest_inner_boddy p {
+  font-size: 14px;
+  margin: 0 !important; }
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/register.css.scss */
+.hero-content {
+  top: 50%; }
+
+/* line 5, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/register.css.scss */
+.hero-content hgroup {
+  margin: 80px 0 20px 0;
+  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.4); }
+
+/* line 10, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/register.css.scss */
+.hero-content hgroup h1 {
+  color: #270836;
+  margin-bottom: 80px;
+  font-size: 60px;
+  line-height: 60px; }
+
+/* line 17, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/register.css.scss */
+.hero-content hgroup h2 {
+  color: #34495e;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 100px; }
+
+/* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/register.css.scss */
+.home-hero {
+  padding: 60px 0;
+  background: url(http://i.imgur.com/YUWpAbu.png) no-repeat center -80px;
+  text-align: center;
+  /*border-bottom: 1px solid #C6E0F0;*/ }
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput {
+  background: white;
+  border: 2px solid #ebedef;
+  border-radius: 6px;
+  height: 100px;
+  margin-bottom: 18px;
+  padding: 6px 1px 1px 6px;
+  overflow-y: auto;
+  text-align: left; }
+
+/* line 11, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput .tag {
+  border-radius: 4px;
+  background-color: #ebedef;
+  color: #7b8996;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  line-height: 15px;
+  padding: 6px 13px 8px 19px;
+  position: relative;
+  vertical-align: middle;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  -webkit-transition: 0.14s linear;
+  -moz-transition: 0.14s linear;
+  -o-transition: 0.14s linear;
+  transition: 0.14s linear;
+  -webkit-backface-visibility: hidden; }
+
+/* line 32, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput .tag:hover {
+  background-color: #16a085;
+  color: #ffffff;
+  padding-left: 12px;
+  padding-right: 20px; }
+
+/* line 38, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput .tag:hover .tagsinput-remove-link {
+  color: #ffffff;
+  opacity: 1;
+  display: block\9; }
+
+/* line 43, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput input {
+  background: transparent;
+  border: none;
+  color: #34495e;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0 0 0 5px;
+  outline: 0 !important;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  width: 12px; }
+
+/* line 56, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput-remove-link {
+  bottom: 0;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+  opacity: 0;
+  padding: 7px 7px 5px 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  text-decoration: none;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+  display: none\9; }
+
+/* line 72, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput-remove-link:before {
+  color: #ffffff;
+  content: "\e00b";
+  font-family: "Flat-UI-Icons"; }
+
+/* line 77, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput-add-container {
+  vertical-align: middle;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+
+/* line 83, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput-add {
+  background-color: #d6dbdf;
+  border-radius: 3px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 6px 9px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden; }
+
+/* line 99, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput-add:hover {
+  background-color: #1abc9c; }
+
+/* line 102, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput-add:before {
+  content: "\e009";
+  font-family: "Flat-UI-Icons"; }
+
+/* line 106, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tags_clear {
+  clear: both;
+  width: 100%;
+  height: 0px; }
+
+/* line 111, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.not_valid {
+  background: #fbd8db !important;
+  color: #90111a !important;
+  margin-left: 5px !important; }
+
+/* line 116, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput-primary {
+  border-color: #1abc9c; }
+
+/* line 119, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
+.tagsinput-primary .tag {
+  background-color: #1abc9c;
+  color: #ffffff; }
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/welcome.css.scss */
+.wlcm_hero_unit {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #ECF0F1;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px; }
+
+/* line 13, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/welcome.css.scss */
+.wlcm_hero_unit .wlcm_greeting {
+  text-align: center; }
+  /* line 15, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/welcome.css.scss */
+  .wlcm_hero_unit .wlcm_greeting h3 {
+    margin-top: -20px; }
+
+/* line 20, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/welcome.css.scss */
+.wlcm_hero_unit .wlcm_shares {
+  text-align: center; }
+
+/* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/welcome.css.scss */
+.wlcm_hero_unit .wlcm_intro {
+  text-align: center; }
