@@ -1,10 +1,75 @@
+<div class="row">
 
-<%= image_tag @user.avatar(:profile) %>
+  <div class="span2">
+    <%= image_tag @user.avatar(:profile), class: "usr_profile_avtr" %>
+  </div>
 
-<h2><%= @user.first_name %></h2>
+  <div class="span10">
+
+    <div class="usr_profile_usr_info">
+
+      <div class="pull-left usr_profile_usr_name">
+        <h2><%= @user.user_name %></h2>
+      </div>
+
+      <div class="pull-right usr_profile_usr_lp">
+        <h2><%= @user.points %> LP</h2>
+      </div>
+
+      <div class="clearfix"></div>
+
+    </div>
+
+    <div class="undr_profile_usr_info">
+
+      <div class="usr_profile_usr_scl pull-left">
+        <% if @user.facebook_link.present? %>
+          <span class="fui-facebook"></span>
+        <% end %>
+        <% if @user.twitter_link.present? %>
+          <span class="fui-twitter"></span>
+        <% end %>
+        <% if @user.lolking_link.present? %>
+          <span class="fui-user"></span>
+        <% end %>
+      </div>
+
+      <div class="pull-right">
+        <% start_time =  @user.created_at %>
+        <% end_time   =  Date.today %>
+        Member for <%= distance_of_time_in_words(start_time, end_time)  %>
+      </div>
+
+      <div class="clearfix"></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="clearfix"></div>
+
 <br>
-<h2><%= @user.user_name %></h2>
-<br>
-<% start_time =  @user.created_at %>
-<% end_time   =  Date.today %>
-<h3>Member for <%= distance_of_time_in_words(start_time, end_time)  %></h3>
+
+<ul id="myTab" class="nav nav-tabs">
+  <li class="active">
+    <a href="#questions" data-toggle="tab">
+      <%= @user.questions.count %> Questions
+    </a>
+  </li>
+  <li class="">
+    <a href="#answers" data-toggle="tab">
+      Answers
+    </a>
+  </li>
+</ul>
+
+<div id="myTabContent" class="tab-content">
+  <div class="tab-pane fade active in" id="questions">
+    <%= render @user.questions %>
+  </div>
+  <div class="tab-pane fade" id="answers">
+    <p>Coming soon...</p>
+  </div>
+</div>

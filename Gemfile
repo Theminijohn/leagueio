@@ -24,6 +24,7 @@ gem "ckeditor"
 
 # Paperclip
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+gem 'aws-sdk'
 
 # Tags
 gem 'chosen-rails'

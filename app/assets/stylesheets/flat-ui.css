@@ -5341,10 +5341,10 @@ input.search-query {
   padding: 0;
 }
 .tab-content {
-  border: 2px solid #ddd;
+  /*border: 2px solid #ddd;*/
   border-radius: 6px;
   margin-bottom: 20px;
-  padding: 20px 20px 10px;
+  /*padding: 20px 20px 10px;*/
   position: relative;
   z-index: 1;
 }

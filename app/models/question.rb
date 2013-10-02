@@ -11,7 +11,6 @@ class Question < ActiveRecord::Base
 	validates :title, :presence => true
 	validates :body, :presence => true
 	validates :user_id, :presence => true
-	validates :tags, :presence => true
 
 	def owner?(user)
 		if self.user_id == user.id

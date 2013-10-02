@@ -12,9 +12,8 @@ class User < ActiveRecord::Base
 
 
 	# User Avatar
-	has_attached_file :avatar, styles: { medium: "320x240",
-																			 mini: "32x32#",
-																			 profile: "256x256"}
+	has_attached_file :avatar, styles: { mini: "32x32#",
+																			 profile: "180x180#"}
 
 	validates_attachment :avatar, content_type: { content_type: ['image/jpeg',
 																															 'image/jpg',
@@ -22,7 +21,7 @@ class User < ActiveRecord::Base
 											 size: { less_than: 3.megabytes }
 
 
-	# Realtionships
+	# Relationships
 	has_many :questions, :dependent => :destroy
 	has_many :answers
 
