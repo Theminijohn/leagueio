@@ -28,7 +28,7 @@ gem 'aws-sdk'
 
 # Tags
 gem 'chosen-rails'
-gem 'compass-rails', github: 'milgner/compass-rails', branch: 'rails4'
+gem "compass-rails", "~> 2.0.alpha.0"
 
 
 group :development do
