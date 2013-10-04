@@ -74,9 +74,12 @@
   margin-left: 10px;
 }
 
-.question-hyperlink a {
-  text-decoration: none;
-  cursor: pointer;
+.summary a {
+  color: #34495e;
+}
+
+.summary a:hover {
+  color: #587698;
 }
 
 .tags {

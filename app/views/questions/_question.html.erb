@@ -63,14 +63,14 @@
   <div class="summary">
     <p>
       <b>
-        <%= link_to question.title, question, class: "question-hyperlink" %>
+        <%= link_to question.title, question %>
       </b>
     </p>
 
     <div class="question-tags pull-left">
       <% question.tags.each do |tag| %>
         <span class="label label-default">
-          <%= link_to tag.name, tag_path(tag.name), class: "css_class" %>
+          <%= link_to tag.name, tag_path(tag.name) %>
         </span>
       <% end %>
     </div>
@@ -90,3 +90,5 @@
   </div>
 
 </div>
+
+<div class="clearfix"></div>

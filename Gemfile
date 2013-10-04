@@ -18,6 +18,7 @@ gem 'acts_as_votable', '~> 0.7.1'
 gem 'impressionist'
 gem 'jquery-turbolinks'
 gem 'merit'
+gem 'friendly_id', '5.0.0.rc2'
 
 # CKEditor
 gem "ckeditor"

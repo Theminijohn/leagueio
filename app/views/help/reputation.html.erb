@@ -1,0 +1,152 @@
+<ul class="breadcrumb">
+  <li><%= link_to "Help", help_path %></li>
+  <li class="active">League Points</li>
+</ul>
+
+<div class="row-fluid">
+
+  <div class="span3">
+    <ul class="nav nav-list league-docs-sidenav">
+      <li><a href="#reputation"><i class="fui-arrow-right pull-right"></i> What is Reputation</a></li>
+      <li><a href="#moderators"><i class="fui-arrow-right pull-right"></i> Site Moderators</a></li>
+      <li><a href="#voting"><i class="fui-arrow-right pull-right"></i> Why voting is important</a></li>
+    </ul>
+  </div>
+
+  <div class="span9">
+    <div class="help_reputation_hero">
+      <h2>League Points = Reputation</h2>
+    </div>
+
+    <!-- Content Starts Here-->
+
+    <section id="reputation">
+
+      <div class="help_topic_header">
+        <h1><span class="fui-tag"></span> What is reputation? How do I earn (and lose) it?</h1>
+      </div>
+
+      <p>Reputation is a rough measurement of how much the community trusts you; it is earned by convincing your peers that you know what you’re talking about. Basic use of the site, including asking questions, answering, and suggesting edits, does not require any reputation at all. But the more reputation you earn, the more <a href="/privileges">privileges</a> you gain.</p>
+
+      <p>The primary way to gain reputation is by posting good questions and useful answers. Votes on these posts cause you to gain (or sometimes lose) reputation. Please note that votes for posts marked “community wiki” do not generate any reputation.</p>
+
+      <p>You can earn a maximum of 200 reputation per day from any combination of the activities below. Only <a href="/helpcenter/bounty">bounty awards</a> and <a href="/helpcenter/accepted-answer">accepted answers</a> are not subject to the daily reputation limit.</p>
+
+      <p><b>You gain reputation when:</b></p>
+
+      <ol>
+        <li>question is voted up: +5</li>
+        <li>answer is voted up: +10</li>
+        <li>answer is marked “accepted”: +15 (+2 to acceptor) </li>
+        <li>suggested edit is accepted: +2 (up to +1000 total per user) </li>
+        <li>bounty awarded to your answer: +full bounty amount</li>
+        <li>one of your answers is awarded a bounty automatically: +1/2 of the bounty amount (<a href="/helpcenter/bounty">see more details about how bounties work</a>) </li>
+        <li>site association bonus: +100 on each site (awarded a maximum of one time per site) </li>
+      </ol>
+
+      <p>If you are an experienced Stack Exchange network user with 200 or more reputation on at least one site, you will receive a starting +100 reputation bonus to get you past basic new user restrictions. This will happen automatically on all current Stack Exchange sites where you have an account, and on any other Stack Exchange sites at the time you log in.</p>
+
+      <p><b>You lose reputation when:</b></p>
+
+      <ol>
+        <li>your question is voted down: −2</li>
+        <li>your answer is voted down: −2</li>
+        <li>you vote down an answer: −1</li>
+        <li>you place a bounty on a question: −full bounty amount</li>
+        <li>one of your posts receives 6 spam or offensive flags:−100</li>
+      </ol>
+
+      <p>All users start with one reputation point, and reputation can never drop below 1. Accepting your own answer does not gain you any reputation. If a user reverses a vote, the corresponding reputation loss or gain will be reversed as well. Vote reversal as a result of voting fraud will also return lost or gained reputation.</p>
+
+      <p>At the high end of this reputation spectrum there is little difference between users with high reputation and ♦ moderators. That is intentional. We don’t run this site. The community does.</p>
+
+    </section>
+
+    <br>
+
+    <section id="moderators">
+
+      <div class="help_topic_header">
+        <h1><span class="fui-tag"></span> Who are the site moderators, and what is their role here?</h1>
+      </div>
+
+      <p>At Stack Exchange, we believe moderation starts with the community itself, so in addition to all users gaining <a href="/help/privileges">privileges</a> through reputation earned, each site has moderators elected through popular vote. We hold regular elections to determine who these community moderators will be (except in the case of new beta sites, which have <a href="http://blog.stackoverflow.com/2010/07/moderator-pro-tempore/">moderators <em>pro tempore</em></a>, who are appointed by Stack Exchange staff). Moderators are elected for life, though they may resign (or, in very rare cases, be removed).</p>
+
+      <p>We generally expect that moderators:</p>
+
+      <ol>
+        <li>are patient and fair</li>
+        <li>lead by example</li>
+        <li>show respect for their fellow community members in their actions and words</li>
+        <li>are open to some light but firm moderation to keep the community on track and resolve (hopefully) uncommon disputes and exceptions</li>
+      </ol>
+
+      <p>Furthermore, all moderators must abide by our <a href="/legal/moderator-agreement">moderator agreement</a>.</p>
+
+      <h5>Moderators are human exception handlers, there to deal with those exceptional conditions that could otherwise disrupt the community.</h5>
+
+      <p>The most common moderator task is to follow up on flagged posts. Every post contains a small flag link, which anyone with 15 reputation can use. Posts can be flagged as spam, offensive, or just general “needs moderator attention” with an explanatory comment or link. Once flagged, a post increments a flag count that shows up in the topbar for every moderator.</p>
+
+      <p>If you see anything in the system that is evil, weird, or in any way exceptional and deserving of moderator attention for any reason…<a href="/help/flagging">flag it</a>! That’s the primary job of a moderator: to look at every flagged post, and take action if necessary.</p>
+
+      <p>Moderators also have some special abilities necessary to handle those rare exceptional conditions:</p>
+
+      <ol>
+        <li>Moderator votes are binding. Any place we have voting — close, open, delete, undelete, offensive, migration, etc — that vote will reach the threshold and take effect immediately if a single moderator casts a vote.</li>
+        <li>Moderators can lock posts. Locked posts cannot be voted on or changed in any way.</li>
+        <li>Moderators can <a href="http://blog.stackoverflow.com/2010/06/new-protected-question-status/">protect questions</a>. Protected questions only allow answers by users with more than 10 reputation.</li>
+        <li>Moderators can see more data in the system, including vote statistics (but not ‘who voted for this post’) and user profile information.</li>
+        <li>Moderators can place users in <a href="http://blog.stackoverflow.com/2009/04/a-day-in-the-penalty-box/">timed suspension</a>, and delete users if necessary.</li>
+        <li>Moderators can perform large-scale maintenance actions such as merging questions and tags, tag synonym approvals, and so forth.</li>
+      </ol>
+
+      <p>A lot of the moderation work is mundane: deleting obvious spam, closing blatantly off-topic questions, and culling some of the worst-rated posts on the site. The ideal moderator does as little as possible, but those little actions may be powerful, visible, and highly concentrated. </p>
+
+      <p>If you have questions about the reasoning behind a moderator's actions, bring them up for discussion on <a href="http://meta.stackoverflow.com" rel="nofollow">meta</a>. Remember to be <strong>constructive and polite</strong>; moderators have the best interest of the site in mind, but they may occasionally make mistakes or have to deal with controversial issues on which not everyone agrees. </p>
+
+      <p>Please see <a href="http://blog.stackoverflow.com/2009/05/a-theory-of-moderation">A Theory of Moderation</a> for information on our moderation philosophy.</p>
+
+      <h5>Moderators act as a liaison between the community and Stack Exchange the company.</h5>
+
+      <p>Site moderators can also escalate issues of moderation by contacting the Stack Exchange team for guidance and administrative or technical tasks.</p>
+
+      <p>Additionally, moderators can help draw extra attention to bugs, feature requests, or other issues that affect their site if the community is unable to resolve the issue on their meta site.</p>
+
+      <p>Site moderators are distinguished from normal users by the diamond (♦) displayed beside their user names. Some Stack Exchange employees also have diamonds next to their user names; these are usually developers or community managers, or other employees who work directly with our users to resolve bugs or address other community concerns. Stack Exchange employees identify themselves as such in their user profiles.</p>
+
+      <p>Find out who the <a href="/users?tab=moderators">moderators for this site</a> are, or explore a list of <a href="http://stackexchange.com/about/moderators">moderators on all Stack Exchange sites</a>.</p>
+
+    </section>
+
+    <br>
+
+    <section id="voting">
+
+      <div class="help_topic_header">
+        <h1><span class="fui-tag"></span> Why is voting important?</h1>
+      </div>
+
+      <p>Voting is central to our our model of providing quality questions and answers; it is how …</p>
+
+      <ol>
+        <li>...good content rises to the top</li>
+        <li>...incorrect content falls to the bottom</li>
+        <li>...users who consistently provide useful content accrue <a href="/help/whats-reputation">reputation</a> and are granted more <a href="/help/privileges">privileges</a> on the site</li>
+      </ol>
+
+      <p>It’s only through voting that a class of editors, closers, and moderators can emerge to help run and govern the site. Voting is how site leadership forms. That’s why the <a href="http://stackexchange.com/leagues">reputation leagues</a> show a breakdown of top users by reputation for the week, month, quarter, year, or all time. </p>
+
+      <p>Our sites are all intended to be a sort of representative democracy. Moderator elections are an important part of that plan, but voting on questions and answers is the <em>primary</em> mechanism through which the community governs the site on a day to day basis. Every user with sufficient reputation can exercise their right to vote, every day that they visit the site.</p>
+
+      <p>Voting is so important that there is a <a href="/help/badges">variety of badges</a> associated with different aspects of voting – like casting your first up- or down vote, using up all of your allotted votes in a day, or casting upvotes on other people's answers to a question that you have answered yourself.</p>
+
+      <p>Voting up a question or answer signals to the rest of the community that a post is interesting, well-researched, and useful, while voting down a post signals the opposite: that the post contains wrong information, is poorly researched, or fails to communicate information. The more that people vote on a post, the more certain future visitors can be of the quality of information contained within that post – not to mention that upvotes are a great way to thank the author of a good post for the time and effort put into writing it!</p>
+
+
+    </section>
+
+
+  </div>
+
+
+</div>

@@ -12,6 +12,7 @@ class Question < ActiveRecord::Base
 	validates :body, :presence => true
 	validates :user_id, :presence => true
 
+
 	def owner?(user)
 		if self.user_id == user.id
 		  return true

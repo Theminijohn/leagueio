@@ -1,7 +1,3 @@
-// Place all the styles related to the Help controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 .help-hero-unit {
   padding: 30px;
   margin-bottom: 30px;
@@ -113,3 +109,36 @@
   background: #FAFAFA url("http://i.imgur.com/FhxqaOA.jpg") repeat top left;
   padding: 0 15px;
 }
+
+/**/
+
+._hd_foma {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.help_topic_header {
+  padding-bottom: 9px;
+  margin: 20px 0 30px;
+  border-bottom: 1px solid #EEE;
+  h1 {
+    font-size: 31px!important;
+  }
+}
+
+
+/* Side Bar */
+
+.league-docs-sidenav {
+  position: fixed;
+  width: 260px;
+}
+
+.league-docs-sidenav > li > a {
+  display: block;
+  margin: 0 0 -1px;
+  border: 1px solid #E5E5E5;
+  font-size: 14px;
+  color: #34495e;
+}
+

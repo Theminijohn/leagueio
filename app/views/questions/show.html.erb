@@ -1,8 +1,6 @@
 <div class="question_title">
   <h1>
-    <%= link_to @question do %>
-      <%= @question.title %>
-    <% end %>
+    <%= link_to @question.title, @question %>
   </h1>
 </div>
 
@@ -44,7 +42,7 @@
     <div class="question-tags quest_shw">
       <% @question.tags.each do |tag| %>
         <span class="label label-default">
-          <%= link_to tag.name, tag_path(tag.name), class: "css_class" %>
+          <%= link_to tag.name, tag_path(tag.name) %>
         </span>
       <% end %>
     </div>
@@ -52,7 +50,8 @@
     <div class="quest_uc">
       <div class="pull-left" data-no-turbolink="">
         <% if current_user == @question.user %>
-          <small><%= link_to 'Edit', edit_question_path(@question) %> </small>  &nbsp;
+          <small><%= link_to 'Edit', edit_question_path(@question) %> </small> |
+          <small><%= link_to 'Delete', @question, :data => { :confirm => "Are you sure you want to delete your Question?" }, method: :delete %></small> &nbsp;
         <% end %>
 
       </div>

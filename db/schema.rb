@@ -11,14 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131001073225) do
+ActiveRecord::Schema.define(version: 20131003060558) do
 
   create_table "answers", force: true do |t|
     t.integer  "question_id"
     t.text     "body"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
   end
+
+  add_index "answers", ["user_id"], name: "index_answers_on_user_id"
 
   create_table "badges_sashes", force: true do |t|
     t.integer  "badge_id"
@@ -164,5 +167,11 @@ ActiveRecord::Schema.define(version: 20131001073225) do
 
   add_index "votes", ["votable_id", "votable_type", "vote_scope"], name: "index_votes_on_votable_id_and_votable_type_and_vote_scope"
   add_index "votes", ["voter_id", "voter_type", "vote_scope"], name: "index_votes_on_voter_id_and_voter_type_and_vote_scope"
+
+  create_table "whitelists", force: true do |t|
+    t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end

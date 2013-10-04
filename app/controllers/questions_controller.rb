@@ -13,7 +13,7 @@ class QuestionsController < ApplicationController
 		if params[:tag]
 			@questions = Question.tagged_with(params[:tag])
 		else
-			@questions = Question.all
+			@questions = Question.order("created_at desc")
 		end
   end
 
@@ -149,6 +149,6 @@ class QuestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_params
-      params.require(:question).permit(:title, :body, :answer, :tag_list)
+      params.require(:question).permit(:title, :body, :answer, :tag_list, :slug)
     end
 end

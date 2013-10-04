@@ -1,4 +1,13 @@
 class RegistrationsController < Devise::RegistrationsController
+
+	def create
+		unless Whitelist.exists?(:email => params[:user][:email])
+			redirect_to :back, notice: "We are sorry, this Email is not in our Beta List"
+		else
+			super
+		end
+	end
+
 	def update
 		# required for settings form to submit when password is left blank
 		if params[:user][:password].blank?

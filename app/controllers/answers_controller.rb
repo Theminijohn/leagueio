@@ -14,18 +14,19 @@ class AnswersController < ApplicationController
 
   # GET /answers/new
   def new
-    @answer = Answer.new
+		@answer = current_user.answers.new  # User_id
   end
 
   # GET /answers/1/edit
   def edit
+		@answer = current_user.answers.find(params[:id])  # User_id
   end
 
   # POST /answers
   # POST /answers.json
   def create
 		@question = Question.find(params[:question_id])
-    @answer = Answer.new(answer_params)
+    @answer = current_user.answers.new(answer_params)  # User_id
 		@answer.question_id = @question.id
 
     respond_to do |format|

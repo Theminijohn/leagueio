@@ -12,8 +12,9 @@ class User < ActiveRecord::Base
 
 
 	# User Avatar
-	has_attached_file :avatar, styles: { mini: "32x32#",
-																			 profile: "180x180#"}
+	has_attached_file :avatar, styles: { mini: "32x32#", profile: "180x180#"},
+										:path => ":rails_root/public/system/:attachment/:id/:style/:filename",
+										:url => "/system/:attachment/:id/:style/:filename"
 
 	validates_attachment :avatar, content_type: { content_type: ['image/jpeg',
 																															 'image/jpg',
@@ -22,7 +23,7 @@ class User < ActiveRecord::Base
 
 
 	# Relationships
-	has_many :questions, :dependent => :destroy
+	has_many :questions
 	has_many :answers
 
 	acts_as_voter

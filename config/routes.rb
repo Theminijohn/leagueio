@@ -1,20 +1,21 @@
 Terora::Application.routes.draw do
 
+  resources :tags
+
+  get "tags/show"
   resources :questions do
 		resources :answers
 		member do
 			get :upvote
 			get :downvote
-			get :selfvote
 		end
 	end
 
-	root :to => 'pages#home'
+	root :to => 'questions#index'
 
   get 'get_started/welcome'
 	get 'pages/home'
 	get 'pages/tags'
-
 
   devise_for :users, :controllers => { :registrations => 'registrations' },
 						 :path => '', :path_names => {:sign_in => 'login'}
@@ -24,10 +25,13 @@ Terora::Application.routes.draw do
 	get 'user/:id' => 'users#show', as: :user
 
 	# Tags
-	get 'tags/:tag' => 'questions#index', as: :tag
+
 
 	# Help
 	get "help" => 'help#home', as: :help
-
+	get 'help/asking' => 'help#asking'
+	get 'help/answering' => 'help#answering'
+	get 'help/reputation' => 'help#reputation'
+	get 'help/account' => 'help#account'
 
 end

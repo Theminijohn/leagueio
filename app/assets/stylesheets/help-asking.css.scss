@@ -1,0 +1,32 @@
+.help_asking_hero {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding:20px;
+  margin-bottom: 30px;
+  text-align: right;
+  background-image: url('http://i.imgur.com/4eDWxnw.png');
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+
+.help_asking_hero h2 {
+  margin: 0!important;
+}
+
+#topics p {
+  font-size: 15px;
+}
+
+#avoid p {
+  font-size: 15px;
+}
+
+#deleted p {
+  font-size: 15px;
+}
+
+#tags p {
+  font-size: 15px;
+}

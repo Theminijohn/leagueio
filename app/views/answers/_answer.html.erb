@@ -45,7 +45,7 @@
               Needs Fixing 5 mins ago
             </div>
             <div class="user-avtr32">
-              <%= link_to (image_tag("https://www.gravatar.com/avatar/56d512dd848b063128b73faf58ec568a?s=32&amp;d=identicon&amp;r=PG")), @question.user %>
+              <%= link_to (image_tag(@question.user.avatar(:mini))), @question.user %>
             </div>
             <div class="user-details">
               <%= link_to @question.user.user_name, @question.user %><br>
