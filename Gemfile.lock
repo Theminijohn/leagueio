@@ -29,9 +29,9 @@ GEM
     ambry (0.3.1)
     arel (4.0.0)
     atomic (1.1.14)
-    aws-sdk (1.20.0)
+    aws-sdk (1.11.1)
       json (~> 1.4)
-      nokogiri (>= 1.4.4, < 1.6.0)
+      nokogiri (>= 1.4.4)
       uuidtools (~> 2.1)
     bcrypt-ruby (3.1.2-x86-mingw32)
     builder (3.1.4)
@@ -83,9 +83,9 @@ GEM
     hike (1.2.3)
     httpclient (2.3.4.1)
     i18n (0.6.5)
-    impressionist (1.4.0)
+    impressionist (1.4.10)
       httpclient (~> 2.2)
-      nokogiri (~> 1.5)
+      nokogiri (~> 1.6.0)
     jbuilder (1.5.1)
       activesupport (>= 3.0.0)
       multi_json (>= 1.2.0)
@@ -110,10 +110,12 @@ GEM
       ambry (~> 0.3.0)
     method_source (0.8.2)
     mime-types (1.25)
+    mini_portile (0.5.1)
     minitest (4.7.5)
     multi_json (1.8.1)
     newrelic_rpm (3.6.7.159)
-    nokogiri (1.5.10-x86-mingw32)
+    nokogiri (1.6.0-x86-mingw32)
+      mini_portile (~> 0.5.0)
     orm_adapter (0.4.0)
     paperclip (3.4.2)
       activemodel (>= 3.0.0)
@@ -220,7 +222,7 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_votable (~> 0.7.1)
-  aws-sdk (~> 1.20.0)
+  aws-sdk
   chosen-rails
   ckeditor
   coffee-rails (~> 4.0.0)

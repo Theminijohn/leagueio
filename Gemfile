@@ -25,7 +25,7 @@ gem "ckeditor"
 
 # Paperclip
 gem 'paperclip', '~>3.4.2'
-gem 'aws-sdk', '~> 1.20.0'
+gem 'aws-sdk'
 
 # Tags
 gem 'chosen-rails'
