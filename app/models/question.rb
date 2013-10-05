@@ -8,8 +8,8 @@ class Question < ActiveRecord::Base
   has_many :taggings
   has_many :tags, through: :taggings
 
-	validates :title, :presence => true
-	validates :body, :presence => true
+	validates :title, :presence => true, length: { minimum: 15 }
+	validates :body, :presence => true, length: { minimum: 30 }
 	validates :user_id, :presence => true
 
 

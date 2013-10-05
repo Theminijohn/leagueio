@@ -14,6 +14,7 @@ Terora::Application.routes.draw do
 	root :to => 'questions#index'
 
   get 'get_started/welcome'
+	get 'get_started/thanks'
 	get 'pages/home'
 	get 'pages/tags'
 
