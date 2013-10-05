@@ -82,7 +82,6 @@ Terora::Application.configure do
 	config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
 	# Amazon S3 for Paperclip
-	# Amazon S3 for Paperclip
 	config.paperclip_defaults = {
 		:storage => :s3,
 		:s3_credentials => {
