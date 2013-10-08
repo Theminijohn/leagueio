@@ -1494,24 +1494,27 @@
     background-size: 52px 37px !important;
     background-repeat: no-repeat !important; } }
 /* @end */
-/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/answers.css.scss */
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/answers.css.scss */
 .answr_inner_body {
   background-color: #F7F7F7;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  padding: 10px; }
+  padding: 10px;
+}
 
-/* line 9, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/answers.css.scss */
+/* line 9, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/answers.css.scss */
 .answr_inner_body p {
   font-size: 14px;
-  margin: 0 !important; }
+  margin: 0 !important;
+}
 
-/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/answers.css.scss */
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/answers.css.scss */
 .clear_it_nicely {
   border-bottom: 1px solid #AAA;
   padding-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
 .clearfix:after{clear:both;}
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
@@ -8539,10 +8542,10 @@ input.search-query {
   padding: 0;
 }
 .tab-content {
-  border: 2px solid #ddd;
+  /*border: 2px solid #ddd;*/
   border-radius: 6px;
   margin-bottom: 20px;
-  padding: 20px 20px 10px;
+  /*padding: 20px 20px 10px;*/
   position: relative;
   z-index: 1;
 }
@@ -9055,9 +9058,6 @@ input.search-query {
   -webkit-background-clip: border-box;
   -moz-background-clip: border-box;
   background-clip: border-box;
-  -webkit-box-shadow: -14px 14px 0 0 rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: -14px 14px 0 0 rgba(0, 0, 0, 0.35);
-  box-shadow: -14px 14px 0 0 rgba(0, 0, 0, 0.35);
 }
 @media (max-width: 767px) {
   .modal {
@@ -9672,7 +9672,106 @@ li {
 /* line 100, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
 .site-footer a:hover {
   color: #BDC3C7; }
-/* line 5, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
+.help_answering_hero {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: right;
+  background-image: url("http://i.imgur.com/4eDWxnw.png");
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
+.help_answering_hero h2 {
+  margin: 0 !important;
+}
+
+/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
+#accepted p {
+  font-size: 15px;
+}
+
+/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
+#goodanswer p {
+  font-size: 15px;
+}
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+.help_asking_hero {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: right;
+  background-image: url("http://i.imgur.com/4eDWxnw.png");
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+.help_asking_hero h2 {
+  margin: 0 !important;
+}
+
+/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#topics p {
+  font-size: 15px;
+}
+
+/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#avoid p {
+  font-size: 15px;
+}
+
+/* line 26, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#deleted p {
+  font-size: 15px;
+}
+
+/* line 30, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#tags p {
+  font-size: 15px;
+}
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
+.help_reputation_hero {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: right;
+  background-image: url("http://i.imgur.com/4eDWxnw.png");
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
+.help_reputation_hero h2 {
+  margin: 0 !important;
+}
+
+/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
+#reputation p {
+  font-size: 15px;
+}
+
+/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
+#moderators p {
+  font-size: 15px;
+}
+
+/* line 26, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
+#voting p {
+  font-size: 15px;
+}
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 .help-hero-unit {
   padding: 30px;
   margin-bottom: 30px;
@@ -9684,9 +9783,10 @@ li {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  background: url("http://i.imgur.com/LxKHr1X.png"); }
+  background: url("http://i.imgur.com/LxKHr1X.png");
+}
 
-/* line 19, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 15, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 .help-hero-unit h1 {
   font-size: 30px;
   color: #ECF0F1;
@@ -9698,9 +9798,10 @@ li {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor: default; }
+  cursor: default;
+}
 
-/* line 33, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 29, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 .help-hero-unit .desc {
   color: #ECF0F1;
   text-shadow: 0 1px 10px #272822;
@@ -9710,33 +9811,38 @@ li {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  cursor: default; }
+  cursor: default;
+}
 
 /* Small Pictures */
-/* line 47, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 43, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 .h_w {
   overflow: auto;
-  text-align: center; }
+  text-align: center;
+}
 
-/* line 52, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 48, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 .hd_b {
   font-size: 16px;
   font-weight: bold;
   margin-top: 10px;
   display: block;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
-/* line 60, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 56, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 ._hd {
   margin-right: 20px;
   display: inline-block;
-  text-align: center; }
+  text-align: center;
+}
 
-/* line 66, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 62, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 ._hd:last-child {
-  margin-right: 0; }
+  margin-right: 0;
+}
 
-/* line 70, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 66, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 ._hd img {
   opacity: .85;
   width: 200px;
@@ -9747,9 +9853,10 @@ li {
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
-  border-bottom: 1px solid #c4c4c4; }
+  border-bottom: 1px solid #c4c4c4;
+}
 
-/* line 83, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 79, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 ._hd img:before, ._hd img:after {
   content: '';
   position: absolute;
@@ -9759,30 +9866,69 @@ li {
   height: 10px;
   background: inherit;
   border-bottom: 1px solid #d2d2d2;
-  border-radius: 4px; }
+  border-radius: 4px;
+}
 
-/* line 94, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 90, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 ._hd img:after {
   bottom: 3px;
-  border-color: #dcdcdc; }
+  border-color: #dcdcdc;
+}
 
-/* line 99, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 95, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 ._hd a:hover img {
-  opacity: 1; }
+  opacity: 1;
+}
 
-/* line 103, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 99, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 .hd_intr h4 {
   font-size: 50px;
   font-weight: bold;
   position: relative;
   padding: 20px 0;
   background: url("http://i.imgur.com/3NCTAP0.png") center center repeat-x;
-  text-align: center; }
+  text-align: center;
+}
 
-/* line 112, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/help.css.scss */
+/* line 108, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 .hd_intr h4 span {
   background: #fafafa url("http://i.imgur.com/FhxqaOA.jpg") repeat top left;
-  padding: 0 15px; }
+  padding: 0 15px;
+}
+
+/**/
+/* line 115, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
+._hd_foma {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+/* line 120, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
+.help_topic_header {
+  padding-bottom: 9px;
+  margin: 20px 0 30px;
+  border-bottom: 1px solid #EEE;
+}
+/* line 124, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
+.help_topic_header h1 {
+  font-size: 31px !important;
+}
+
+/* Side Bar */
+/* line 132, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
+.league-docs-sidenav {
+  position: fixed;
+  width: 260px;
+}
+
+/* line 137, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
+.league-docs-sidenav > li > a {
+  display: block;
+  margin: 0 0 -1px;
+  border: 1px solid #E5E5E5;
+  font-size: 14px;
+  color: #34495e;
+}
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
 .scnd_ndr_mn_cnt {
   margin-left: 10px;
@@ -9901,122 +10047,175 @@ li {
 /* line 58, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
 .nw_quest_links a:hover {
   color: #37b3ff; }
-/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/profile.css.scss */
+.usr_profile_avtr {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  width: 180px;
+  height: 180px; }
+
+/* line 10, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/profile.css.scss */
+.usr_profile_usr_info {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  background-image: url("http://i.imgur.com/GJLK9yu.png"); }
+
+/* line 19, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/profile.css.scss */
+.usr_profile_usr_lp {
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822; }
+
+/* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/profile.css.scss */
+.usr_profile_usr_name {
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822; }
+
+/* line 29, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/profile.css.scss */
+.undr_profile_usr_info {
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px; }
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .fill {
-  background-color: darkgray; }
+  background-color: darkgray;
+}
 
 /* Span 1*/
-/* line 7, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 7, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar {
   background-color: #f2f2f2;
   border-radius: 6px;
   -webkit-backface-visibility: hidden;
-  margin-left: 25px; }
+  margin-left: 25px;
+}
 
-/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar:before,
 .votebar:after {
   display: table;
-  content: ""; }
+  content: "";
+}
 
-/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar:after {
-  clear: both; }
+  clear: both;
+}
 
-/* line 21, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 21, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar > ul {
   display: block;
   list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-/* line 27, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 27, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar > ul > li {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-/* line 31, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 31, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar > ul > li.active > a {
-  color: #1abc9c; }
+  color: #1abc9c;
+}
 
-/* line 34, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 34, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar > ul > li:first-child > a {
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
-/* line 37, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 37, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar > ul > li > a {
   color: #cfcfcf;
   display: block;
   font-size: 23.996px;
   padding: 8px 5px 5px;
   position: relative;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
-/* line 46, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 46, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar > ul > li > a:hover,
 .votebar > ul > li > a:focus {
-  color: #a8a8a8; }
+  color: #a8a8a8;
+}
 
 /* Vote Bar on Answer*/
-/* line 52, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 52, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar-question {
   border-radius: 6px;
   -webkit-backface-visibility: hidden;
-  margin-left: 25px; }
+  margin-left: 25px;
+}
 
-/* line 58, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 58, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar-question:before,
 .votebar-question:after {
   display: table;
-  content: ""; }
+  content: "";
+}
 
-/* line 62, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 62, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar-question:after {
-  clear: both; }
+  clear: both;
+}
 
-/* line 65, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 65, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar-question > ul {
   display: block;
   list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-/* line 71, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 71, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar-question > ul > li {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
-/* line 75, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 75, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar-question > ul > li.active > a {
-  color: #1abc9c; }
+  color: #1abc9c;
+}
 
-/* line 78, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 78, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar-question > ul > li:first-child > a {
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
-/* line 81, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 81, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar-question > ul > li > a {
   color: #cfcfcf;
   display: block;
   font-size: 23.996px;
   padding: 8px 5px 5px;
   position: relative;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
-/* line 90, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 90, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .votebar-question > ul > li > a:hover,
 .votebar-question > ul > li > a:focus {
-  color: #a8a8a8; }
+  color: #a8a8a8;
+}
 
 /* Span 8 */
-/* line 97, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 97, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .question_title {
   clear: both;
   width: 100%;
   border-bottom: 1px dotted #E1DFDC;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
-/* line 104, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 104, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .question_title h1 {
   font-size: 24px;
   padding: 10px;
@@ -10025,79 +10224,104 @@ li {
   margin-bottom: 0 !important;
   font-weight: bold;
   font-size: 170%;
-  margin-bottom: 7px; }
+  margin-bottom: 7px;
+}
 
-/* line 115, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 115, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
+.question_title h1 a {
+  color: #34495e;
+}
+
+/* line 119, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .quest_shw {
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
-/* line 119, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 123, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .quest_uc {
-  padding-top: 10px; }
+  padding-top: 10px;
+}
 
-/* line 123, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 127, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .quest_answrs {
-  padding-top: 20px; }
+  padding-top: 20px;
+}
 
-/* line 127, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 131, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .owner {
   background-color: #f7f7f7;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  padding: 5px 2px 7px 7px; }
+  padding: 5px 2px 7px 7px;
+}
 
-/* line 134, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 138, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .post-signature {
   text-align: left;
   vertical-align: top;
   width: 175px;
-  height: 58px; }
+  height: 58px;
+}
 
-/* line 141, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 145, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .user-info {
   height: 35px;
-  width: 185px; }
+  width: 185px;
+}
 
-/* line 146, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 150, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .user-info .user-action-time {
   margin-top: 2px;
-  margin-bottom: 4px; }
+  margin-bottom: 4px;
+}
 
-/* line 151, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 155, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .user-info .user-avtr32 {
   float: left;
   width: 32px;
-  height: 32px; }
+  height: 32px;
+}
 
-/* line 157, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 161, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
+.user-info .user-avtr32 img {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 167, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .user-info .user-details {
   float: left;
   margin-left: 5px;
   width: 145px;
   overflow: hidden;
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
-/* line 165, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 175, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .user-details {
   color: #888;
-  line-height: 17px; }
+  line-height: 17px;
+}
 
 /* Span 3 */
-/* line 173, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 183, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .quest_wdgt {
   background-color: #f7f7f7;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  padding: 10px; }
+  padding: 10px;
+}
 
-/* line 182, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 192, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .quest_wdgt p {
-  margin: 0 !important; }
+  margin: 0 !important;
+}
 
-/* line 186, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 196, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .quest_mr_inf {
   text-align: center;
   background-color: #f7f7f7;
@@ -10105,9 +10329,10 @@ li {
   -webkit-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
-  padding: 10px; }
+  padding: 10px;
+}
 
-/* line 196, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/question-show-page.css.scss */
+/* line 206, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .answers_counter {
   background-color: #d8dce0;
   border-radius: 5px;
@@ -10116,7 +10341,8 @@ li {
   font-weight: 500;
   float: left;
   margin: 1px -4px -1px 0;
-  padding: 0px 8px; }
+  padding: 0px 8px;
+}
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/question_answer.css.scss */
 .bottom-notice {
   padding-top: 10px;
@@ -10127,99 +10353,118 @@ li {
   font-size: 18px;
   padding-left: 10px !important; }
 /* Questions Index Style */
-/* line 4, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 4, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .question-summary {
   border-top: 1px solid #EAEAEA;
   overflow: hidden;
   padding: 11px 0px;
   width: 100%;
-  float: left; }
+  float: left;
+}
 
-/* line 12, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 12, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .cp {
-  cursor: pointer; }
+  cursor: pointer;
+}
 
-/* line 16, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 16, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .narrow .votes {
   background: rgba(0, 0, 0, 0);
   float: left;
   margin: 0 3px 0 0;
   padding: 5px;
   width: 38px;
-  height: 38px; }
+  height: 38px;
+}
 
-/* line 25, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 25, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .votes {
   color: #555;
   padding: 0 0 7px 0;
-  text-align: center; }
+  text-align: center;
+}
 
-/* line 31, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 31, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .mini-counts {
   height: 25px;
   font-size: 160%;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
-/* line 37, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 37, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .narrow .status {
   float: left;
   margin: 0 3px 0 0;
   padding: 5px;
   width: 48px;
-  height: 38px; }
+  height: 38px;
+}
 
-/* line 44, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 44, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .unanswered {
   background: rgba(0, 0, 0, 0);
   color: #9A4444;
-  color: #9A4444; }
+  color: #9A4444;
+}
 
-/* line 49, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 49, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .status {
   margin-top: -3px;
   padding: 4px 0 4px;
-  text-align: center; }
+  text-align: center;
+}
 
-/* line 55, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 55, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .narrow .views {
   float: left;
   margin: 0 7px 0 0;
   padding: 5px 0px 5px 4px;
   width: 40px;
-  height: 38px; }
+  height: 38px;
+}
 
-/* line 62, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 62, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .views {
   padding-top: 4px;
   color: #999;
-  text-align: center; }
+  text-align: center;
+}
 
-/* line 68, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 68, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .narrow .summary {
-  width: 690px; }
+  width: 690px;
+}
 
-/* line 72, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 72, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .summary {
   float: left;
   width: 100%;
-  margin-left: 10px; }
+  margin-left: 10px;
+}
 
-/* line 78, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
-.question-hyperlink a {
-  text-decoration: none;
-  cursor: pointer; }
+/* line 78, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
+.summary a {
+  color: #34495e;
+}
 
-/* line 83, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 82, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
+.summary a:hover {
+  color: #587698;
+}
+
+/* line 86, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .tags {
   line-height: 18px;
-  float: left; }
+  float: left;
+}
 
-/* line 88, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 91, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .question-tags .label a {
   text-decoration: none;
-  color: #7B8996; }
+  color: #7B8996;
+}
 
-/* line 93, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 96, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .post-tag {
   color: #3E6D8E;
   background-color: #E0EAF1;
@@ -10230,75 +10475,87 @@ li {
   text-decoration: none;
   font-size: 90%;
   line-height: 2.4;
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
-/* line 107, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 110, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .narrow .started {
   line-height: inherit;
   padding-top: 4px;
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
-/* line 114, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 117, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .started {
   color: #999;
   float: right;
-  line-height: 18px; }
+  line-height: 18px;
+}
 
-/* line 121, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 124, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .started .reputation-score {
   margin-left: 1px;
   font-size: 100% !important;
-  font-weight: normal !important; }
+  font-weight: normal !important;
+}
 
-/* line 126, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 129, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .reputation-score {
   font-weight: bold;
   color: #444;
   font-size: 100%;
-  margin-right: 2px; }
+  margin-right: 2px;
+}
 
 /* The Actual Question Text */
-/* line 136, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 139, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .qest_inner_boddy {
   background-color: #f7f7f7;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  padding: 10px; }
+  padding: 10px;
+}
 
-/* line 144, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/questions.css.scss */
+/* line 147, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .qest_inner_boddy p {
   font-size: 14px;
-  margin: 0 !important; }
-/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/register.css.scss */
+  margin: 0 !important;
+}
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/register.css.scss */
 .hero-content {
-  top: 50%; }
+  top: 50%;
+}
 
-/* line 5, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/register.css.scss */
+/* line 5, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/register.css.scss */
 .hero-content hgroup {
   margin: 80px 0 20px 0;
-  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.4); }
+  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.4);
+}
 
-/* line 10, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/register.css.scss */
+/* line 10, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/register.css.scss */
 .hero-content hgroup h1 {
   color: #270836;
   margin-bottom: 80px;
   font-size: 60px;
-  line-height: 60px; }
+  line-height: 60px;
+}
 
-/* line 17, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/register.css.scss */
+/* line 17, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/register.css.scss */
 .hero-content hgroup h2 {
   color: #34495e;
   font-size: 30px;
   line-height: 40px;
-  margin-top: 100px; }
+  margin-top: 100px;
+}
 
-/* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/register.css.scss */
+/* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/register.css.scss */
 .home-hero {
   padding: 60px 0;
   background: url(http://i.imgur.com/YUWpAbu.png) no-repeat center -80px;
   text-align: center;
-  /*border-bottom: 1px solid #C6E0F0;*/ }
+  /*border-bottom: 1px solid #C6E0F0;*/
+}
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
 .tagsinput {
   background: white;
@@ -10435,29 +10692,96 @@ li {
 .tagsinput-primary .tag {
   background-color: #1abc9c;
   color: #ffffff; }
-/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/welcome.css.scss */
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/thanks.css.scss */
+.thanks-hero-unit {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  padding: 20px;
+  background-image: url("http://i.imgur.com/aerJVYh.png");
+  text-align: center;
+}
+
+/* line 11, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/thanks.css.scss */
+.thanks-hero-unit h1 {
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+
+/* line 16, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/thanks.css.scss */
+.thanks-hero-unit p {
+  margin: 0 !important;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/welcome.css.scss */
 .wlcm_hero_unit {
   padding: 30px;
   margin-bottom: 30px;
   font-size: 18px;
   font-weight: 200;
   line-height: 30px;
-  background-color: #ECF0F1;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
-  border-radius: 6px; }
+  border-radius: 6px;
+  background-image: url("http://i.imgur.com/naHrvNF.png");
+}
 
-/* line 13, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/welcome.css.scss */
+/* line 13, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/welcome.css.scss */
 .wlcm_hero_unit .wlcm_greeting {
-  text-align: center; }
-  /* line 15, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/welcome.css.scss */
-  .wlcm_hero_unit .wlcm_greeting h3 {
-    margin-top: -20px; }
+  text-align: center;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+/* line 17, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/welcome.css.scss */
+.wlcm_hero_unit .wlcm_greeting .wlcm_first {
+  margin-top: -20px;
+}
 
-/* line 20, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/welcome.css.scss */
+/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/welcome.css.scss */
 .wlcm_hero_unit .wlcm_shares {
-  text-align: center; }
+  text-align: center;
+}
 
-/* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/welcome.css.scss */
+/* line 26, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/welcome.css.scss */
 .wlcm_hero_unit .wlcm_intro {
-  text-align: center; }
+  text-align: center;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/widgets.css.scss */
+.index_wlcm_beta {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  font-size: 18px;
+  font-weight: bold;
+  background-image: url("http://i.imgur.com/H39Qh90.png");
+}
+
+/* Question Show */
+/* line 17, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/widgets.css.scss */
+.quest_wdgt {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  padding: 10px;
+  font-weight: bold;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  background-image: url("http://i.imgur.com/bnqFC1d.png");
+}
+
+/* line 29, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/widgets.css.scss */
+.quest_wdgt p {
+  margin: 0 !important;
+}
