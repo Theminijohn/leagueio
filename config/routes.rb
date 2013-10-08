@@ -1,17 +1,23 @@
 Terora::Application.routes.draw do
 
+	root :to => 'questions#index'
+
   resources :tags
 
   get "tags/show"
   resources :questions do
-		resources :answers
+		resources :answers do
+		  member do
+			  get :upvote
+			  get :downvote
+				get :accept_toggle
+			end
+		end
 		member do
 			get :upvote
 			get :downvote
 		end
 	end
-
-	root :to => 'questions#index'
 
   get 'get_started/welcome'
 	get 'get_started/thanks'
@@ -24,8 +30,6 @@ Terora::Application.routes.draw do
 	# User Profile
 	get 'users/show'
 	get 'user/:id' => 'users#show', as: :user
-
-	# Tags
 
 
 	# Help

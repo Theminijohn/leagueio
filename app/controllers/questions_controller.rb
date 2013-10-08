@@ -140,7 +140,6 @@ class QuestionsController < ApplicationController
   # look, that should do it for the question owner. Cool, can i pass the message ?
 
 
-
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_question

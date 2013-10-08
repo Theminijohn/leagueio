@@ -7,16 +7,22 @@
       <div class="votebar-question">
         <ul>
           <li>
-            <%= link_to "", root_path,
+            <%= link_to "", upvote_question_answer_path(@question, answer),
                         class: "fui-triangle-up" %>
           </li>
           <li style="color: #bcbcbc; font-weight: bold">
-            0
+            <%= answer.votes_count %>
           </li>
           <li>
-            <%= link_to "", root_path,
+            <%= link_to "", downvote_question_answer_path(@question, answer),
                         class: "fui-triangle-down" %>
           </li>
+          <% if current_user == @question.user %>
+              <li>
+                <%= link_to "", accept_toggle_question_answer_path(@question, answer),
+                            class: "fui-check" %>
+              </li>
+          <% end %>
         </ul>
       </div>
     </div>
@@ -29,10 +35,10 @@
 
     <div class="quest_uc">
       <div class="pull-left" data-no-turbolink="">
-
-          <small><%= link_to 'Edit', root_path %></small> |
-          <small><%= link_to 'Delete', root_path %></small>
-
+          <% if current_user == answer.user %>
+          <small><%= link_to 'Edit', edit_question_answer_path(@question, answer) %></small> |
+          <small><%= link_to 'Delete', question_answer_path(@question, answer), :data => { :confirm => "Are you sure you want to delete your Question?" }, method: :delete %></small>
+          <% end %>
       </div>
 
       <!-- Question Owner(User) -->
@@ -42,15 +48,15 @@
 
           <div class="user-info ">
             <div class="user-action-time">
-              Needs Fixing 5 mins ago
+              answered <%= time_ago_in_words(answer.created_at) %> ago
             </div>
             <div class="user-avtr32">
-              <%= link_to (image_tag(@question.user.avatar(:mini))), @question.user %>
+              <%= link_to (image_tag(answer.user.avatar(:mini))), answer.user %>
             </div>
             <div class="user-details">
-              <%= link_to @question.user.user_name, @question.user %><br>
+              <%= link_to answer.user.user_name, answer.user %> 
               <span class="reputation-score" title="reputation score">
-                <%= @question.user.points %>
+                <%= answer.user.points %>
               </span>
             </div>
           </div>

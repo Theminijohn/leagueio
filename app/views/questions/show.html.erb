@@ -161,7 +161,7 @@
     <%= simple_form_for([@question, @question.answers.new]) do |f| %>
       <%= f.error_notification %>
 
-      <%= f.input :body, :as => :ckeditor %>
+      <%= f.input :body, :as => :ckeditor, label: false %>
 
       <div class="form-actions">
         <%= f.submit "Post your Answer", class: "btn btn-info" %>

@@ -12,6 +12,9 @@ class Question < ActiveRecord::Base
 	validates :body, :presence => true, length: { minimum: 30 }
 	validates :user_id, :presence => true
 
+	def has_accepted_answer?
+		self.answers.where(accepted: true).any?
+	end
 
 	def owner?(user)
 		if self.user_id == user.id
