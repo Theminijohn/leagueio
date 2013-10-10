@@ -3,7 +3,7 @@ class QuestionsController < ApplicationController
 	impressionist :actions => [:show]
 
   before_action :set_question, only: [:show, :edit, :update, :destroy]
-	before_action :authenticate_user!
+	before_action :authenticate_user!, :except => [:index]
 
 
   # GET /questions
