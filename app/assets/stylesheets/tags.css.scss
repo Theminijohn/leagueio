@@ -1,3 +1,198 @@
-// Place all the styles related to the Tags controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.tag-hero-unit {
+  padding:20px;
+  margin-bottom:30px;
+  font-size:18px;
+  font-weight:200;
+  line-height:30px;
+  background-image: url('https://s3.amazonaws.com/leagueio/design/tags/tags-hero-unit.png');
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  cursor: default;
+
+  h1 {
+    text-align: right;
+    margin-bottom:0;
+    font-size:50px;
+    line-height:1;
+    letter-spacing:-1px;
+    margin: 0!important;
+      }
+  p {
+    margin: 0!important;
+    font-size: 15px;
+  }
+}
+
+/* Tag Cards */
+
+/* Champions --> */
+
+.champs-tag-card {
+  margin: 0 0 20px;
+  -moz-box-shadow: 0 1px 4px #ccc;
+  -webkit-box-shadow: 0 1px 4px #CCC;
+  box-shadow: 0 1px 4px #CCC;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  float: left;
+  margin-left: 16px;
+  opacity: .8;
+}
+
+.champs-tag-card:hover {
+  opacity: 1;
+  -moz-box-shadow: 0 1px 4px #263c65;
+  -webkit-box-shadow: 0 1px 4px #263c65;
+  box-shadow: 0 1px 4px #263c65;
+}
+
+.champs-tag-card .champs-img-wrapper {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  -khtml-border-radius-topright: 3px;
+  -khtml-border-radius-topleft: 3px;
+}
+
+.champs-tag-card .champs-tag-name {
+  padding: 5px;
+  text-align: center;
+  color: #6f7b89;
+}
+
+
+/* Maps -->*/
+
+.maps-tag-card {
+  margin: 0 0 20px;
+  -moz-box-shadow: 0 1px 4px #ccc;
+  -webkit-box-shadow: 0 1px 4px #CCC;
+  box-shadow: 0 1px 4px #CCC;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  float: left;
+  margin-left: 16px;
+  opacity: .8;
+}
+
+.maps-tag-card:hover {
+  opacity: 1;
+  -moz-box-shadow: 0 1px 4px #263c65;
+  -webkit-box-shadow: 0 1px 4px #263c65;
+  box-shadow: 0 1px 4px #263c65;
+}
+
+.maps-tag-card .maps-img-wrapper {
+  height: 200px;
+  width: 370px;
+  overflow: hidden;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  -khtml-border-radius-topright: 3px;
+  -khtml-border-radius-topleft: 3px;
+}
+
+.maps-tag-card .maps-tag-name {
+  padding: 5px;
+  text-align: center;
+  color: #6f7b89;
+}
+
+/* Spells --> */
+
+.spells-tag-card {
+  margin: 0 0 20px;
+  -moz-box-shadow: 0 1px 4px #ccc;
+  -webkit-box-shadow: 0 1px 4px #CCC;
+  box-shadow: 0 1px 4px #CCC;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  float: left;
+  margin-left: 16px;
+  opacity: .8;
+}
+
+.spells-tag-card:hover {
+  opacity: 1;
+  -moz-box-shadow: 0 1px 4px #263c65;
+  -webkit-box-shadow: 0 1px 4px #263c65;
+  box-shadow: 0 1px 4px #263c65;
+}
+
+.spells-tag-card .spells-img-wrapper {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  -khtml-border-radius-topright: 3px;
+  -khtml-border-radius-topleft: 3px;
+}
+
+.spells-tag-card .spells-tag-name {
+  padding: 5px;
+  text-align: center;
+  color: #6f7b89;
+}
+
+/* Tag Show Page */
+
+.spec_tag_hero_unit {
+  padding:20px;
+  margin-bottom:5px;
+  font-size:18px;
+  font-weight:200;
+  line-height:30px;
+  background-image: url('https://s3.amazonaws.com/leagueio/design/tags/tags-hero-unit.png');
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  cursor: default;
+
+  h1 {
+    text-align: right;
+    margin-bottom:0;
+    font-size:50px;
+    line-height:1;
+    letter-spacing:-1px;
+    margin: 0!important;
+  }
+  p {
+    margin: 0!important;
+    font-size: 15px;
+  }
+}
+
+.undr_spec_tag_hero_unit {
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+}

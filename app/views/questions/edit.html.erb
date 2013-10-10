@@ -6,12 +6,12 @@
     <%= simple_form_for(@question) do |f| %>
       <%= f.error_notification %>
 
-      <%= f.input :title, input_html: { class: 'span5' },
+      <%= f.input :title, input_html: { class: 'span5' }, label: false,
                   placeholder: "What's your Question? Be specific." %>
 
       <%#= f.input :body, input_html: { :class => "redactor" }, label: false %>
 
-      <%= f.input :body, :as => :ckeditor %>
+      <%= f.input :body, :as => :ckeditor, label: false %>
 
 
 

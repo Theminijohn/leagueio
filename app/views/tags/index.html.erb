@@ -1,26 +1,102 @@
-<h1>Listing tags</h1>
+<div class="tag-hero-unit">
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
+  <div class="pull-left">
+    <p>
+      <b>
+        A tag is a keyword or label that categorizes your question with other,
+        similar questions. <br> Using the right tags makes it easier for others to
+        find and answer your question.
+      </b>
+    </p>
+  </div>
 
-  <tbody>
-    <% @tags.each do |tag| %>
-      <tr>
-        <td><%= tag.name %></td>
-        <td><%= link_to 'Show', tag %></td>
-        <td><%= link_to 'Edit', edit_tag_path(tag) %></td>
-        <td><%= link_to 'Destroy', tag, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+  <div class="pull-right">
+    <h1>Tags</h1>
+  </div>
+
+  <div class="clearfix"></div>
+
+</div>
+
+<ul id="myTab" class="nav nav-tabs">
+  <li class="active">
+    <a href="#champions" data-toggle="tab">
+      Champions
+    </a>
+  </li>
+  <li class="">
+    <a href="#items" data-toggle="tab">
+      Items
+    </a>
+  </li>
+  <li>
+    <a href="#maps" data-toggle="tab">
+      Maps
+    </a>
+  </li>
+  <li>
+    <a href="#spells" data-toggle="tab">
+      Spells
+    </a>
+  </li>
+</ul>
+
+
+<div id="myTabContent" class="tab-content">
+
+  <div class="tab-pane fade active in" id="champions">
+    <% @tags_champions.each do |ctag| %>
+      <%= link_to tag_path(ctag.name) do %>
+        <div class="champs-tag-card">
+          <div class="champs-img-wrapper">
+            <%= image_tag("https://s3.amazonaws.com/leagueio/tags/champions/#{ctag.name}.png") %>
+          </div>
+          <div class="champs-tag-name">
+            <%= ctag.name %>
+          </div>
+        </div>
+      <% end %>
     <% end %>
-  </tbody>
-</table>
+  </div>
+
+  <div class="tab-pane fade" id="items">
+    <% @tags_items.each do |ctag| %>
+      <%= link_to ctag.name, tag_path(ctag.name) %>
+      <br>
+    <% end %>
+  </div>
+
+  <div class="tab-pane fade" id="maps">
+    <% @tags_maps.each do |ctag| %>
+      <%= link_to tag_path(ctag.name) do %>
+        <div class="maps-tag-card">
+          <div class="maps-img-wrapper">
+            <%= image_tag("https://s3.amazonaws.com/leagueio/tags/maps/#{ctag.name}.png") %>
+          </div>
+          <div class="maps-tag-name">
+            <%= ctag.name %>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+
+  <div class="tab-pane fade" id="spells">
+    <% @tags_spells.each do |ctag| %>
+      <%= link_to tag_path(ctag.name) do %>
+        <div class="spells-tag-card">
+          <div class="spells-img-wrapper">
+            <%= image_tag("https://s3.amazonaws.com/leagueio/tags/spells/#{ctag.name}.png") %>
+          </div>
+          <div class="spells-tag-name">
+            <%= ctag.name %>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+
+</div>
 
 <br>
 

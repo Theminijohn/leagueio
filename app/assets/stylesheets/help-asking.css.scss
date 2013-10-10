@@ -6,7 +6,7 @@
   padding:20px;
   margin-bottom: 30px;
   text-align: right;
-  background-image: url('http://i.imgur.com/4eDWxnw.png');
+  background-image: url('https://s3.amazonaws.com/leagueio/design/help/hero-units/help-hero-unit-inside.png');
   color: #ECF0F1;
   text-shadow: 0 1px 10px #272822;
 }
@@ -28,5 +28,13 @@
 }
 
 #tags p {
+  font-size: 15px;
+}
+
+#answered p {
+  font-size: 15px;
+}
+
+#goodquestion p {
   font-size: 15px;
 }

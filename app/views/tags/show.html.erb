@@ -1,6 +1,23 @@
-<h1>Tag <%= @tag.name %></h1>
+<div class="spec_tag_hero_unit">
+  <h1><%= @tag.name %></h1>
+</div>
+
+<div class="undr_spec_tag_hero_unit">
+
+  <div class="pull-left">
+
+  </div>
+
+  <div class="pull-right">
+    We have <b><%= @tag.questions.count %> Questions</b> for <%= @tag.name %>
+  </div>
+
+  <div class="clearfix"></div>
+
+</div>
+
 <p>
-	<%= @tag.questions.count %>
+
 </p>
 
 

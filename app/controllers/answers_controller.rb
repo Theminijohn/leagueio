@@ -70,7 +70,7 @@ class AnswersController < ApplicationController
   def upvote
     @answer = Answer.find(params[:id])
     if @answer.owner?(current_user)
-      message = "You can't vote your own answer."
+      message = "You can't vote for your own answer."
     else
       if current_user.liked? @answer
         message = "You have voted for this answer."
@@ -80,12 +80,12 @@ class AnswersController < ApplicationController
           @answer.user.add_points(2) # add 2 points previously removed on downvoting
 					current_user.add_points(1) # add 1 point previously removed
           increment_votes_count
-          message = "Downvote removed.."
+          message = "Downvote removed!"
         else
           current_user.up_votes @answer
           @answer.user.add_points(10)
           increment_votes_count
-          message = "Vote added..." # test time !:)
+          message = "Vote added!" # test time !:)
         end
       end
     end
@@ -98,7 +98,7 @@ class AnswersController < ApplicationController
       message = "You can't vote your own answer"
     else
       if current_user.disliked? @answer
-        message = "You can downvote once..."
+        message = "You can downvote only once..."
       else
         if current_user.liked? @answer # it will remove the upvote, not downvoting
           @answer.find_votes(voter_id: current_user.id).first.destroy #remove upvote
@@ -136,7 +136,7 @@ class AnswersController < ApplicationController
     if @question.owner?(current_user)
       if @answer.accepted
         reject_answer
-        message = "Answer rejected"
+        message = "You rejected this"
       else
         if @question.has_accepted_answer?
     			accepted_answer = @question.answers.where(accepted: true).first
@@ -145,11 +145,11 @@ class AnswersController < ApplicationController
           message = "Accepted answer was changed!"
     		else
           accept_answer
-          message = "Answer accepted!"
+          message = "You successfully accepted this Answer!"
     		end
       end
     else
-      message = "You are not owner of this question." # in case someone does a hack
+      message = "I see what you did there..." # in case someone does a hack
     end
 
     redirect_to :back, notice: message

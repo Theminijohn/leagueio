@@ -3,7 +3,7 @@ class QuestionsController < ApplicationController
 	impressionist :actions => [:show]
 
   before_action :set_question, only: [:show, :edit, :update, :destroy]
-	before_action :authenticate_user!, except: [:index, :show]
+	before_action :authenticate_user!
 
 
   # GET /questions
@@ -79,7 +79,7 @@ class QuestionsController < ApplicationController
 	def upvote
 		@question = Question.find(params[:id])
     if @question.owner?(current_user)
-      message = "You can't vote your own question."
+      message = "You can't vote for your own question."
     else
   		if current_user.liked? @question
         message = "You have voted for this question."
@@ -88,12 +88,12 @@ class QuestionsController < ApplicationController
           @question.find_votes(voter_id: current_user.id).first.destroy  # remove downvote.
           @question.user.add_points(2) # add 2 points previously removed on downvoting
           increment_votes_count
-          message = "Downvote removed.."
+          message = "Downvote removed!"
         else
           current_user.up_votes @question
   			  @question.user.add_points(5)
           increment_votes_count
-          message = "Vote added..." # test time !:)
+          message = "Vote added!" # test time !:)
   		  end
       end
     end
@@ -103,10 +103,10 @@ class QuestionsController < ApplicationController
 	def downvote
 		@question = Question.find(params[:id])
     if @question.owner?(current_user)
-      message = "You can't vote your own question"
+      message = "You can't vote for your own question"
     else
       if current_user.disliked? @question
-        message = "You can downvote once..."
+        message = "You can downvote only once."
       else
     		if current_user.liked? @question # it will remove the upvote, not downvoting
     			@question.find_votes(voter_id: current_user.id).first.destroy #remove upvote

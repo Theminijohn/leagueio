@@ -13,6 +13,7 @@ class User < ActiveRecord::Base
 
 	# User Avatar
 	has_attached_file :avatar, styles: { mini: "32x32#", profile: "180x180#"},
+										:default_url => 'https://s3.amazonaws.com/leagueio/design/user-profile/missing-image.png',
 										:path => ":rails_root/public/system/:attachment/:id/:style/:filename",
 										:url => "/system/:attachment/:id/:style/:filename"
 

@@ -1,15 +1,21 @@
 class TagsController < ApplicationController
+
   before_action :set_tag, only: [:show, :edit, :update, :destroy]
+	before_action :authenticate_user!
 
   # GET /tags
   # GET /tags.json
   def index
     @tags = Tag.all
+    @tags_champions = @tags.where(:cat_id => 1)
+		@tags_items = @tags.where(:cat_id => 2)
+		@tags_maps = @tags.where(:cat_id => 3)
+		@tags_spells = @tags.where(:cat_id => 4)
   end
 
   # GET /tags/1
   # GET /tags/1.json
-  def show
+  def show 
   end
 
   # GET /tags/new
@@ -28,7 +34,7 @@ class TagsController < ApplicationController
 
     respond_to do |format|
       if @tag.save
-        format.html { redirect_to @tag, notice: 'Tag was successfully created.' }
+        format.html { redirect_to tag_path(@tag.name), notice: 'Tag was successfully created.' }
         format.json { render action: 'show', status: :created, location: @tag }
       else
         format.html { render action: 'new' }
@@ -42,7 +48,7 @@ class TagsController < ApplicationController
   def update
     respond_to do |format|
       if @tag.update(tag_params)
-        format.html { redirect_to @tag, notice: 'Tag was successfully updated.' }
+        format.html { redirect_to tag_path(@tag.name), notice: 'Tag was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: 'edit' }
@@ -64,11 +70,16 @@ class TagsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_tag
-      @tag = Tag.find_by_name(params[:id])
+      @tag = Tag.find_by_name(params[:id]) || Tag.find(params[:id])
+      # param that was sent is called :id in case of update it sends id of tag, not name, so find_by_name will return false and it wil try to find by id
+      # || this means OR  find this OR that, can't think of any other solution for the moment
+      #all this find_by_name things are done in routes and it will overide the method find, so it won't look for the record by id, 
+      # it will look by whatever elese param you'll set
+      # and writing in form  form_for @tag  in html will return  the url /tags/tag_name/edit  and not tags/3/edit.
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def tag_params
-      params.require(:tag).permit(:name)
+      params.require(:tag).permit(:name, :cat_id)
     end
 end

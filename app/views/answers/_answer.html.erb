@@ -18,10 +18,30 @@
                         class: "fui-triangle-down" %>
           </li>
           <% if current_user == @question.user %>
-              <li>
-                <%= link_to "", accept_toggle_question_answer_path(@question, answer),
-                            class: "fui-check" %>
-              </li>
+              <% if answer.accepted?  %>
+                <li>
+                  <%= link_to "", accept_toggle_question_answer_path(@question, answer),
+                              class: "fui-check accepted_answer" %>
+                </li>
+              <% else %>
+                <li>
+                  <%= link_to "", accept_toggle_question_answer_path(@question, answer),
+                              class: "fui-check" %>
+                </li>
+              <% end %>
+          <% else %>
+            <% if current_user == @question.user %>
+              <% if answer.accepted?  %>
+                <li>
+                  <%= link_to "", accept_toggle_question_answer_path(@question, answer),
+                              class: "fui-check accepted_answer" %>
+                </li>
+              <% end %>
+            <% else %>
+              <% if answer.accepted? %>
+                <span class="fui-check accepted_answer"></span>
+              <% end %>
+            <% end %>
           <% end %>
         </ul>
       </div>
