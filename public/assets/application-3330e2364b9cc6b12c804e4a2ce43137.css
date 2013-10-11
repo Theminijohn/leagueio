@@ -1494,24 +1494,33 @@
     background-size: 52px 37px !important;
     background-repeat: no-repeat !important; } }
 /* @end */
-/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/answers.css.scss */
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/answers.css.scss */
 .answr_inner_body {
   background-color: #F7F7F7;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  padding: 10px; }
+  padding: 10px;
+}
 
-/* line 9, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/answers.css.scss */
+/* line 9, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/answers.css.scss */
 .answr_inner_body p {
   font-size: 14px;
-  margin: 0 !important; }
+  margin: 0 !important;
+}
 
-/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/answers.css.scss */
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/answers.css.scss */
 .clear_it_nicely {
   border-bottom: 1px solid #AAA;
   padding-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
+
+/* line 21, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/answers.css.scss */
+.accepted_answer {
+  color: #2ecc71 !important;
+  font-size: 23.996px;
+}
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
 .clearfix:after{clear:both;}
 .hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
@@ -9055,9 +9064,6 @@ input.search-query {
   -webkit-background-clip: border-box;
   -moz-background-clip: border-box;
   background-clip: border-box;
-  -webkit-box-shadow: -14px 14px 0 0 rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: -14px 14px 0 0 rgba(0, 0, 0, 0.35);
-  box-shadow: -14px 14px 0 0 rgba(0, 0, 0, 0.35);
 }
 @media (max-width: 767px) {
   .modal {
@@ -9535,44 +9541,6 @@ input.search-query {
 .mal {
   margin-left: 20px;
 }
-
-/* Scrollbar */
-
-.scrollbar
-{
-    margin-left: 30px;
-    float: left;
-  height: 300px;
-  width: 65px;
-  background: #F5F5F5;
-  overflow-y: scroll;
-  margin-bottom: 25px;
-}
-
-.force-overflow {
-  min-height: 450px;
-}
-
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  background-color: #F5F5F5;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-  background-color: #F5F5F5;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #AAA;
-  border-radius: 10px;
-}
-
-
-
-
-
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
 .site-footer {
   position: relative;
@@ -9681,7 +9649,7 @@ li {
   padding: 20px;
   margin-bottom: 30px;
   text-align: right;
-  background-image: url("http://i.imgur.com/4eDWxnw.png");
+  background-image: url("https://s3.amazonaws.com/leagueio/design/help/hero-units/help-hero-unit-inside.png");
   color: #ECF0F1;
   text-shadow: 0 1px 10px #272822;
 }
@@ -9709,7 +9677,7 @@ li {
   padding: 20px;
   margin-bottom: 30px;
   text-align: right;
-  background-image: url("http://i.imgur.com/4eDWxnw.png");
+  background-image: url("https://s3.amazonaws.com/leagueio/design/help/hero-units/help-hero-unit-inside.png");
   color: #ECF0F1;
   text-shadow: 0 1px 10px #272822;
 }
@@ -9738,6 +9706,16 @@ li {
 #tags p {
   font-size: 15px;
 }
+
+/* line 34, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#answered p {
+  font-size: 15px;
+}
+
+/* line 38, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#goodquestion p {
+  font-size: 15px;
+}
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
 .help_reputation_hero {
   -moz-border-radius: 5px;
@@ -9747,7 +9725,7 @@ li {
   padding: 20px;
   margin-bottom: 30px;
   text-align: right;
-  background-image: url("http://i.imgur.com/4eDWxnw.png");
+  background-image: url("https://s3.amazonaws.com/leagueio/design/help/hero-units/help-hero-unit-inside.png");
   color: #ECF0F1;
   text-shadow: 0 1px 10px #272822;
 }
@@ -9783,7 +9761,7 @@ li {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  background: url("http://i.imgur.com/LxKHr1X.png");
+  background: url("https://s3.amazonaws.com/leagueio/design/help/main/help-hero-main.png");
 }
 
 /* line 15, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
@@ -9993,60 +9971,69 @@ li {
   cursor: inherit; }
 /* Span 9*/
 /* Span 3 */
-/* line 7, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+/* line 7, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/new_question.css.scss */
 .nw_quest_how {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
   padding: 10px;
-  background-image: url("http://i.imgur.com/nvuDNKX.png"); }
+  background-image: url("https://s3.amazonaws.com/leagueio/design/questions/new-question-info.png");
+}
 
-/* line 16, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+/* line 16, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/new_question.css.scss */
 .nw_quest_how p {
   margin: 0 !important;
   font-size: 14px;
   color: #ECF0F1;
-  text-shadow: 0 1px 10px #272822; }
+  text-shadow: 0 1px 10px #272822;
+}
 
-/* line 23, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+/* line 23, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/new_question.css.scss */
 .nw_quest_how .big {
   font-size: 18px;
   color: #ECF0F1;
-  text-shadow: 0 1px 10px #272822; }
+  text-shadow: 0 1px 10px #272822;
+}
 
-/* line 29, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+/* line 29, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/new_question.css.scss */
 .nw_quest_how .first {
   font-size: 20px;
   color: #ECF0F1;
-  text-shadow: 0 1px 10px #272822; }
+  text-shadow: 0 1px 10px #272822;
+}
 
-/* line 35, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+/* line 35, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/new_question.css.scss */
 .nw_quest_links {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -khtml-border-radius: 6px;
   border-radius: 6px;
   padding: 10px;
-  background-image: url("http://i.imgur.com/QvtGSdG.png"); }
+  background-image: url("https://s3.amazonaws.com/leagueio/design/questions/new-question-links.png");
+}
 
-/* line 44, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+/* line 44, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/new_question.css.scss */
 .nw_quest_links .nw_quest_links_hpdesk {
   color: #ECF0F1;
-  text-shadow: 0 1px 10px #272822; }
+  text-shadow: 0 1px 10px #272822;
+}
 
-/* line 49, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+/* line 49, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/new_question.css.scss */
 .nw_quest_links .nw_quest_links_qhp {
   color: #ECF0F1;
-  text-shadow: 0 1px 10px #272822; }
+  text-shadow: 0 1px 10px #272822;
+}
 
-/* line 54, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+/* line 54, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/new_question.css.scss */
 .nw_quest_links a {
-  color: #ECF0F1; }
+  color: #ECF0F1;
+}
 
-/* line 58, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/new_question.css.scss */
+/* line 58, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/new_question.css.scss */
 .nw_quest_links a:hover {
-  color: #37b3ff; }
+  color: #37b3ff;
+}
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/profile.css.scss */
 .usr_profile_avtr {
   -moz-border-radius: 5px;
@@ -10054,7 +10041,8 @@ li {
   -khtml-border-radius: 5px;
   border-radius: 5px;
   width: 180px;
-  height: 180px; }
+  height: 180px;
+}
 
 /* line 10, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/profile.css.scss */
 .usr_profile_usr_info {
@@ -10063,23 +10051,27 @@ li {
   -khtml-border-radius: 5px;
   border-radius: 5px;
   padding: 20px;
-  background-image: url("http://i.imgur.com/GJLK9yu.png"); }
+  background-image: url("https://s3.amazonaws.com/leagueio/design/user-profile/user-profile-hero.png");
+}
 
 /* line 19, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/profile.css.scss */
 .usr_profile_usr_lp {
   color: #ECF0F1;
-  text-shadow: 0 1px 10px #272822; }
+  text-shadow: 0 1px 10px #272822;
+}
 
 /* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/profile.css.scss */
 .usr_profile_usr_name {
   color: #ECF0F1;
-  text-shadow: 0 1px 10px #272822; }
+  text-shadow: 0 1px 10px #272822;
+}
 
 /* line 29, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/profile.css.scss */
 .undr_profile_usr_info {
   margin-top: 5px;
   margin-left: 2px;
-  margin-right: 2px; }
+  margin-right: 2px;
+}
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/question-show-page.css.scss */
 .fill {
   background-color: darkgray;
@@ -10515,9 +10507,10 @@ li {
   -moz-border-radius: 6px;
   border-radius: 6px;
   padding: 10px;
+  word-wrap: break-word;
 }
 
-/* line 147, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
+/* line 148, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/questions.css.scss */
 .qest_inner_boddy p {
   font-size: 14px;
   margin: 0 !important;
@@ -10555,6 +10548,215 @@ li {
   background: url(http://i.imgur.com/YUWpAbu.png) no-repeat center -80px;
   text-align: center;
   /*border-bottom: 1px solid #C6E0F0;*/
+}
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.tag-hero-unit {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-image: url("https://s3.amazonaws.com/leagueio/design/tags/tags-hero-unit.png");
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  cursor: default;
+}
+/* line 15, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.tag-hero-unit h1 {
+  text-align: right;
+  margin-bottom: 0;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin: 0 !important;
+}
+/* line 23, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.tag-hero-unit p {
+  margin: 0 !important;
+  font-size: 15px;
+}
+
+/* Tag Cards */
+/* Champions --> */
+/* line 33, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.champs-tag-card {
+  margin: 0 0 20px;
+  -moz-box-shadow: 0 1px 4px #ccc;
+  -webkit-box-shadow: 0 1px 4px #CCC;
+  box-shadow: 0 1px 4px #CCC;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  float: left;
+  margin-left: 16px;
+  opacity: .8;
+}
+
+/* line 48, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.champs-tag-card:hover {
+  opacity: 1;
+  -moz-box-shadow: 0 1px 4px #263c65;
+  -webkit-box-shadow: 0 1px 4px #263c65;
+  box-shadow: 0 1px 4px #263c65;
+}
+
+/* line 55, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.champs-tag-card .champs-img-wrapper {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  -khtml-border-radius-topright: 3px;
+  -khtml-border-radius-topleft: 3px;
+}
+
+/* line 69, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.champs-tag-card .champs-tag-name {
+  padding: 5px;
+  text-align: center;
+  color: #6f7b89;
+}
+
+/* Maps -->*/
+/* line 78, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.maps-tag-card {
+  margin: 0 0 20px;
+  -moz-box-shadow: 0 1px 4px #ccc;
+  -webkit-box-shadow: 0 1px 4px #CCC;
+  box-shadow: 0 1px 4px #CCC;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  float: left;
+  margin-left: 16px;
+  opacity: .8;
+}
+
+/* line 93, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.maps-tag-card:hover {
+  opacity: 1;
+  -moz-box-shadow: 0 1px 4px #263c65;
+  -webkit-box-shadow: 0 1px 4px #263c65;
+  box-shadow: 0 1px 4px #263c65;
+}
+
+/* line 100, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.maps-tag-card .maps-img-wrapper {
+  height: 200px;
+  width: 370px;
+  overflow: hidden;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  -khtml-border-radius-topright: 3px;
+  -khtml-border-radius-topleft: 3px;
+}
+
+/* line 114, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.maps-tag-card .maps-tag-name {
+  padding: 5px;
+  text-align: center;
+  color: #6f7b89;
+}
+
+/* Spells --> */
+/* line 122, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.spells-tag-card {
+  margin: 0 0 20px;
+  -moz-box-shadow: 0 1px 4px #ccc;
+  -webkit-box-shadow: 0 1px 4px #CCC;
+  box-shadow: 0 1px 4px #CCC;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  display: block;
+  float: left;
+  margin-left: 16px;
+  opacity: .8;
+}
+
+/* line 137, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.spells-tag-card:hover {
+  opacity: 1;
+  -moz-box-shadow: 0 1px 4px #263c65;
+  -webkit-box-shadow: 0 1px 4px #263c65;
+  box-shadow: 0 1px 4px #263c65;
+}
+
+/* line 144, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.spells-tag-card .spells-img-wrapper {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  -webkit-border-top-right-radius: 3px;
+  -webkit-border-top-left-radius: 3px;
+  -moz-border-radius-topright: 3px;
+  -moz-border-radius-topleft: 3px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  -khtml-border-radius-topright: 3px;
+  -khtml-border-radius-topleft: 3px;
+}
+
+/* line 158, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.spells-tag-card .spells-tag-name {
+  padding: 5px;
+  text-align: center;
+  color: #6f7b89;
+}
+
+/* Tag Show Page */
+/* line 166, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.spec_tag_hero_unit {
+  padding: 20px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-image: url("https://s3.amazonaws.com/leagueio/design/tags/tags-hero-unit.png");
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  cursor: default;
+}
+/* line 180, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.spec_tag_hero_unit h1 {
+  text-align: right;
+  margin-bottom: 0;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin: 0 !important;
+}
+/* line 188, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.spec_tag_hero_unit p {
+  margin: 0 !important;
+  font-size: 15px;
+}
+
+/* line 194, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/tags.css.scss */
+.undr_spec_tag_hero_unit {
+  margin-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/terora/app/assets/stylesheets/tags_input.css.scss */
 .tagsinput {
@@ -10692,6 +10894,31 @@ li {
 .tagsinput-primary .tag {
   background-color: #1abc9c;
   color: #ffffff; }
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/thanks.css.scss */
+.thanks-hero-unit {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  padding: 20px;
+  background-image: url("http://i.imgur.com/aerJVYh.png");
+  text-align: center;
+}
+
+/* line 11, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/thanks.css.scss */
+.thanks-hero-unit h1 {
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+
+/* line 16, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/thanks.css.scss */
+.thanks-hero-unit p {
+  margin: 0 !important;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/welcome.css.scss */
 .wlcm_hero_unit {
   padding: 30px;
@@ -10739,10 +10966,10 @@ li {
   text-shadow: 0 1px 10px #272822;
   font-size: 18px;
   font-weight: bold;
-  background-image: url("http://i.imgur.com/H39Qh90.png");
+  background-image: url("https://s3.amazonaws.com/leagueio/design/beta/index-welcome-beta-wdgt.png");
 }
 
-/* Question Show */
+/* Question Show  Views-counter */
 /* line 17, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/widgets.css.scss */
 .quest_wdgt {
   -moz-border-radius: 6px;
@@ -10753,7 +10980,7 @@ li {
   font-weight: bold;
   color: #ECF0F1;
   text-shadow: 0 1px 10px #272822;
-  background-image: url("http://i.imgur.com/bnqFC1d.png");
+  background-image: url("https://s3.amazonaws.com/leagueio/design/questions/question-view-counter.png");
 }
 
 /* line 29, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/widgets.css.scss */
