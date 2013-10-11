@@ -76,7 +76,7 @@ Tag.create([
 						{ cat_id: 1, name: 'nunu' },
 						{ cat_id: 1, name: 'olaf' },
 						{ cat_id: 1, name: 'orianna' },
-						{ cat_id: 1, name: 'patheon' },
+						{ cat_id: 1, name: 'pantheon' },
 						{ cat_id: 1, name: 'poppy' },
 						{ cat_id: 1, name: 'quinn' },
 						{ cat_id: 1, name: 'rammus' },
