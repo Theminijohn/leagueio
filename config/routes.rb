@@ -1,5 +1,6 @@
 Terora::Application.routes.draw do
 
+  get "about/home"
 	root :to => 'questions#index'
 
   resources :tags
@@ -38,5 +39,8 @@ Terora::Application.routes.draw do
 	get 'help/answering' => 'help#answering'
 	get 'help/reputation' => 'help#reputation'
 	get 'help/account' => 'help#account'
+
+	# About
+	get "about" => 'about#home'
 
 end
