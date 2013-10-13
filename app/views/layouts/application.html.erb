@@ -5,15 +5,18 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
-  <%= display_meta_tags :og => {
-          :title => "League I/O",
-          :site_name => "League I/O",
-          :app_id => "557996937600543",
-          :description => "League I/O is for professional and enthusiast League of Legends Players, people who love the Game and want to contribute to the Community.",
-          :image => "https://s3.amazonaws.com/leagueio/design/image-meta.png",
-          :type  => "website",
-          :url => "http://www.leagueio.com"
-      } %>
+  <%= display_meta_tags :site => 'League I/O' %>
+  <meta property="fb:app_id" content="355060907960720" />
+  <meta property="og:site_name" content="League I/O" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta property="og:title" content="League I/O" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://www.leagueio.com" />
+  <meta property="og:image" content="https://s3.amazonaws.com/leagueio/design/image-meta.png" />
+  <meta property="og:description" content="League I/O is for professional and enthusiast League of Legends Players, people who love the Game and want to contribute to the Community."  />
+  <meta name="google-site-verification" content="RQ8dTm5vYDQ9KcoCNTMClM8Pya6KBBwsPN5-vHtga1g" />
+
 
 </head>
 <body>
