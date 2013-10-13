@@ -2,7 +2,8 @@
                  :description => "#{@question.body}" %>
 
 <%= display_meta_tags :og => {
-        :title => "League I/O",
+        :title => "#{@question.title}",
+        :description => "#{@question.body}",
         :image => "https://s3.amazonaws.com/leagueio/design/image-meta.png",
         :type  => "website",
         :url => "http://www.leagueio.com"
