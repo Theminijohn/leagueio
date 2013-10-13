@@ -4,6 +4,7 @@ class RegistrationsController < Devise::RegistrationsController
 		unless Whitelist.exists?(:email => params[:user][:email])
 			redirect_to :back, notice: "We are sorry, this Email is not in our Beta List"
 		else
+			@user = build_resource # Needed for Merit
 			super
 		end
 	end

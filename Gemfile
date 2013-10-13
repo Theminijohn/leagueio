@@ -27,6 +27,9 @@ gem "ckeditor"
 gem 'paperclip', '~>3.4.2'
 gem 'aws-sdk'
 
+# Meta tags
+gem 'meta-tags', '1.5.0', require: 'meta_tags'
+
 # Tags
 gem 'chosen-rails'
 gem "compass-rails", "~> 2.0.alpha.0"

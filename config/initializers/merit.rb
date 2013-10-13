@@ -34,13 +34,10 @@ Merit.setup do |config|
 
 end
 
-# Create application badges (uses https://github.com/norman/ambry)
-# Merit::Badge.create!({
-#   id: 1,
-#   name: 'just-registered'
-# }, {
-#   id: 2,
-#   name: 'best-unicorn',
-#   custom_fields: { category: 'fantasy' }
-# })
+Merit::Badge.create! ({
+	id: 1,
+	name: "beta-tester",
+	image: "http://findicons.com/files/icons/494/pioneer_camp/48/badge.png",
+	description: "Signed up for the Closed Beta"
+})
 

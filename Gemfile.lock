@@ -108,12 +108,16 @@ GEM
       treetop (~> 1.4.8)
     merit (1.6.1)
       ambry (~> 0.3.0)
+    meta-tags (1.5.0)
+      actionpack
     method_source (0.8.2)
     mime-types (1.25)
     mini_portile (0.5.1)
     minitest (4.7.5)
     multi_json (1.8.1)
     newrelic_rpm (3.6.7.159)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     nokogiri (1.6.0-x86-mingw32)
       mini_portile (~> 0.5.0)
     orm_adapter (0.4.0)
@@ -125,6 +129,10 @@ GEM
       mime-types
     pg (0.17.0-x86-mingw32)
     polyglot (0.3.3)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     pry (0.9.12.2-x86-mingw32)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -177,6 +185,7 @@ GEM
       actionpack (>= 4.0.0, < 4.1)
       activemodel (>= 4.0.0, < 4.1)
     slop (3.4.6)
+    spork (1.0.0rc4)
     spork (1.0.0rc4-x86-mingw32)
       win32-process
     spork-rails (4.0.0)
@@ -237,6 +246,7 @@ DEPENDENCIES
   jquery-turbolinks
   jquery-ui-sass-rails
   merit
+  meta-tags (= 1.5.0)
   newrelic_rpm
   paperclip (~> 3.4.2)
   pg
