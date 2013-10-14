@@ -82,7 +82,7 @@ Terora::Application.configure do
 	config.action_mailer.default_url_options = { :host => 'leagueio.com' }
 	config.action_mailer.delivery_method = :smtp
 	config.action_mailer.smtp_settings = {
-		:address              => "smtp.leagueio.com",
+		:address              => "mail.leagueio.com",
 		:port                 => 25,
 		:user_name            => 'info@leagueio.com',
 		:password             => '1nam-mo2',
