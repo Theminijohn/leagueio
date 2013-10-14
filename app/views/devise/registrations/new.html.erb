@@ -3,9 +3,9 @@
 <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), html: { class: 'form-horizontal'}) do |f| %>
   <%= f.error_notification %>
 
-  <%= f.input :first_name %>
-  <%= f.input :user_name %>
-  <%= f.input :email %>
+  <%= f.input :first_name, :autofocus => true %>
+  <%= f.input :user_name, placeholder: "lowercase with no spaces" %>
+  <%= f.input :email, placeholder: "Your email from the Beta List" %>
   <%= f.input :password %>
   <%= f.input :password_confirmation %>
 

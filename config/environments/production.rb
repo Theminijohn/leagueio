@@ -79,7 +79,15 @@ Terora::Application.configure do
   config.log_formatter = ::Logger::Formatter.new
 
 	# Required for Devise-Mailer
-	config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+	config.action_mailer.default_url_options = { :host => 'leagueio.com' }
+	config.action_mailer.delivery_method = :smtp
+	config.action_mailer.smtp_settings = {
+		:address              => "smtp.leagueio.com",
+		:port                 => 25,
+		:user_name            => 'info@leagueio.com',
+		:password             => '1nam-mo2',
+		:authentication       => 'plain',
+		:enable_starttls_auto => true  }
 
 	# Amazon S3 for Paperclip
 	config.paperclip_defaults = {
