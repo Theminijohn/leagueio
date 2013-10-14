@@ -87,7 +87,7 @@ Terora::Application.configure do
 		:user_name            => 'info@leagueio.com',
 		:password             => '1nam-mo2',
 		:authentication       => 'plain',
-		:enable_starttls_auto => true  }
+		:enable_starttls_auto => false  }
 
 	# Amazon S3 for Paperclip
 	config.paperclip_defaults = {
