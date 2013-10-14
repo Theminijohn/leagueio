@@ -1,1 +1,1 @@
-$(".user_first_name").popover()
+$("#user_first_name").popover()
