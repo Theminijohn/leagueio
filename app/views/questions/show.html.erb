@@ -107,8 +107,8 @@
     <div class="quest_wdgt">
       <b>
         <span class="fui-tag"></span>
-        <%= @question.impressionist_count(:filter=>:ip_address) %>
-        <% if @question.impressionist_count(:filter=>:ip_address) > 1 %>
+        <%= @question.impressionist_count(:filter=>:session_hash) %>
+        <% if @question.impressionist_count(:filter=>:session_hash) > 1 %>
           Views
         <% else %>
           View

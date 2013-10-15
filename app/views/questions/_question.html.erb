@@ -40,13 +40,13 @@
 
       <!--Views-->
       <div class="views">
-        <% if question.impressionist_count(:filter=>:ip_address) > 100 %>
-          <div class="mini-counts hot"><%= question.impressionist_count(:filter=>:ip_address) %></div>
+        <% if question.impressionist_count(:filter=>:session_hash) > 100 %>
+          <div class="mini-counts hot"><%= question.impressionist_count(:filter=>:session_hash) %></div>
           <div class="hot">views</div>
         <% else %>
-          <div class="mini-counts"><%= question.impressionist_count(:filter=>:ip_address) %></div>
+          <div class="mini-counts"><%= question.impressionist_count(:filter=>:session_hash) %></div>
           <div>
-            <% if question.impressionist_count(:filter=>:ip_address) == 1 %>
+            <% if question.impressionist_count(:filter=>:session_hash) == 1 %>
               View
             <% else %>
               Views
