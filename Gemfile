@@ -18,7 +18,6 @@ gem 'acts_as_votable', '~> 0.7.1'
 gem 'impressionist'
 gem 'jquery-turbolinks'
 gem 'merit'
-gem 'friendly_id', '5.0.0.rc2'
 
 # CKEditor
 gem "ckeditor"
@@ -26,6 +25,13 @@ gem "ckeditor"
 # Paperclip
 gem 'paperclip', '~>3.4.2'
 gem 'aws-sdk'
+
+# Active Admin
+gem 'activeadmin', github: 'gregbell/active_admin'
+# gem "meta_search"
+
+# The gems are right, right ?
+
 
 # Meta tags
 gem 'meta-tags', '1.5.0', require: 'meta_tags'

@@ -12,5 +12,25 @@
  *= require jquery.ui.theme
  *= require jquery.ui.core
  *= require chosen
- *= require_tree .
+ *= require about
+ *= require answers
+ *= require bootstrap_and_overrides
+ *= require flat-ui
+ *= require footer
+ *= require help
+ *= require help-answering
+ *= require help-asking
+ *= require help-reputation
+ *= require home
+ *= require new_question
+ *= require profile
+ *= require question-show-page
+ *= require question_answer
+ *= require questions
+ *= require register
+ *= require tags
+ *= require tags_input
+ *= require thanks
+ *= require welcome
+ *= require widgets
  */

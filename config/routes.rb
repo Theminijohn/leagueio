@@ -1,4 +1,6 @@
 Terora::Application.routes.draw do
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
 
   get "about/home"
 	root :to => 'questions#index'
@@ -25,7 +27,7 @@ Terora::Application.routes.draw do
 	get 'pages/tags'
 
   devise_for :users, :controllers => { :registrations => 'registrations' },
-						 :path => '', :path_names => {:sign_in => 'login'}
+		:path => '', :path_names => {:sign_in => 'login'}
 
 	# User Profile
 	get 'users/show'
