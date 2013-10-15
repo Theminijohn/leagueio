@@ -21,7 +21,6 @@ Terora::Application.routes.draw do
 	end
 
   get 'get_started/welcome'
-	get 'get_started/thanks'
 	get 'pages/home'
 	get 'pages/tags'
 
