@@ -25,15 +25,25 @@
     <div class="undr_profile_usr_info">
 
       <div class="usr_profile_usr_scl pull-left">
+
         <% if @user.facebook_link.present? %>
-          <span class="fui-facebook"></span>
+          <%= link_to @user.facebook_link, target: "_blank" do %>
+            <span class="fui-facebook"></span>
+          <% end %>
         <% end %>
+
         <% if @user.twitter_link.present? %>
-          <span class="fui-twitter"></span>
+          <%= link_to @user.twitter_link, target: "_blank" do %>
+            <span class="fui-twitter"></span>
+          <% end %>
         <% end %>
+
         <% if @user.lolking_link.present? %>
-          <span class="fui-user"></span>
+          <%= link_to @user.lolking_link, target: "_blank" do %>
+            <span class="fui-user"></span>
+          <% end %>
         <% end %>
+
       </div>
 
       <div class="pull-right">
