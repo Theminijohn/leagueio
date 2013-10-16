@@ -33,3 +33,10 @@ Merit.setup do |config|
 	end
 
 end
+
+Merit::Badge.create! ({
+	id: 1,
+	name: "beta-tester",
+	image: "http://findicons.com/files/icons/494/pioneer_camp/48/badge.png",
+	description: "Signed up for the Closed Beta"
+})
