@@ -1,0 +1,88 @@
+.update_cover {
+  position: relative;
+  width: 100%; /* for IE 6 */
+  img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 870px;
+    height: 200px;
+  }
+  h4 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 146px;
+    span {
+      color: white;
+      font: bold 20px/40px Helvetica, Sans-Serif;
+      letter-spacing: -1px;
+      background: rgb(0, 0, 0); /* fallback color */
+      background: rgba(0, 0, 0, 0.7);
+      padding: 5px;
+      color: #ECF0F1;
+      text-shadow: 0 1px 10px #272822;
+      -webkit-border-bottom-right-radius: 5px;
+      -moz-border-radius-bottomright: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+  h3 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: -2px;
+    span {
+      color: white;
+      font: bold 20px/40px Helvetica, Sans-Serif;
+      letter-spacing: -1px;
+      background: rgb(0, 0, 0); /* fallback color */
+      background: rgba(0, 0, 0, 0.7);
+      padding: 5px;
+      color: #ECF0F1;
+      text-shadow: 0 1px 10px #272822;
+      -webkit-border-top-left-radius: 5px;
+      -moz-border-radius-topleft: 5px;
+      border-top-left-radius: 5px;
+    }
+  }
+  h2 {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    width: 100%;
+    span {
+      color: white;
+      font: bold 20px/40px Helvetica, Sans-Serif;
+      letter-spacing: -1px;
+      background: rgb(0, 0, 0); /* fallback color */
+      background: rgba(0, 0, 0, 0.7);
+      padding: 5px;
+      color: #ECF0F1;
+      text-shadow: 0 1px 10px #272822;
+      -webkit-border-bottom-left-radius: 5px;
+      -moz-border-radius-bottomleft: 5px;
+      border-bottom-left-radius: 5px;
+    }
+  }
+}
+
+h2 span.spacer {
+  padding:0 5px;
+}
+
+/* Update Show View */
+
+.update_show_title {
+  h1 {
+    font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
+
+.update_show_cover img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}

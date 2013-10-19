@@ -1,0 +1,57 @@
+<ul class="breadcrumb">
+  <li><%= link_to "Updates", updates_path %></li>
+  <li class="active"><a href="#"><%= @update.title %></a></li>
+</ul>
+
+
+<div class="row-fluid">
+
+  <div class="span9">
+
+    <div class="update_show_cover">
+      <%= image_tag(@update.cover(:cover)) %>
+    </div>
+
+    <div class="update_show_title">
+      <h1><span class="fui-mic"></span><%= @update.title %></h1>
+    </div>
+
+    <br>
+
+    <div class="update_show_body">
+      <%= sanitize(raw(@update.body)) %>
+    </div>
+
+  </div>
+
+  <div class="span3">
+    <% if can? :update, @update %>
+      <%= link_to edit_update_path(@update),
+                  class: "btn btn-info btn-block btn-embossed" do %>
+        <span class="fui-new"></span> Edit Update
+      <% end %>
+    <% end %>
+
+    <% if can? :destroy, @update %>
+      <%= link_to @update, method: :delete, data: { confirm: 'Are you sure?' },
+                  class: "btn btn-danger btn-block btn-embossed" do %>
+        <span class="fui-cross"></span>  Delete Update
+      <% end %>
+      <hr>
+    <% end %>
+
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style">
+      <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+      <a class="addthis_button_tweet"></a>
+      <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    </div>
+    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51e7733c196e2f4b"></script>
+    <!-- AddThis Button END -->
+
+  </div>
+
+
+
+</div>

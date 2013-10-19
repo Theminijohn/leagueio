@@ -140,7 +140,7 @@ Tag.create([
 						{ cat_id: 2, name: "augment-gravity"},
 						{ cat_id: 2, name: "augment-power"},
 						{ cat_id: 2, name: "avarice-blade"},
-						{ cat_id: 2, name: "b.f.-sword"},
+						{ cat_id: 2, name: "bf-sword"},
 						{ cat_id: 2, name: "banner-of-command"},
 						{ cat_id: 2, name: "banshee's-veil"},
 						{ cat_id: 2, name: "berserker's-greaves"},

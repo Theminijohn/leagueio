@@ -1,0 +1,21 @@
+<!-- <%= update.title %>
+<%= update.body %>
+<%= link_to 'Show', update %>
+<%= link_to 'Edit', edit_update_path(update) %>
+<%= link_to 'Destroy', update, method: :delete, data: { confirm: 'Are you sure?' } %>  -->
+
+<div class="update_cover">
+
+  <%= link_to update do %>
+    <%= image_tag(update.cover(:cover)) %>
+    <div>
+      <h3><span class="pull-left top"><%= time_ago_in_words(update.created_at) %> ago</span></h3>
+      <h2><span class="pull-left"><%= update.title%></span></h2>
+      <h4><span class="pull-right">Read more</span></h4>
+      <div class="clearfix"></div>
+    </div>
+  <% end %>
+
+</div>
+
+<br>

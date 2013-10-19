@@ -1,0 +1,15 @@
+<%= simple_form_for(@update) do |f| %>
+  <%= f.error_notification %>
+  <%= f.full_error :cover_file_size, class: "alert alert-error" %>
+  <%= f.full_error :cover_content_type, class: "alert alert-error" %>
+
+    <%= f.input :cover, label: false %>
+    <%= f.input :title, input_html: { class: "span5" },
+                label: false, placeholder: "The Update's Title" %>
+    <%= f.input :body, :as => :ckeditor, label: false %>
+
+
+  <div class="form-actions">
+    <%= f.button :submit, class: "btn btn-info btn-embossed" %>
+  </div>
+<% end %>

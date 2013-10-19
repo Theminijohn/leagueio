@@ -13,6 +13,28 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  */
 
 /*!
@@ -1065,7 +1087,7 @@
   width: 100%;
   height: 100%; }
 /* @group Base */
-/* line 9, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+/* line 9, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container {
   position: relative;
   display: inline-block;
@@ -1075,31 +1097,35 @@
   *display: inline;
   -webkit-user-select: none;
   -moz-user-select: none;
-  user-select: none; }
-  /* line 17, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container .chosen-drop {
-    position: absolute;
-    top: 100%;
-    left: -9999px;
-    z-index: 1010;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-    border: 1px solid #aaa;
-    border-top: 0;
-    background: #fff;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15); }
-  /* line 29, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container.chosen-with-drop .chosen-drop {
-    left: 0; }
-  /* line 32, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container a {
-    cursor: pointer; }
+  user-select: none;
+}
+/* line 17, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container .chosen-drop {
+  position: absolute;
+  top: 100%;
+  left: -9999px;
+  z-index: 1010;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-top: 0;
+  background: #fff;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
+}
+/* line 29, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container.chosen-with-drop .chosen-drop {
+  left: 0;
+}
+/* line 32, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container a {
+  cursor: pointer;
+}
 
 /* @end */
 /* @group Single Chosen */
-/* line 40, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+/* line 40, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-single .chosen-single {
   position: relative;
   display: block;
@@ -1119,21 +1145,25 @@
   color: #444;
   text-decoration: none;
   white-space: nowrap;
-  line-height: 24px; }
-/* line 57, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  line-height: 24px;
+}
+/* line 57, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-single .chosen-default {
-  color: #999; }
-/* line 60, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  color: #999;
+}
+/* line 60, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-single .chosen-single span {
   display: block;
   overflow: hidden;
   margin-right: 26px;
   text-overflow: ellipsis;
-  white-space: nowrap; }
-/* line 67, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  white-space: nowrap;
+}
+/* line 67, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-single .chosen-single-with-deselect span {
-  margin-right: 38px; }
-/* line 70, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  margin-right: 38px;
+}
+/* line 70, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-single .chosen-single abbr {
   position: absolute;
   top: 6px;
@@ -1142,68 +1172,77 @@
   width: 12px;
   height: 12px;
   background: url(/assets/chosen-sprite.png) -42px 1px no-repeat;
-  font-size: 1px; }
-  /* line 79, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container-single .chosen-single abbr:hover {
-    background-position: -42px -10px; }
-/* line 83, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  font-size: 1px;
+}
+/* line 79, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-single abbr:hover {
+  background-position: -42px -10px;
+}
+/* line 83, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-single.chosen-disabled .chosen-single abbr:hover {
-  background-position: -42px -10px; }
-/* line 86, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  background-position: -42px -10px;
+}
+/* line 86, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-single .chosen-single div {
   position: absolute;
   top: 0;
   right: 0;
   display: block;
   width: 18px;
-  height: 100%; }
-  /* line 93, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container-single .chosen-single div b {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: url(/assets/chosen-sprite.png) no-repeat 0px 2px; }
-/* line 100, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  height: 100%;
+}
+/* line 93, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-single div b {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(/assets/chosen-sprite.png) no-repeat 0px 2px;
+}
+/* line 100, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-single .chosen-search {
   position: relative;
   z-index: 1010;
   margin: 0;
   padding: 3px 4px;
-  white-space: nowrap; }
-  /* line 106, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container-single .chosen-search input[type="text"] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 1px 0;
-    padding: 4px 20px 4px 5px;
-    width: 100%;
-    height: auto;
-    outline: 0;
-    border: 1px solid #aaa;
-    background: white url(/assets/chosen-sprite.png) no-repeat 100% -20px;
-    background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
-    background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
-    background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
-    background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -o-linear-gradient(#eeeeee 1%, #ffffff 15%);
-    background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
-    font-size: 1em;
-    font-family: sans-serif;
-    line-height: normal;
-    border-radius: 0; }
-/* line 122, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  white-space: nowrap;
+}
+/* line 106, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-single .chosen-search input[type="text"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 1px 0;
+  padding: 4px 20px 4px 5px;
+  width: 100%;
+  height: auto;
+  outline: 0;
+  border: 1px solid #aaa;
+  background: white url(/assets/chosen-sprite.png) no-repeat 100% -20px;
+  background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+  background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, -o-linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background: url(/assets/chosen-sprite.png) no-repeat 100% -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
+  font-size: 1em;
+  font-family: sans-serif;
+  line-height: normal;
+  border-radius: 0;
+}
+/* line 122, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-single .chosen-drop {
   margin-top: -1px;
   border-radius: 0 0 4px 4px;
-  background-clip: padding-box; }
-/* line 127, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  background-clip: padding-box;
+}
+/* line 127, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-single.chosen-container-single-nosearch .chosen-search {
   position: absolute;
-  left: -9999px; }
+  left: -9999px;
+}
 
 /* @end */
 /* @group Results */
-/* line 135, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+/* line 135, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container .chosen-results {
   position: relative;
   overflow-x: hidden;
@@ -1211,53 +1250,62 @@
   margin: 0 4px 4px 0;
   padding: 0 0 0 4px;
   max-height: 240px;
-  -webkit-overflow-scrolling: touch; }
-  /* line 143, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container .chosen-results li {
-    display: none;
-    margin: 0;
-    padding: 5px 6px;
-    list-style: none;
-    line-height: 15px;
-    -webkit-touch-callout: none; }
-    /* line 150, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container .chosen-results li.active-result {
-      display: list-item;
-      cursor: pointer; }
-    /* line 154, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container .chosen-results li.disabled-result {
-      display: list-item;
-      color: #ccc;
-      cursor: default; }
-    /* line 159, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container .chosen-results li.highlighted {
-      background-color: #3875d7;
-      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #3875d7), color-stop(90%, #2a62bc));
-      background-image: -webkit-linear-gradient(#3875d7 20%, #2a62bc 90%);
-      background-image: -moz-linear-gradient(#3875d7 20%, #2a62bc 90%);
-      background-image: -o-linear-gradient(#3875d7 20%, #2a62bc 90%);
-      background-image: linear-gradient(#3875d7 20%, #2a62bc 90%);
-      color: #fff; }
-    /* line 164, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container .chosen-results li.no-results {
-      display: list-item;
-      background: #f4f4f4; }
-    /* line 168, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container .chosen-results li.group-result {
-      display: list-item;
-      font-weight: bold;
-      cursor: default; }
-    /* line 173, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container .chosen-results li.group-option {
-      padding-left: 15px; }
-    /* line 176, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container .chosen-results li em {
-      font-style: normal;
-      text-decoration: underline; }
+  -webkit-overflow-scrolling: touch;
+}
+/* line 143, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container .chosen-results li {
+  display: none;
+  margin: 0;
+  padding: 5px 6px;
+  list-style: none;
+  line-height: 15px;
+  -webkit-touch-callout: none;
+}
+/* line 150, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container .chosen-results li.active-result {
+  display: list-item;
+  cursor: pointer;
+}
+/* line 154, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container .chosen-results li.disabled-result {
+  display: list-item;
+  color: #ccc;
+  cursor: default;
+}
+/* line 159, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container .chosen-results li.highlighted {
+  background-color: #3875d7;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #3875d7), color-stop(90%, #2a62bc));
+  background-image: -webkit-linear-gradient(#3875d7 20%, #2a62bc 90%);
+  background-image: -moz-linear-gradient(#3875d7 20%, #2a62bc 90%);
+  background-image: -o-linear-gradient(#3875d7 20%, #2a62bc 90%);
+  background-image: linear-gradient(#3875d7 20%, #2a62bc 90%);
+  color: #fff;
+}
+/* line 164, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container .chosen-results li.no-results {
+  display: list-item;
+  background: #f4f4f4;
+}
+/* line 168, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container .chosen-results li.group-result {
+  display: list-item;
+  font-weight: bold;
+  cursor: default;
+}
+/* line 173, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container .chosen-results li.group-option {
+  padding-left: 15px;
+}
+/* line 176, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container .chosen-results li em {
+  font-style: normal;
+  text-decoration: underline;
+}
 
 /* @end */
 /* @group Multi Chosen */
-/* line 186, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+/* line 186, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-multi .chosen-choices {
   position: relative;
   overflow: hidden;
@@ -1276,98 +1324,112 @@
   background-image: -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
   background-image: -o-linear-gradient(#eeeeee 1%, #ffffff 15%);
   background-image: linear-gradient(#eeeeee 1%, #ffffff 15%);
-  cursor: text; }
-/* line 200, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  cursor: text;
+}
+/* line 200, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-multi .chosen-choices li {
   float: left;
-  list-style: none; }
-  /* line 203, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container-multi .chosen-choices li.search-field {
-    margin: 0;
-    padding: 0;
-    white-space: nowrap; }
-    /* line 207, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container-multi .chosen-choices li.search-field input[type="text"] {
-      margin: 1px 0;
-      padding: 5px;
-      height: 15px;
-      outline: 0;
-      border: 0 !important;
-      background: transparent !important;
-      box-shadow: none;
-      color: #666;
-      font-size: 100%;
-      font-family: sans-serif;
-      line-height: normal;
-      border-radius: 0; }
-    /* line 221, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container-multi .chosen-choices li.search-field .default {
-      color: #999; }
-  /* line 225, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container-multi .chosen-choices li.search-choice {
-    position: relative;
-    margin: 3px 0 3px 5px;
-    padding: 3px 20px 3px 5px;
-    border: 1px solid #aaa;
-    border-radius: 3px;
-    background-color: #e4e4e4;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
-    background-image: -webkit-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-    background-image: -moz-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-    background-image: -o-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-    background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-    background-clip: padding-box;
-    box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
-    color: #333;
-    line-height: 13px;
-    cursor: default; }
-    /* line 238, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
-      position: absolute;
-      top: 4px;
-      right: 3px;
-      display: block;
-      width: 12px;
-      height: 12px;
-      background: url(/assets/chosen-sprite.png) -42px 1px no-repeat;
-      font-size: 1px; }
-      /* line 247, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-      .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
-        background-position: -42px -10px; }
-  /* line 252, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container-multi .chosen-choices li.search-choice-disabled {
-    padding-right: 5px;
-    border: 1px solid #ccc;
-    background-color: #e4e4e4;
-    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
-    background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-    background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-    background-image: -o-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-    background-image: linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-    color: #666; }
-  /* line 259, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container-multi .chosen-choices li.search-choice-focus {
-    background: #d4d4d4; }
-    /* line 261, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-container-multi .chosen-choices li.search-choice-focus .search-choice-close {
-      background-position: -42px -10px; }
-/* line 266, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  list-style: none;
+}
+/* line 203, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices li.search-field {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+/* line 207, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+  margin: 1px 0;
+  padding: 5px;
+  height: 15px;
+  outline: 0;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none;
+  color: #666;
+  font-size: 100%;
+  font-family: sans-serif;
+  line-height: normal;
+  border-radius: 0;
+}
+/* line 221, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices li.search-field .default {
+  color: #999;
+}
+/* line 225, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices li.search-choice {
+  position: relative;
+  margin: 3px 0 3px 5px;
+  padding: 3px 20px 3px 5px;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  background-color: #e4e4e4;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -moz-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -o-linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: linear-gradient(#f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-clip: padding-box;
+  box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  color: #333;
+  line-height: 13px;
+  cursor: default;
+}
+/* line 238, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url(/assets/chosen-sprite.png) -42px 1px no-repeat;
+  font-size: 1px;
+}
+/* line 247, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
+  background-position: -42px -10px;
+}
+/* line 252, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices li.search-choice-disabled {
+  padding-right: 5px;
+  border: 1px solid #ccc;
+  background-color: #e4e4e4;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
+  background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: -o-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  background-image: linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
+  color: #666;
+}
+/* line 259, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices li.search-choice-focus {
+  background: #d4d4d4;
+}
+/* line 261, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-multi .chosen-choices li.search-choice-focus .search-choice-close {
+  background-position: -42px -10px;
+}
+/* line 266, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-multi .chosen-results {
   margin: 0;
-  padding: 0; }
-/* line 270, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  padding: 0;
+}
+/* line 270, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-multi .chosen-drop .result-selected {
   display: list-item;
   color: #ccc;
-  cursor: default; }
+  cursor: default;
+}
 
 /* @end */
 /* @group Active  */
-/* line 280, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+/* line 280, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-active .chosen-single {
   border: 1px solid #5897fb;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
-/* line 285, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+/* line 285, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-active.chosen-with-drop .chosen-single {
   border: 1px solid #aaa;
   -moz-border-radius-bottomright: 0;
@@ -1379,110 +1441,135 @@
   background-image: -moz-linear-gradient(#eeeeee 20%, #ffffff 80%);
   background-image: -o-linear-gradient(#eeeeee 20%, #ffffff 80%);
   background-image: linear-gradient(#eeeeee 20%, #ffffff 80%);
-  box-shadow: 0 1px 0 #fff inset; }
-/* line 294, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  box-shadow: 0 1px 0 #fff inset;
+}
+/* line 294, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-active.chosen-with-drop .chosen-single div {
   border-left: none;
-  background: transparent; }
-  /* line 297, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container-active.chosen-with-drop .chosen-single div b {
-    background-position: -18px 2px; }
-/* line 302, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  background: transparent;
+}
+/* line 297, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-active.chosen-with-drop .chosen-single div b {
+  background-position: -18px 2px;
+}
+/* line 302, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-container-active .chosen-choices {
   border: 1px solid #5897fb;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
-  /* line 305, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-container-active .chosen-choices li.search-field input[type="text"] {
-    color: #111 !important; }
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+/* line 305, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-container-active .chosen-choices li.search-field input[type="text"] {
+  color: #111 !important;
+}
 
 /* @end */
 /* @group Disabled Support */
-/* line 313, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+/* line 313, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-disabled {
   opacity: 0.5 !important;
-  cursor: default; }
-  /* line 316, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-disabled .chosen-single {
-    cursor: default; }
-  /* line 319, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-disabled .chosen-choices .search-choice .search-choice-close {
-    cursor: default; }
+  cursor: default;
+}
+/* line 316, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-disabled .chosen-single {
+  cursor: default;
+}
+/* line 319, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-disabled .chosen-choices .search-choice .search-choice-close {
+  cursor: default;
+}
 
 /* @end */
 /* @group Right to Left */
-/* line 326, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+/* line 326, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
 .chosen-rtl {
-  text-align: right; }
-  /* line 328, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl .chosen-single {
-    overflow: visible;
-    padding: 0 8px 0 0; }
-  /* line 332, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl .chosen-single span {
-    margin-right: 0;
-    margin-left: 26px;
-    direction: rtl; }
-  /* line 337, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl .chosen-single-with-deselect span {
-    margin-left: 38px; }
-  /* line 340, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl .chosen-single div {
-    right: auto;
-    left: 3px; }
-  /* line 344, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl .chosen-single abbr {
-    right: auto;
-    left: 26px; }
-  /* line 348, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl .chosen-choices li {
-    float: right; }
-    /* line 350, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-rtl .chosen-choices li.search-field input[type="text"] {
-      direction: rtl; }
-    /* line 353, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-    .chosen-rtl .chosen-choices li.search-choice {
-      margin: 3px 5px 3px 0;
-      padding: 3px 5px 3px 19px; }
-      /* line 356, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-      .chosen-rtl .chosen-choices li.search-choice .search-choice-close {
-        right: auto;
-        left: 4px; }
-  /* line 363, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl.chosen-container-single-nosearch .chosen-search,
-  .chosen-rtl .chosen-drop {
-    left: 9999px; }
-  /* line 366, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl.chosen-container-single .chosen-results {
-    margin: 0 0 4px 4px;
-    padding: 0 4px 0 0; }
-  /* line 370, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl .chosen-results li.group-option {
-    padding-right: 15px;
-    padding-left: 0; }
-  /* line 374, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div {
-    border-right: none; }
-  /* line 377, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl .chosen-search input[type="text"] {
-    padding: 4px 5px 4px 20px;
-    background: white url(/assets/chosen-sprite.png) no-repeat -30px -20px;
-    background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
-    background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
-    background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
-    background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -o-linear-gradient(#eeeeee 1%, #ffffff 15%);
-    background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
-    direction: rtl; }
-  /* line 384, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl.chosen-container-single .chosen-single div b {
-    background-position: 6px 2px; }
-  /* line 388, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
-  .chosen-rtl.chosen-container-single.chosen-with-drop .chosen-single div b {
-    background-position: -12px 2px; }
+  text-align: right;
+}
+/* line 328, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-single {
+  overflow: visible;
+  padding: 0 8px 0 0;
+}
+/* line 332, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-single span {
+  margin-right: 0;
+  margin-left: 26px;
+  direction: rtl;
+}
+/* line 337, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-single-with-deselect span {
+  margin-left: 38px;
+}
+/* line 340, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-single div {
+  right: auto;
+  left: 3px;
+}
+/* line 344, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-single abbr {
+  right: auto;
+  left: 26px;
+}
+/* line 348, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-choices li {
+  float: right;
+}
+/* line 350, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-choices li.search-field input[type="text"] {
+  direction: rtl;
+}
+/* line 353, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-choices li.search-choice {
+  margin: 3px 5px 3px 0;
+  padding: 3px 5px 3px 19px;
+}
+/* line 356, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-choices li.search-choice .search-choice-close {
+  right: auto;
+  left: 4px;
+}
+/* line 363, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl.chosen-container-single-nosearch .chosen-search,
+.chosen-rtl .chosen-drop {
+  left: 9999px;
+}
+/* line 366, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl.chosen-container-single .chosen-results {
+  margin: 0 0 4px 4px;
+  padding: 0 4px 0 0;
+}
+/* line 370, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-results li.group-option {
+  padding-right: 15px;
+  padding-left: 0;
+}
+/* line 374, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl.chosen-container-active.chosen-with-drop .chosen-single div {
+  border-right: none;
+}
+/* line 377, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl .chosen-search input[type="text"] {
+  padding: 4px 5px 4px 20px;
+  background: white url(/assets/chosen-sprite.png) no-repeat -30px -20px;
+  background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(1%, #eeeeee), color-stop(15%, #ffffff));
+  background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -webkit-linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -moz-linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, -o-linear-gradient(#eeeeee 1%, #ffffff 15%);
+  background: url(/assets/chosen-sprite.png) no-repeat -30px -20px, linear-gradient(#eeeeee 1%, #ffffff 15%);
+  direction: rtl;
+}
+/* line 384, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl.chosen-container-single .chosen-single div b {
+  background-position: 6px 2px;
+}
+/* line 388, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
+.chosen-rtl.chosen-container-single.chosen-with-drop .chosen-single div b {
+  background-position: -12px 2px;
+}
 
 /* @end */
 /* @group Retina compatibility */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 144dpi) {
-  /* line 405, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.0/vendor/assets/stylesheets/chosen.css.scss */
+  /* line 405, C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/chosen-rails-1.0.1/vendor/assets/stylesheets/chosen.css.scss */
   .chosen-rtl .chosen-search input[type="text"],
   .chosen-container-single .chosen-single abbr,
   .chosen-container-single .chosen-single div b,
@@ -1492,8 +1579,31 @@
   .chosen-container .chosen-results-scroll-up span {
     background-image: url(/assets/chosen-sprite@2x.png) !important;
     background-size: 52px 37px !important;
-    background-repeat: no-repeat !important; } }
+    background-repeat: no-repeat !important;
+  }
+}
 /* @end */
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/about.css.scss */
+.about_hero {
+  text-align: center;
+}
+/* line 3, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/about.css.scss */
+.about_hero h1 {
+  font-size: 40px;
+}
+/* line 6, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/about.css.scss */
+.about_hero .fui-bubble {
+  font-size: 70px;
+  color: #CCC;
+}
+/* line 10, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/about.css.scss */
+.about_hero .fui-bubble:hover {
+  color: #34495e;
+}
+/* line 13, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/about.css.scss */
+.about_hero p {
+  font-size: 16px;
+}
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/answers.css.scss */
 .answr_inner_body {
   background-color: #F7F7F7;
@@ -3206,6 +3316,8 @@ a [class^="icon-"],a [class*=" icon-"]{cursor:pointer;}
   To use Glyphicons sprites instead of Font Awesome, replace with "require twitter-bootstrap-static/sprites"
 
   */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700);
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,700italic,900,400italic,300");
 @font-face {
   font-family: "Flat-UI-Icons";
@@ -9542,6 +9654,10 @@ input.search-query {
 .mal {
   margin-left: 20px;
 }
+
+
+
+
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
 .site-footer {
   position: relative;
@@ -9641,115 +9757,6 @@ li {
 /* line 100, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/footer.css.scss */
 .site-footer a:hover {
   color: #BDC3C7; }
-/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
-.help_answering_hero {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 30px;
-  text-align: right;
-  background-image: url("https://s3.amazonaws.com/leagueio/design/help/hero-units/help-hero-unit-inside.png");
-  color: #ECF0F1;
-  text-shadow: 0 1px 10px #272822;
-}
-
-/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
-.help_answering_hero h2 {
-  margin: 0 !important;
-}
-
-/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
-#accepted p {
-  font-size: 15px;
-}
-
-/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
-#goodanswer p {
-  font-size: 15px;
-}
-/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
-.help_asking_hero {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 30px;
-  text-align: right;
-  background-image: url("https://s3.amazonaws.com/leagueio/design/help/hero-units/help-hero-unit-inside.png");
-  color: #ECF0F1;
-  text-shadow: 0 1px 10px #272822;
-}
-
-/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
-.help_asking_hero h2 {
-  margin: 0 !important;
-}
-
-/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
-#topics p {
-  font-size: 15px;
-}
-
-/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
-#avoid p {
-  font-size: 15px;
-}
-
-/* line 26, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
-#deleted p {
-  font-size: 15px;
-}
-
-/* line 30, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
-#tags p {
-  font-size: 15px;
-}
-
-/* line 34, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
-#answered p {
-  font-size: 15px;
-}
-
-/* line 38, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
-#goodquestion p {
-  font-size: 15px;
-}
-/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
-.help_reputation_hero {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border-radius: 5px;
-  padding: 20px;
-  margin-bottom: 30px;
-  text-align: right;
-  background-image: url("https://s3.amazonaws.com/leagueio/design/help/hero-units/help-hero-unit-inside.png");
-  color: #ECF0F1;
-  text-shadow: 0 1px 10px #272822;
-}
-
-/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
-.help_reputation_hero h2 {
-  margin: 0 !important;
-}
-
-/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
-#reputation p {
-  font-size: 15px;
-}
-
-/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
-#moderators p {
-  font-size: 15px;
-}
-
-/* line 26, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
-#voting p {
-  font-size: 15px;
-}
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help.css.scss */
 .help-hero-unit {
   padding: 30px;
@@ -9908,18 +9915,129 @@ li {
   font-size: 14px;
   color: #34495e;
 }
-/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
+.help_answering_hero {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: right;
+  background-image: url("https://s3.amazonaws.com/leagueio/design/help/hero-units/help-hero-unit-inside.png");
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
+.help_answering_hero h2 {
+  margin: 0 !important;
+}
+
+/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
+#accepted p {
+  font-size: 15px;
+}
+
+/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-answering.css.scss */
+#goodanswer p {
+  font-size: 15px;
+}
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+.help_asking_hero {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: right;
+  background-image: url("https://s3.amazonaws.com/leagueio/design/help/hero-units/help-hero-unit-inside.png");
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+.help_asking_hero h2 {
+  margin: 0 !important;
+}
+
+/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#topics p {
+  font-size: 15px;
+}
+
+/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#avoid p {
+  font-size: 15px;
+}
+
+/* line 26, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#deleted p {
+  font-size: 15px;
+}
+
+/* line 30, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#tags p {
+  font-size: 15px;
+}
+
+/* line 34, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#answered p {
+  font-size: 15px;
+}
+
+/* line 38, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-asking.css.scss */
+#goodquestion p {
+  font-size: 15px;
+}
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
+.help_reputation_hero {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: right;
+  background-image: url("https://s3.amazonaws.com/leagueio/design/help/hero-units/help-hero-unit-inside.png");
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+
+/* line 14, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
+.help_reputation_hero h2 {
+  margin: 0 !important;
+}
+
+/* line 18, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
+#reputation p {
+  font-size: 15px;
+}
+
+/* line 22, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
+#moderators p {
+  font-size: 15px;
+}
+
+/* line 26, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/help-reputation.css.scss */
+#voting p {
+  font-size: 15px;
+}
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/home.css.scss */
 .scnd_ndr_mn_cnt {
   margin-left: 10px;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
-/* line 6, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+/* line 6, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/home.css.scss */
 .scnd_ndr_mn {
   font-size: 14.994px;
   font-weight: 700;
-  padding: 6px 20px; }
+  padding: 6px 20px;
+}
 
-/* line 12, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+/* line 12, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/home.css.scss */
 .scnd_ndr_mn {
   margin: 0 0 20px;
   list-style: none;
@@ -9929,9 +10047,10 @@ li {
   border-bottom-right-radius: 6px;
   -moz-border-radius-bottomleft: 6px;
   -webkit-border-bottom-left-radius: 6px;
-  border-bottom-left-radius: 6px; }
+  border-bottom-left-radius: 6px;
+}
 
-/* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+/* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/home.css.scss */
 .scnd_ndr_mn > ul {
   display: block;
   list-style-type: disc;
@@ -9939,14 +10058,16 @@ li {
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px; }
+  -webkit-padding-start: 40px;
+}
 
-/* line 35, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+/* line 35, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/home.css.scss */
 .scnd_ndr_mn > li {
   position: relative;
-  text-shadow: none; }
+  text-shadow: none;
+}
 
-/* line 39, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+/* line 39, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/home.css.scss */
 .scnd_ndr_mn > li:after {
   color: #bdc3c7;
   content: "\e002";
@@ -9955,21 +10076,25 @@ li {
   font-size: 9.799999999999999px;
   margin: -4px 9px 0 13px;
   vertical-align: middle;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+}
 
-/* line 49, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+/* line 49, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/home.css.scss */
 .scnd_ndr_mn .active {
   color: #bdc3c7;
-  cursor: default; }
+  cursor: default;
+}
 
-/* line 53, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+/* line 53, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/home.css.scss */
 .scnd_ndr_mn .active:after {
-  display: none; }
+  display: none;
+}
 
-/* line 56, C:/Users/Phoenix Prime/Documents/GitHub/leaguelore/app/assets/stylesheets/home.css.scss */
+/* line 56, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/home.css.scss */
 .scnd_ndr_mn .active > a {
   color: inherit;
-  cursor: inherit; }
+  cursor: inherit;
+}
 /* Span 9*/
 /* Span 3 */
 /* line 7, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/new_question.css.scss */
@@ -10546,7 +10671,7 @@ li {
 /* line 24, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/register.css.scss */
 .home-hero {
   padding: 60px 0;
-  background: url(http://i.imgur.com/YUWpAbu.png) no-repeat center -80px;
+  background: url("https://s3.amazonaws.com/leagueio/design/home-des.png") no-repeat center -80px;
   text-align: center;
   /*border-bottom: 1px solid #C6E0F0;*/
 }
@@ -10955,6 +11080,13 @@ li {
   color: #ECF0F1;
   text-shadow: 0 1px 10px #272822;
 }
+
+/* line 32, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/welcome.css.scss */
+.wlcm_hero_unit .wlcm_greeting a {
+  text-align: center;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
 /* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/widgets.css.scss */
 .index_wlcm_beta {
   -moz-border-radius: 6px;
@@ -10987,4 +11119,329 @@ li {
 /* line 29, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/widgets.css.scss */
 .quest_wdgt p {
   margin: 0 !important;
+}
+/* Globals */
+/* line 4, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_hero_unit {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-image: url("https://s3.amazonaws.com/leagueio/design/tags/tags-hero-unit.png");
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  cursor: default;
+}
+/* line 17, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_hero_unit h1 {
+  text-align: center;
+  font-size: 50px;
+  line-height: 1;
+  letter-spacing: -1px;
+  margin: 0 !important;
+}
+
+/* line 26, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_hero_unit_beneath {
+  margin-top: -20px;
+}
+
+/* 404 */
+/* line 32, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404 {
+  background-color: #FF6E6E;
+}
+/* line 34, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404 ::after, .error_404 ::before {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+/* line 42, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_code {
+  position: absolute;
+  width: 180px;
+  height: 280px;
+  background: #334557;
+  top: 50%;
+  left: 50%;
+  margin: -140px 0px 0px -90px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* line 54, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_code span {
+  display: block;
+  position: absolute;
+}
+
+/* line 59, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_small {
+  width: 8px;
+  height: 8px;
+  background: white;
+  margin: 10px 0 0 10px;
+  box-shadow: 0px 45px 0px white;
+}
+
+/* line 66, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_middle {
+  width: 24px;
+  height: 8px;
+  background: #EFCD8C;
+  margin: 10px 0 0 23px;
+  box-shadow: 40px 15px 0px #efcd8c, 30px 0px 0px white, -13px 30px 0px white, 0px 45px 0px #efcd8c;
+}
+
+/* line 73, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_big {
+  width: 48px;
+  height: 8px;
+  background: #3796BA;
+  margin: 25px 0 0 10px;
+}
+
+/* line 79, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_cable {
+  border: 5px solid white;
+  height: 80px;
+  width: 34px;
+  margin: 65px 0 0 80px;
+  border-radius: 34px;
+}
+
+/* line 86, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_cable::after {
+  border: 5px solid white;
+  height: 80px;
+  width: 34px;
+  margin: 65px 0 0 34px;
+  border-radius: 34px;
+}
+
+/* line 93, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_cable::before {
+  height: 20px;
+  width: 5px;
+  margin: 35px 0 0 72px;
+  background: white;
+}
+
+/* line 99, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_usb {
+  width: 17px;
+  height: 18px;
+  margin: 20px 0 0 66px;
+  background: white;
+  border-radius: 0px 0px 7px 7px;
+}
+
+/* line 106, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_usb::before {
+  width: 17px;
+  height: 12px;
+  margin: -10px 0 0 0px;
+  background: #ccc;
+}
+
+/* line 112, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_usb::after {
+  width: 4px;
+  height: 4px;
+  margin: -6px 0 0 0px;
+  background: gray;
+  box-shadow: 13px 0px 0px gray;
+}
+
+/* line 119, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_keyboard {
+  position: absolute;
+  width: 250px;
+  height: 90px;
+  background: #98A5B0;
+  margin: -35px 0 0 -35px;
+  z-index: 9999;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.15);
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+/* line 131, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_keyboard::before {
+  width: 9px;
+  height: 8px;
+  background: white;
+  margin: -14px 0 0 107px;
+}
+
+/* line 137, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_keyboard > div {
+  border-radius: 2px;
+}
+
+/* line 140, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_line1 {
+  width: 16px;
+  height: 12px;
+  background: white;
+  box-shadow: 24px 0px 0px white, 48px 0px 0px white, 72px 0px 0px white, 96px 0px 0px white, 120px 0px 0px white, 144px 0px 0px white, 174px 0px 0px white, 198px 0px 0px white, 222px 0px 0px white;
+}
+
+/* line 146, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_line2, .line3 {
+  margin-top: 6px;
+  width: 16px;
+  height: 16px;
+  background: white;
+  box-shadow: 24px 0px 0px white, 48px 0px 0px white, 72px 0px 0px white, 96px 0px 0px white, 120px 0px 0px white, 144px 0px 0px white, 174px 0px 0px white, 198px 0px 0px white, 222px 0px 0px white;
+}
+
+/* line 153, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_line3::after {
+  width: 16px;
+  height: 38px;
+  background: white;
+  margin-left: 222px;
+  border-radius: 2px;
+}
+
+/* line 160, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_line4 {
+  margin-top: 6px;
+  width: 32px;
+  height: 16px;
+  background: white;
+  box-shadow: 128px 0px 0px white;
+}
+
+/* line 167, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_line4::after {
+  width: 80px;
+  height: 16px;
+  background: white;
+  margin-left: 40px;
+  border-radius: 2px;
+}
+
+/* line 174, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_line4::before {
+  width: 40px;
+  height: 16px;
+  background: white;
+  margin-left: 174px;
+  border-radius: 2px;
+}
+
+/* line 181, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/errors.css.scss */
+.error_404_Header-Text {
+  margin-top: 250px;
+}
+
+/* 500 */
+/* line 1, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+.update_cover {
+  position: relative;
+  width: 100%;
+  /* for IE 6 */
+}
+/* line 4, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+.update_cover img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 870px;
+  height: 200px;
+}
+/* line 11, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+.update_cover h4 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 146px;
+}
+/* line 16, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+.update_cover h4 span {
+  color: white;
+  font: bold 20px/40px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: black;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* line 30, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+.update_cover h3 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -2px;
+}
+/* line 35, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+.update_cover h3 span {
+  color: white;
+  font: bold 20px/40px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: black;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+}
+/* line 49, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+.update_cover h2 {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  width: 100%;
+}
+/* line 54, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+.update_cover h2 span {
+  color: white;
+  font: bold 20px/40px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: black;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+/* line 70, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+h2 span.spacer {
+  padding: 0 5px;
+}
+
+/* Update Show View */
+/* line 77, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+.update_show_title h1 {
+  font-family: "freight-sans-pro","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* line 84, C:/Users/Phoenix Prime/Documents/GitHub/leagueio/app/assets/stylesheets/updates.css.scss */
+.update_show_cover img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }

@@ -1,0 +1,27 @@
+<div class="row-fluid">
+
+  <div class="span9">
+    <%= render @updates.order("created_at desc") %>
+  </div>
+
+  <div class="span3">
+    <% if can? :create, @update %>
+      <%= link_to new_update_path, class: "btn btn-info btn-embossed btn-block" do %>
+        <span class="fui-new"></span>  New Update
+      <% end %>
+      <hr>
+    <% end %>
+
+    <!-- AddThis Follow BEGIN -->
+    <div class="addthis_toolbox addthis_default_style">
+      <a class="addthis_button_facebook_follow" addthis:userid="leagueio"></a>
+      <a class="addthis_button_twitter_follow" addthis:userid="Leagueio"></a>
+    </div>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51e7733c196e2f4b"></script>
+    <!-- AddThis Follow END -->
+
+  </div>
+
+</div>
+
+
