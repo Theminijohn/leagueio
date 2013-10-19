@@ -6,6 +6,10 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+['registered', 'banned', 'moderator', 'admin'].each do |role|
+	Role.find_or_create_by_name role
+end
+
 Tag.delete_all
 Tag.create([
 						{ cat_id: 1, name: 'aatrox' },

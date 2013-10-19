@@ -23,6 +23,7 @@ class RegistrationsController < Devise::RegistrationsController
 		end
 	end
 
+
 	def after_sign_up_path_for(resource)
 		get_started_welcome_path
 	end

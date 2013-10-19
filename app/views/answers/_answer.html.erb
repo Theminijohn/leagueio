@@ -8,20 +8,20 @@
         <ul>
           <li>
             <%= link_to "", upvote_question_answer_path(@question, answer),
-                        class: "fui-triangle-up" %>
+                        class: "fui-triangle-up", title: "This Answer is Useful" %>
           </li>
           <li style="color: #bcbcbc; font-weight: bold">
             <%= answer.votes_count %>
           </li>
           <li>
             <%= link_to "", downvote_question_answer_path(@question, answer),
-                        class: "fui-triangle-down" %>
+                        class: "fui-triangle-down", title: "This Answer is not Useful" %>
           </li>
           <% if current_user == @question.user %>
               <% if answer.accepted?  %>
                 <li>
                   <%= link_to "", accept_toggle_question_answer_path(@question, answer),
-                              class: "fui-check accepted_answer" %>
+                              class: "fui-check accepted_answer", title: "The Question owner accepted this as the best answer" %>
                 </li>
               <% else %>
                 <li>
@@ -39,7 +39,7 @@
               <% end %>
             <% else %>
               <% if answer.accepted? %>
-                <span class="fui-check accepted_answer"></span>
+                <span class="fui-check accepted_answer" title="The Question owner accepted this as the best answer"></span>
               <% end %>
             <% end %>
           <% end %>
@@ -54,11 +54,13 @@
     </div>
 
     <div class="quest_uc">
-      <div class="pull-left" data-no-turbolink="">
-          <% if current_user == answer.user %>
-          <small><%= link_to 'Edit', edit_question_answer_path(@question, answer) %></small> |
-          <small><%= link_to 'Delete', question_answer_path(@question, answer), :data => { :confirm => "Are you sure you want to delete your Question?" }, method: :delete %></small>
-          <% end %>
+      <div class="pull-left">
+
+        <% if current_user == answer.user %>
+        <small><%= link_to 'Edit', edit_question_answer_path(@question, answer) %></small> |
+        <small><%= link_to 'Delete', question_answer_path(@question, answer), :data => { :confirm => "Are you sure you want to delete your Question?" }, method: :delete %></small>
+        <% end %>
+
       </div>
 
       <!-- Question Owner(User) -->

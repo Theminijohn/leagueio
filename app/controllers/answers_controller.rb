@@ -1,6 +1,11 @@
 class AnswersController < ApplicationController
-  before_action :set_answer, only: [:show, :edit, :update, :destroy]
+
+	# Cancan
+	load_and_authorize_resource except: [:create]
+
+	before_action :set_answer, only: [:show, :edit, :update, :destroy]
 	before_action :authenticate_user!
+
 
 
 	# GET /answers
@@ -136,7 +141,7 @@ class AnswersController < ApplicationController
     if @question.owner?(current_user)
       if @answer.accepted
         reject_answer
-        message = "You rejected this"
+        message = "You rejected the Answer"
       else
         if @question.has_accepted_answer?
     			accepted_answer = @question.answers.where(accepted: true).first

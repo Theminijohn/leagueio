@@ -1,5 +1,7 @@
 class User < ActiveRecord::Base
+
   has_merit
+	acts_as_voter
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
@@ -26,11 +28,19 @@ class User < ActiveRecord::Base
 	# Relationships
 	has_many :questions
 	has_many :answers
-
-	acts_as_voter
+	belongs_to :role
 
 	def to_param
 		user_name
+	end
+
+	before_create :set_default_role
+
+
+	private
+
+	def set_default_role
+		self.role ||= Role.find_by_name('registered')
 	end
 
 end

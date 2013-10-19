@@ -1,0 +1,185 @@
+/* Globals */
+
+.error_hero_unit {
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-image: url("https://s3.amazonaws.com/leagueio/design/tags/tags-hero-unit.png");
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  cursor: default;
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 1;
+    letter-spacing: -1px;
+    margin: 0 !important;
+  }
+}
+
+.error_hero_unit_beneath {
+  margin-top: -20px;
+}
+
+/* 404 */
+
+.error_404 {
+  background-color: #FF6E6E;
+  ::after, ::before {
+    content:"";
+    display: block;
+    position: absolute;
+  }
+}
+
+
+.error_404_code {
+  position: absolute;
+  width: 180px;
+  height: 280px;
+  background: #334557;
+  top: 50%;
+  left: 50%;
+  margin: -140px 0px 0px -90px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.15)
+}
+
+.error_404_code span {
+  display: block;
+  position: absolute;
+}
+
+.error_404_small {
+  width: 8px;
+  height: 8px;
+  background: white;
+  margin: 10px 0 0 10px;
+  box-shadow: 0px 45px 0px white
+}
+.error_404_middle {
+  width: 24px;
+  height: 8px;
+  background: #EFCD8C;
+  margin: 10px 0 0 23px;
+  box-shadow: 40px 15px 0px #EFCD8C, 30px 0px 0px white, -13px 30px 0px white, 0px 45px 0px #EFCD8C
+}
+.error_404_big {
+  width: 48px;
+  height: 8px;
+  background: #3796BA;
+  margin: 25px 0 0 10px
+}
+.error_404_cable {
+  border: 5px solid white;
+  height: 80px;
+  width: 34px;
+  margin: 65px 0 0 80px;
+  border-radius: 34px
+}
+.error_404_cable::after {
+  border: 5px solid white;
+  height: 80px;
+  width: 34px;
+  margin: 65px 0 0 34px;
+  border-radius: 34px;
+}
+.error_404_cable::before {
+  height: 20px;
+  width: 5px;
+  margin: 35px 0 0 72px;
+  background: white
+}
+.error_404_usb {
+  width: 17px;
+  height: 18px;
+  margin: 20px 0 0 66px;
+  background: white;
+  border-radius: 0px 0px 7px 7px;
+}
+.error_404_usb::before {
+  width: 17px;
+  height: 12px;
+  margin: -10px 0 0 0px;
+  background: #ccc;
+}
+.error_404_usb::after {
+  width: 4px;
+  height: 4px;
+  margin: -6px 0 0 0px;
+  background: gray;
+  box-shadow: 13px 0px 0px gray
+}
+.error_404_keyboard {
+  position: absolute;
+  width: 250px;
+  height: 90px;
+  background: #98A5B0;
+  margin: -35px 0 0 -35px;
+  z-index: 9999;
+  border-radius: 5px;
+  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.15);
+  padding: 6px;
+  box-sizing: border-box
+}
+.error_404_keyboard::before {
+  width: 9px;
+  height: 8px;
+  background: white;
+  margin: -14px 0 0 107px;
+}
+.error_404_keyboard > div {
+  border-radius: 2px;
+}
+.error_404_line1 {
+  width: 16px;
+  height: 12px;
+  background: white;
+  box-shadow: 24px 0px 0px white, 48px 0px 0px white, 72px 0px 0px white, 96px 0px 0px white, 120px 0px 0px white, 144px 0px 0px white, 174px 0px 0px white, 198px 0px 0px white, 222px 0px 0px white
+}
+.error_404_line2, .line3 {
+  margin-top: 6px;
+  width: 16px;
+  height: 16px;
+  background: white;
+  box-shadow: 24px 0px 0px white, 48px 0px 0px white, 72px 0px 0px white, 96px 0px 0px white, 120px 0px 0px white, 144px 0px 0px white, 174px 0px 0px white, 198px 0px 0px white, 222px 0px 0px white
+}
+.error_404_line3::after {
+  width: 16px;
+  height: 38px;
+  background: white;
+  margin-left: 222px;
+  border-radius: 2px;
+}
+.error_404_line4 {
+  margin-top: 6px;
+  width: 32px;
+  height: 16px;
+  background: white;
+  box-shadow: 128px 0px 0px white
+}
+.error_404_line4::after {
+  width: 80px;
+  height: 16px;
+  background: white;
+  margin-left: 40px;
+  border-radius: 2px;
+}
+.error_404_line4::before {
+  width: 40px;
+  height: 16px;
+  background: white;
+  margin-left: 174px;
+  border-radius: 2px;
+}
+.error_404_Header-Text {
+  margin-top: 250px;
+}
+
+
+/* 500 */

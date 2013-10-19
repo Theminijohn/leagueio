@@ -26,14 +26,14 @@
         <ul>
           <li>
             <%= link_to "", upvote_question_path(@question),
-                        class: "fui-triangle-up" %>
+                        class: "fui-triangle-up", title: "This Question shows Research effort. It is useful and clear" %>
           </li>
           <li style="color: #bcbcbc; font-weight: bold">
             <%= @question.votes_count %>
           </li>
           <li>
             <%= link_to "", downvote_question_path(@question),
-                        class: "fui-triangle-down" %>
+                        class: "fui-triangle-down", title: "This question does not show any research effort; it is unclear or not useful" %>
           </li>
         </ul>
       </div>
@@ -59,9 +59,11 @@
     </div>
 
     <div class="quest_uc">
-      <div class="pull-left" data-no-turbolink="">
-        <% if current_user == @question.user %>
+      <div class="pull-left">
+        <% if can? :update, @question %>
           <small><%= link_to 'Edit', edit_question_path(@question) %> </small> |
+        <% end %>
+        <% if can? :destroy, @question %>
           <small><%= link_to 'Delete', @question, :data => { :confirm => "Are you sure you want to delete your Question?" }, method: :delete %></small> &nbsp;
         <% end %>
 
@@ -162,7 +164,7 @@
 <br>
 
 <div class="">
-  <%= render @question.answers %>
+  <%= render @question.answers.order(accepted: :desc, votes_count: :desc)%>
 </div>
 
 <% if user_signed_in? %>

@@ -58,6 +58,7 @@ GEM
       sass (>= 3.2.0)
       thor
     builder (3.1.4)
+    cancan (1.6.10)
     chosen-rails (1.0.1)
       coffee-rails (>= 3.2)
       compass-rails (>= 1.0)
@@ -266,6 +267,7 @@ DEPENDENCIES
   activeadmin!
   acts_as_votable (~> 0.7.1)
   aws-sdk
+  cancan
   chosen-rails
   ckeditor
   coffee-rails (~> 4.0.0)

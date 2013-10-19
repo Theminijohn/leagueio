@@ -1,12 +1,14 @@
 class QuestionsController < ApplicationController
-
+	# Views Counter
 	impressionist :actions => [:show]
 
   before_action :set_question, only: [:show, :edit, :update, :destroy]
 	before_action :authenticate_user!, :except => [:index]
 
+	# Cancan
+	load_and_authorize_resource except: [:create]
 
-  # GET /questions
+	# GET /questions
   # GET /questions.json
   def index
 		# Tags
@@ -28,9 +30,13 @@ class QuestionsController < ApplicationController
   end
 
   # GET /questions/1/edit
-  def edit
-		@question = current_user.questions.find(params[:id])
-  end
+	def edit
+		if current_user.role_id == 4
+			@question = Question.find(params[:id])
+		else
+			@question = current_user.questions.find(params[:id])
+		end
+	end
 
   # POST /questions
   # POST /questions.json

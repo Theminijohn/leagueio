@@ -1,4 +1,6 @@
 Terora::Application.routes.draw do
+
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
@@ -43,5 +45,9 @@ Terora::Application.routes.draw do
 
 	# About
 	get "about" => 'about#home'
+
+	# Error Pages
+	get "errors/error_404"
+	get "errors/error_500"
 
 end

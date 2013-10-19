@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+  <title>League I/O</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+<%= display_meta_tags :site => 'League I/O' %>
+</head>
+<body>
+
+  <div class="container">
+    <%= render 'layouts/header' %>
+
+    <% flash.each do |name, msg| %>
+      <%= content_tag(:div, class: "alert alert-#{name}") do%>
+        <%=msg%>
+        <button type="button" class="close fui-cross" data-dismiss="alert"></button>
+      <%end%>
+
+    <% end %>
+
+    <div class="error_hero_unit">
+      <h1>Amumu cries now :( Something broke here  </h1>
+    </div>
+
+    <div class="error_hero_unit_beneath">
+      <small>
+        If you think this is a serious App Problem,
+        feel free to report us here
+        <%= mail_to "support@leagueio.com", "here", subject: "I want to report a bug",
+                    body: "Explain to us what exactly happened and from which link you are coming" %>
+      </small>
+    </div>
+
+    <%= yield %>
+
+    <!-- UserVoice JavaScript SDK (only needed once on a page) -->
+    <script>(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/IpPxZh3zR4HjDwgS3Xqupg.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()</script>
+
+    <!-- A tab to launch the Classic Widget -->
+    <script>
+      UserVoice = window.UserVoice || [];
+      UserVoice.push(['showTab', 'classic_widget', {
+        mode: 'feedback',
+        primary_color: '#34495e',
+        link_color: '#007dbf',
+        forum_id: 225819,
+        tab_label: 'Feedback',
+        tab_color: '#34495e',
+        tab_position: 'bottom-left',
+        tab_inverted: false
+      }]);
+    </script>
+
+  </div>
+
+</body>
+</html>

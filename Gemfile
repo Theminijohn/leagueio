@@ -18,6 +18,7 @@ gem 'acts_as_votable', '~> 0.7.1'
 gem 'impressionist'
 gem 'jquery-turbolinks'
 gem 'merit'
+gem "cancan"
 
 # CKEditor
 gem "ckeditor"
@@ -29,8 +30,6 @@ gem 'aws-sdk'
 # Active Admin
 gem 'activeadmin', github: 'gregbell/active_admin'
 # gem "meta_search"
-
-# The gems are right, right ?
 
 
 # Meta tags
