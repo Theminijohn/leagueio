@@ -56,8 +56,11 @@
     <div class="quest_uc">
       <div class="pull-left">
 
-        <% if current_user == answer.user %>
-        <small><%= link_to 'Edit', edit_question_answer_path(@question, answer) %></small> |
+        <% if can? :update, @answer %>
+          <small><%= link_to 'Edit', edit_question_answer_path(@question, answer) %></small> |
+        <% end %>
+
+        <% if can? :destroy, @answer %>
         <small><%= link_to 'Delete', question_answer_path(@question, answer), :data => { :confirm => "Are you sure you want to delete your Question?" }, method: :delete %></small>
         <% end %>
 

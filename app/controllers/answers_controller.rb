@@ -26,8 +26,13 @@ class AnswersController < ApplicationController
 
   # GET /answers/1/edit
   def edit
-		@question = Question.find(params[:question_id])
-    @answer = current_user.answers.find(params[:id])  # User_id 
+		if current_user.role_id == 4
+			@question = Question.find(params[:question_id])
+    	@answer = Answer.find(params[:id])  # User_id
+		else
+			@question = Question.find(params[:question_id])
+			@answer = current_user.answers.find(params[:id])  # User_id
+	  end
   end
 
   # POST /answers
