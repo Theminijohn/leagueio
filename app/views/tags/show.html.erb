@@ -9,7 +9,7 @@
   </div>
 
   <div class="pull-right">
-    We have <b><%= @tag.questions.count %> Questions</b> for <%= @tag.name %>
+    We have <b><%= pluralize(@tag.questions.count, 'question' ) %></b> for <%= @tag.name %>
   </div>
 
   <div class="clearfix"></div>

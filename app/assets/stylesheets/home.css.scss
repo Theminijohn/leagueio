@@ -57,3 +57,37 @@
   color: inherit;
   cursor: inherit;
 }
+
+.hero_logo {
+  #outline {
+    background:linear-gradient(135deg, #62BB47 0%, #62BB47 16.5%, #FCB827 16.5%, #FCB827 33.5%, #F78320 33.5%, #F78320 50%, #E03A3E 50%, #E03A3E 66.5%, #963D97 66.5%, #963D97 83%, #019CDC 83%, #019CDC 100%);
+    border-bottom:5px solid #333;
+    border-radius:25%;
+    box-shadow: 0 5px 13px rgba(0,0,0,0.2);
+    height:96px;
+    margin:auto;
+    width:96px;
+  }
+
+  #inner-outline {
+    background:#fff;
+    border-top:2px solid #333;
+    border-radius:25%;
+    height:72px;
+    line-height:72px;
+    margin:auto;
+    position:relative;
+    text-align:center;
+    top:12px;
+    width:72px;
+    i {
+      font-size: 15px;
+    }
+    span {
+      font-size: 30px;
+      color:#019CDC;
+      line-height:72px;
+      text-shadow: 0 -2px 0 #333, 0 -1px 0 #333;
+    }
+  }
+}
