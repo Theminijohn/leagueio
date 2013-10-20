@@ -4,7 +4,7 @@ class User < ActiveRecord::Base
 	acts_as_voter
 
 	extend FriendlyId
-	friendly_id :user_name, use: :slugged
+	friendly_id :user_name, :use => [:slugged, :finders]
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
