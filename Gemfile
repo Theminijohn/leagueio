@@ -19,6 +19,7 @@ gem 'impressionist'
 gem 'jquery-turbolinks'
 gem 'merit'
 gem "cancan"
+gem 'friendly_id', '~> 5.0.0'
 
 # CKEditor
 gem "ckeditor"

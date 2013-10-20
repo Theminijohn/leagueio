@@ -103,6 +103,8 @@ GEM
     ffi (1.9.0-x86-mingw32)
     formtastic (2.3.0.rc2)
       actionpack (>= 3.0)
+    friendly_id (5.0.0)
+      activerecord (~> 4.0.0)
     fssm (0.2.10)
     has_scope (0.6.0.rc)
       actionpack (>= 3.2, < 5)
@@ -149,6 +151,8 @@ GEM
     minitest (4.7.5)
     multi_json (1.8.2)
     newrelic_rpm (3.6.8.164)
+    nokogiri (1.6.0)
+      mini_portile (~> 0.5.0)
     nokogiri (1.6.0-x86-mingw32)
       mini_portile (~> 0.5.0)
     orm_adapter (0.4.0)
@@ -162,6 +166,10 @@ GEM
     polyamorous (0.6.4)
       activerecord (>= 3.0)
     polyglot (0.3.3)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     pry (0.9.12.2-x86-mingw32)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
@@ -220,6 +228,7 @@ GEM
       actionpack (>= 4.0.0, < 4.1)
       activemodel (>= 4.0.0, < 4.1)
     slop (3.4.6)
+    spork (1.0.0rc4)
     spork (1.0.0rc4-x86-mingw32)
       win32-process
     spork-rails (4.0.0)
@@ -275,6 +284,7 @@ DEPENDENCIES
   country_select
   designmodo-flatuipro-rails
   devise
+  friendly_id (~> 5.0.0)
   impressionist
   jbuilder (~> 1.2)
   jquery-rails

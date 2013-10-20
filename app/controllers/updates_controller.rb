@@ -42,7 +42,7 @@ class UpdatesController < ApplicationController
 	private
 	# Use callbacks to share common setup or constraints between actions.
 	def set_update
-		@update = Update.find(params[:id])
+		@update = Update.friendly.find(params[:id])
 	end
 
 

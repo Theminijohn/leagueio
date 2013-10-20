@@ -18,4 +18,10 @@ CKEDITOR.editorConfig = function( config ) {
 
     // Let's have it basic on dialogs as well.
     config.removeDialogTabs = 'link:advanced';
+
+    // The enter Key output
+    config.enterMode = CKEDITOR.ENTER_BR;
+
+    // Default Language Set
+    config.language = 'en';
 };
