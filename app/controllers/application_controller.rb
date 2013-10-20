@@ -6,23 +6,25 @@ class ApplicationController < ActionController::Base
 
 	before_filter :configure_permitted_parameters, if: :devise_controller?
 
-	before_filter do
-		resource = controller_name.singularize.to_sym
-		method = "#{resource}_params"
-		params[resource] &&= send(method) if respond_to?(method, true)
-	end
+	# Active Admin Strong Params Fix (Bug with Friendly_id)
+	# before_filter do
+	# 	resource = controller_name.singularize.to_sym
+	# 	method = "#{resource}_params"
+	# 	params[resource] &&= send(method) if respond_to?(method, true)
+	# end
+
 
   protected
 
 	def configure_permitted_parameters
 		devise_parameter_sanitizer.for(:sign_up) do |u|
 			u.permit(:email, :password, :password_confirmation, :first_name,
-							 :last_name, :user_name, :role)
+							 :last_name, :user_name, :role, :slug)
 		end
 		devise_parameter_sanitizer.for(:account_update) do |u|
 			u.permit(:email, :password, :password_confirmation, :first_name,
 							 :last_name, :facebook_link, :twitter_link, :website, :user_name,
-							 :avatar, :lolking_link, :role)
+							 :avatar, :lolking_link, :role, :slug)
 		end
 	end
 

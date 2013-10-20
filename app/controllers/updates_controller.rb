@@ -48,6 +48,6 @@ class UpdatesController < ApplicationController
 
 	# Never trust parameters from the scary internet, only allow the white list through.
 	def update_params
-		params.require(:update).permit(:title, :body, :cover)
+		params.require(:update).permit(:title, :body, :cover, :slug)
 	end
 end

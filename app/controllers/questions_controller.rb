@@ -32,9 +32,9 @@ class QuestionsController < ApplicationController
   # GET /questions/1/edit
 	def edit
 		if current_user.role_id == 4
-			@question = Question.friendly.find(params[:id])
+			@question = Question.find(params[:id])
 		else
-			@question = current_user.questions.friendly.find(params[:id])
+			@question = current_user.questions.find(params[:id])
 		end
 	end
 
@@ -83,7 +83,7 @@ class QuestionsController < ApplicationController
 	end
 
 	def upvote
-		@question = Question.friendly.find(params[:id])
+		@question = Question.find(params[:id])
     if @question.owner?(current_user)
       message = "You can't vote for your own question."
     else
@@ -107,7 +107,7 @@ class QuestionsController < ApplicationController
 	end
 
 	def downvote
-		@question = Question.friendly.find(params[:id])
+		@question = Question.find(params[:id])
     if @question.owner?(current_user)
       message = "You can't vote for your own question"
     else
@@ -149,7 +149,7 @@ class QuestionsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_question
-      @question = Question.friendly.find(params[:id])
+      @question = Question.find(params[:id])
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

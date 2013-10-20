@@ -3,6 +3,9 @@ class User < ActiveRecord::Base
   has_merit
 	acts_as_voter
 
+	extend FriendlyId
+	friendly_id :user_name, use: :slugged
+
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
@@ -30,9 +33,6 @@ class User < ActiveRecord::Base
 	has_many :answers
 	belongs_to :role
 
-	def to_param
-		user_name
-	end
 
 	before_create :set_default_role
 
