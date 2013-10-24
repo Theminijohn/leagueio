@@ -162,7 +162,10 @@ class AnswersController < ApplicationController
       message = "I see what you did there..." # in case someone does a hack
     end
 
-    redirect_to :back, notice: message
+    respond_to do |format|
+      format.html { redirect_to :back, notice: message }
+      format.js
+    end
 	end
 
   def accept_answer

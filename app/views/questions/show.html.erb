@@ -91,7 +91,7 @@
             </div>
             <div class="user-details">
               <%= link_to @question.user.user_name, @question.user %><br>
-              <span class="reputation-score" title="reputation score">
+              <span class="reputation-score" title="reputation score" id="question_owner_reputation_score_<%= @question.id %>">
                 <%= @question.user.points %>
               </span>
             </div>

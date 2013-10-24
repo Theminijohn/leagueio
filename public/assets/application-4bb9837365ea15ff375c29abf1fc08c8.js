@@ -32253,6 +32253,16 @@ $.widget( "ui.tabs", {
 
 }).call(this);
 (function() {
+  $(document).on('page:change', function() {
+    if (window._gaq != null) {
+      return _gaq.push(['_trackPageview']);
+    } else if (window.pageTracker != null) {
+      return pageTracker._trackPageview();
+    }
+  });
+
+}).call(this);
+(function() {
   jQuery(function() {
     $("a[rel~=popover], .has-popover").popover();
     $("a[rel~=tooltip], .has-tooltip").tooltip();
@@ -32281,6 +32291,12 @@ CKEDITOR.editorConfig = function( config ) {
 
     // Let's have it basic on dialogs as well.
     config.removeDialogTabs = 'link:advanced';
+
+    // The enter Key output
+    config.enterMode = CKEDITOR.ENTER_BR;
+
+    // Default Language Set
+    config.language = 'en';
 };
 (function() {
   $(function() {
@@ -32292,9 +32308,17 @@ CKEDITOR.editorConfig = function( config ) {
     });
   });
 
+  $(function() {
+    return $('[rel=tooltip]').tooltip();
+  });
+
 }).call(this);
 (function() {
   $("#user_first_name").popover();
+
+}).call(this);
+(function() {
+
 
 }).call(this);
 // This is a manifest file that'll be compiled into application.js, which will include all the files

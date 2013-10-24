@@ -91,3 +91,66 @@
     }
   }
 }
+
+
+/* Non Registered Users */
+
+.hey_alert {
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+  padding: 16px 45px 10px 30px;
+  text-shadow: none;
+  background-image: url('http://i.imgur.com/SWYY8RA.png');
+  border: 2px solid #ebece8;
+  font-size: 16px;
+  line-height: 1.53875em;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.hey_alert a:hover {
+  text-decoration: underline;
+}
+.hey_alert a.btn {
+  color: #ffffff;
+  text-decoration: none;
+}
+.hey_alert a.btn:active,
+.hey_alert a.btn.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+.hey_alert h3 {
+  font-size: 23.996px;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+.hey_hey_alert p {
+  font-size: 16.002px;
+  line-height: 1.6249200000000001;
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+.hey_aler .hey_plrght {
+  color: #ECF0F1;
+  text-shadow: 0 1px 10px #272822;
+}
+.hey_alert .close {
+  position: relative;
+  top: 3px;
+  right: -31px;
+  line-height: 18px;
+  font-size: 18px;
+  color: #ECF0F1!important;
+}
+
+.hey_alert .button {
+  color: #ECF0F1!important;
+}
+.hey_alert .fui-cross {
+  color: #ECF0F1!important;
+}
+.hey_alert .btn {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}

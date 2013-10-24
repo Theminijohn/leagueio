@@ -20,13 +20,13 @@
           <% if current_user == @question.user %>
               <% if answer.accepted?  %>
                 <li>
-                  <%= link_to "", accept_toggle_question_answer_path(@question, answer),
-                              class: "fui-check accepted_answer", title: "The Question owner accepted this as the best answer" %>
+                  <%= link_to "", accept_toggle_question_answer_path(@question, answer, answer: "reject"),
+                              class: "fui-check accepted_answer", id: "accept_toggle_#{answer.id}", title: "The Question owner accepted this as the best answer", remote: true %>
                 </li>
               <% else %>
                 <li>
-                  <%= link_to "", accept_toggle_question_answer_path(@question, answer),
-                              class: "fui-check" %>
+                  <%= link_to "", accept_toggle_question_answer_path(@question, answer, answer: "accept"),
+                              class: "fui-check ", id: "accept_toggle_#{answer.id}", remote: true %>
                 </li>
               <% end %>
           <% else %>
@@ -44,6 +44,7 @@
             <% end %>
           <% end %>
         </ul>
+        <div id="message_<%= answer.id %>"></div>
       </div>
     </div>
   </div>
@@ -80,7 +81,7 @@
             </div>
             <div class="user-details">
               <%= link_to answer.user.user_name, answer.user %> 
-              <span class="reputation-score" title="reputation score">
+              <span class="reputation-score" title="reputation score" id="reputation-score-<%= answer.id %>">
                 <%= answer.user.points %>
               </span>
             </div>

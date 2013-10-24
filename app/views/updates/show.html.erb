@@ -3,7 +3,7 @@
 
 <%= display_meta_tags :og => {
         :title => "#{@update.title}",
-        :description => "#{@update.body}",
+        :description => "#{sanitize(raw(@update.body))}",
         :image => "https://s3.amazonaws.com/leagueio/design/image-meta.png",
         :type  => "website",
         :url => "http://www.leagueio.com"

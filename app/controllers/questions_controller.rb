@@ -3,7 +3,7 @@ class QuestionsController < ApplicationController
 	impressionist :actions => [:show]
 
   before_action :set_question, only: [:show, :edit, :update, :destroy]
-	before_action :authenticate_user!, :except => [:index]
+	before_action :authenticate_user!, :except => [:index, :show]
 
 	# Cancan
 	load_and_authorize_resource except: [:create]

@@ -1,0 +1,9 @@
+<% if params[:answer] == "reject" %>
+	$('#accept_toggle_<%= @answer.id %>').removeClass('accepted_answer').attr('href', '/questions/another-ajax-test/answers/<%= @answer.id %>/accept_toggle?answer=accept'); // this will add/remove acctepted class to the accepted mark
+	$('#message_<%= @answer.id %>').html('Answer rejected!');
+<% elsif params[:answer] == "accept" %>
+	$('#accept_toggle_<%= @answer.id %>').addClass('accepted_answer').attr('href', '/questions/another-ajax-test/answers/<%= @answer.id %>/accept_toggle?answer=reject'); // this will add/remove acctepted class to the accepted mark
+	$('#message_<%= @answer.id %>').html('Answer accepted!');
+<% end %>
+$('#reputation-score-<%= @answer.id %>').html('<%= @answer.user.points %>');  // this will update user points, user who answered
+$('#question_owner_reputation_score_<%= @question.id %>').html('<%= @question.user.points %>'); // this will update user points, user who asked

@@ -4882,6 +4882,7 @@ input.search-query {
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
+
 .alert a {
   color: #f1c40f;
   font-weight: bold;
@@ -4917,6 +4918,7 @@ input.search-query {
   margin-right: 15px;
   margin-top: 15px;
 }
+
 @media (max-width: 480px) {
   .alert .btn {
     display: block;

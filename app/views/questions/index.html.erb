@@ -33,29 +33,71 @@
 
   </div>
 <% else %>
-  <section class="home-hero">
-    <div class="hero-content">
-      <div class="row">
-        <div class="span8 offset2">
-          <hgroup>
-            <h1><br><br></h1>
-            <br>
-            <h2>
-              League I/O is a question and answer site
-              for professional and enthusiast League of Legends
-              Players.
-            </h2>
-          </hgroup>
-        </div>
-      </div>
 
-      <div class="row">
+  <div class="hey_alert">
+    <button type="button" class="close fui-cross" data-dismiss="alert"></button>
+    <h3>Welcome to League I/O</h3>
 
-        <%= link_to "Sign up for the Beta", new_user_registration_path, class: "btn btn-info btn-huge" %>
-
-      </div>
+    <div class="pull-left">
+      <p>
+        League I/O is for professional and <br>
+        enthusiast League of Legends Players
+      </p>
     </div>
-  </section>
+
+    <div class="pull-right hey_plrght">
+      <b>Here's how it works:</b>
+      <ol>
+        <li>Anybody can ask a question</li>
+        <li>Anybody can answer</li>
+        <li>The best answers are voted up</li>
+      </ol>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <%= link_to "Tell me more", about_path, class: "btn btn-small btn-embossed" %>
+    <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-info btn-embossed" %>
+
+  </div>
+
+  <br>
+
+  <div class="row-fluid">
+
+    <div class="span9">
+      <%= render @questions %>
+    </div>
+
+    <div class="span3">
+
+      <div class="unrgstr_index_wlcm_beta">
+        Welcome to the closed Beta <br>
+        Summoner
+        <br>
+        <br>
+        Feel free to roam around <br>
+        and give us Feedback
+      </div>
+
+      <br><br><br><br><br>
+
+      <div class="hero_logo">
+        <%= link_to updates_path, :rel => "tooltip", "data-original-title" => "We've launched our new Blog" do  %>
+          <div id="outline">
+            <div id="inner-outline">
+              <span class="fui-bubble"></span>
+            </div>
+          </div>
+        <% end %>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
 <% end %>
 
 
